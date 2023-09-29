@@ -1,0 +1,18 @@
+{% extends "base.html" %} {% block content %}
+
+<div class="container mt-3">
+  <h1>Delete HTML</h1>
+  <h2>Enter pk to delete car</h2>
+  <form action="" method="POST">
+    {% csrf_token %}
+    <div class="form-group">
+      <label for="pk">PK Number:</label>
+      <input class="form-control" type="text" name="pk" , id="pk" />
+    </div>
+    <div class="mt-3">
+      <input class="btn btn-primary" type="submit" />
+    </div>
+  </form>
+</div>
+
+{% endblock content %}

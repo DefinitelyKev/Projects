@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <ul>
+    {% for p in patients %}
+        <li>Patient: {{p.first_name | lower | capfirst}} {{p.last_name  | lower | capfirst}} is {{p.age}} years old.</li>
+    {% endfor %}
+    </ul>
+
+{% endblock content %}
