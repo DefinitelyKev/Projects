@@ -1,15 +1,21 @@
 from django.shortcuts import render
-from django.http import JsonResponse
-import json
+from django.forms.models import model_to_dict
+
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+
+from products.models import Product
+from products.serializers import ProductSerializers
 
 
-# Create your views here.
+@api_view(["POST"])
 def api_home(request, *args, **kwargs):
-    body = request.body
-    data = {}
-    try:
-        data = json.loads(body)
-    except:
-        pass
-    print(data)
-    return JsonResponse(data)
+    """
+    DRF API VIEW
+    """
+    serializer = ProductSerializers(data=request.data)
+    if serializer.is_valid(raise_exception=True):
+        # instance = serializer.save()
+        print(serializer.data)
+        return Response(serializer.data)
+    return Response({"Invalid Data": "not good"}, status=400)
