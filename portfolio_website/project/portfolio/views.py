@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .models import Project
+from django.http import HttpResponse
 
 
 # Create your views here.
@@ -15,3 +16,7 @@ def full_view(request, pk):
     context = {"project": project}
 
     return render(request, "full_view.html", context)
+
+
+def hello(request):
+    return HttpResponse("Hello everyone!")
