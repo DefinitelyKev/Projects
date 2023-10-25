@@ -28,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-CSRF_TRUSTED_ORIGINS = ["https://portfolio-website.fly.dev/"]
+CSRF_TRUSTED_ORIGINS = ["https://projects-production-1af9.up.railway.app"]
 
 CSRF_COOKIE_SECURE = False
 
