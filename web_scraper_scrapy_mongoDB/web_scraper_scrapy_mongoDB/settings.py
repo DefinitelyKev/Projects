@@ -56,8 +56,8 @@ CONCURRENT_REQUESTS_PER_DOMAIN = 16
 # }
 
 DOWNLOADER_MIDDLEWARES = {
-    "myproject.middlewares.CustomProxyMiddleware": 350,
-    "scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware": 400,
+    "scrapy.downloadermiddlewares.useragent.UserAgentMiddleware": None,
+    "scrapy_user_agents.middlewares.RandomUserAgentMiddleware": 400,
 }
 
 # Enable or disable extensions

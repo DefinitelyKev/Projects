@@ -1,4 +1,7 @@
+from urllib.parse import urlencode
 import scrapy
+
+API_KEY = "1cf92351ea2ec051d9fc9a36e577c62a0e1ec1a2"
 
 
 class ScrapPokemonSpider(scrapy.Spider):
@@ -6,42 +9,35 @@ class ScrapPokemonSpider(scrapy.Spider):
     allowed_domains = ["scrapeme.live"]
     start_urls = ["https://scrapeme.live/shop/"]
 
-    custom_settings = {
-        "DOWNLOADER_MIDDLEWARES": {
-            "myproject.middlewares.CustomProxyMiddleware": 350,
-            "scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware": 400,
-        },
-    }
+    def start_requests(self):
+        for url in self.start_urls:
+            yield scrapy.Request(
+                url=url,
+                callback=self.parse,
+                meta={"proxy": f"http://{API_KEY}:@proxy.zenrows.com:8001"},
+            )
 
     def parse(self, response):
         products = response.css(".product")
 
         for product in products:
-            price_and_currency_element = product.css(".price *::text").getall()
-            price = "".join(price_and_currency_element)
+            try:
+                name = product.css("h2::text").get()
+                image_url = response.urljoin(product.css("img").attrib.get("src", ""))
+                price = "".join(product.css(".price *::text").getall())
+                product_url = response.urljoin(product.css("a").attrib.get("href", ""))
 
-            yield {
-                "name": product.css("h2::text").get(),
-                "image": product.css("img").attrib["src"],
-                "price": price,
-                "url": product.css("a").attrib["href"],
-            }
+                yield {
+                    "name": name,
+                    "image": image_url,
+                    "price": price,
+                    "url": product_url,
+                }
+
+            except Exception as err:
+                self.logger.error(f"Error parsing product: {err}")
 
         next_page = response.css("a.next.page-numbers::attr(href)").get()
 
         if next_page:
-            yield scrapy.Request(response.urljoin(next_page))
-
-
-class CustomProxyMiddleware(object):
-    def __init__(self):
-        self.proxy = (
-            "https://api.proxynova.com/proxychecker/curl?proxy=103.162.154.20:8888"
-        )
-
-    def process_request(self, request, spider):
-        if "proxy" not in request.meta:
-            request.meta["proxy"] = self.proxy
-
-    def get_proxy(self):
-        return self.proxy
+            yield scrapy.Request(url=response.urljoin(next_page), callback=self.parse)
