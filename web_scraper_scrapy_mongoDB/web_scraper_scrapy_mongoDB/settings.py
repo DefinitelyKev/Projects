@@ -72,6 +72,13 @@ DOWNLOADER_MIDDLEWARES = {
 #    "web_scraper_scrapy_mongoDB.pipelines.WebScraperScrapyMongodbPipeline": 300,
 # }
 
+ITEM_PIPELINES = {"web_scraper_scrapy_mongoDB.pipelines.MongoDBPipeline": 100}
+
+MONGODB_SERVER = "localhost"
+MONGODB_PORT = 27017
+MONGO_DB_NAME = "pokedex"
+MONGODB_COLLECTION = "pokemon"
+
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
 # AUTOTHROTTLE_ENABLED = True

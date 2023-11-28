@@ -1,5 +1,6 @@
 from urllib.parse import urlencode
 import scrapy
+from ..items import WebScraperPokemonItem
 
 API_KEY = "1cf92351ea2ec051d9fc9a36e577c62a0e1ec1a2"
 
@@ -27,12 +28,14 @@ class ScrapPokemonSpider(scrapy.Spider):
                 price = "".join(product.css(".price *::text").getall())
                 product_url = response.urljoin(product.css("a").attrib.get("href", ""))
 
-                yield {
-                    "name": name,
-                    "image": image_url,
-                    "price": price,
-                    "url": product_url,
-                }
+                product_obj = WebScraperPokemonItem(
+                    name=name,
+                    image_url=image_url,
+                    price=price,
+                    product_url=product_url,
+                )
+
+                yield product_obj
 
             except Exception as err:
                 self.logger.error(f"Error parsing product: {err}")
