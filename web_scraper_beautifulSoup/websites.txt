@@ -1,0 +1,35 @@
+https://www.jbhifi.com.au/
+https://www.amazon.com.au/
+https://www.umart.com.au/
+https://www.computeralliance.com.au/
+https://www.centrecom.com.au/
+https://www.scorptec.com.au/
+https://www.mwave.com.au/
+https://www.jw.com.au/
+https://www.pcbyte.com.au/
+https://www.pccasegear.com/
+
+Items:
+    PC PARTS:
+        - Cases
+        - Cooling & Water Cooling
+        - CPUs
+        - Fans
+        - GPUs
+        - RAM/Memory
+        - Motherboards
+        - NUC, BRIX & Mini PCs
+        - Power Supply/PSU
+        - Sound cards
+        - Hard Drives & SSDs
+        - Optical Drives
+    
+    PERIPHERALS:
+        - Headphones
+        - Keyboard
+        - Microphone
+        - Monitors
+        - Mouse
+        - Mouse Pad
+        - Speakers
+        - Webcam
