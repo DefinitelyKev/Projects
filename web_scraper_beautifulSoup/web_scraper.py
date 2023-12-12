@@ -1,6 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
+from requests import Session
+import requests
+import undetected_chromedriver as uc
 import time
 import csv
 from selenium.webdriver.support.ui import WebDriverWait
@@ -8,39 +11,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.chrome.options import Options
 import re
-from web_scraper_selectors import (
-    umart_selctors,
-    umart_categories,
-    computer_alliance_selctors,
-    center_com_categories,
-    center_com_selectors,
-    pc_case_gear_categories,
-    pc_case_gear_selectors,
-    mwave_categories,
-    mwave_selectors,
-)
-
-product_dict = {
-    "cases": [],
-    "cooling": [],
-    "cpus": [],
-    "gpus": [],
-    "fans": [],
-    "ram": [],
-    "mother_boards": [],
-    "psus": [],
-    "sound_cards": [],
-    "ssds": [],
-    "hdds": [],
-    "headphones": [],
-    "keyboards": [],
-    "microphones": [],
-    "monitors": [],
-    "mouses": [],
-    "mouse_pad": [],
-    "speakers": [],
-    "webcams": [],
-}
+import os
+from itertools import zip_longest
+from web_scraper_selectors import retailer_info
 
 
 def get_product_info(product, selectors):
@@ -65,77 +38,28 @@ def get_product_info(product, selectors):
     return product_details
 
 
-# def addToCSV(products):
-#     with open("products.csv", "w", newline="") as csv_file:
-#         writer = csv.DictWriter(
-#             csv_file,
-#             fieldnames=[
-#                 "title",
-#                 "price",
-#                 "brand",
-#                 "availability",
-#                 "price_off",
-#             ],
-#         )
-#         writer.writeheader()
-#         for product in products:
-#             writer.writerow(product)
+def write_to_csv(product_dict, folder_name="product_data"):
+    # Create the folder if it doesn't exist
+    if not os.path.exists(folder_name):
+        os.makedirs(folder_name)
+
+    for category, products in product_dict.items():
+        if not products:
+            continue  # Skip empty categories
+
+        # Determine the fieldnames from the first product dictionary
+        fieldnames = products[0].keys()
+
+        file_path = os.path.join(folder_name, f"{category}.csv")
+        with open(file_path, "w", newline="", encoding="utf-8") as file:
+            writer = csv.DictWriter(file, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(products)
+
+        print(f"Data for {category} written to {file_path}")
 
 
-def addToCSV(products):
-    with open("products.csv", "w", newline="") as csv_file:
-        # Assuming 'products' is a dictionary where each key has a list of values
-        fieldnames = [
-            "title",
-            "price",
-            "brand",
-            "availability",
-            "price_off",
-        ]
-
-        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-        writer.writeheader()
-
-        # Find the length of the longest list in the dictionary
-        max_length = max(len(lst) for lst in products.values())
-
-        for i in range(max_length):
-            row = {
-                key: products[key][i] if i < len(products[key]) else None
-                for key in fieldnames
-            }
-            writer.writerow(row)
-
-
-def umart_scaper(retailer_find):
-    results_per_page = 120
-    for item_category, category_selector in umart_categories.items():
-        page_number = 1
-        while True:
-            umart_url = f"https://www.umart.com.au/pc-parts/{category_selector}?page={page_number}&mystock=1-7-6&sort=salenum&order=ASC&pagesize=3"
-
-            driver.get(umart_url)
-            time.sleep(2)
-
-            soup = BeautifulSoup(driver.page_source, "html.parser")
-
-            element, class_name = retailer_find["umart"]
-            products = soup.find_all(element, class_=class_name)
-
-            for product in products:
-                product_dict[item_category].append(
-                    get_product_info(product, umart_selctors)
-                )
-
-            if len(products) < results_per_page:
-                break
-
-            page_number += 1
-
-    print(product_dict)
-
-
-def center_com_availbility_check(product, product_available):
+def get_centercom_availbility(product, product_available):
     if product_available == "Not available to purchase online.":
         product_find_instore = product.find("span", class_="instore").text.strip()
         if product_find_instore == "Not available to purchase at retail stores.":
@@ -149,122 +73,146 @@ def center_com_availbility_check(product, product_available):
     return product_available
 
 
-def center_com_scraper(retailer_find):
-    results_per_page = 30
-    for item_category, category_selector in center_com_categories.items():
-        page_number = 1
-        while True:
-            center_com_url = f"https://www.centrecom.com.au/{category_selector}?orderby=20&viewmode=list&pagenumber={page_number}"
+def get_pccasegear_avaibility(product_avaliable):
+    if product_avaliable == "Check back later!":
+        return "Out of Stock"
+    elif product_avaliable != "In stock":
+        return "Preorder"
+    else:
+        return "In Stock"
 
-            driver.get(center_com_url)
-            time.sleep(2)
 
-            soup = BeautifulSoup(driver.page_source, "html.parser")
+def get_mwave_avaibility(product_avaliable):
+    if product_avaliable == "Add to Cart":
+        return "In Stock"
+    return product_avaliable
 
-            element, class_name = retailer_find["center_com"]
-            products = soup.find_all(element, class_=class_name)
 
-            for product in products:
-                product_info = get_product_info(product, center_com_selectors)
+def get_scorptec_avaibility(product_avaliable):
+    if product_avaliable == ("sold out" or "end of life"):
+        return "Out of Stock"
+    elif "eta" in product_avaliable:
+        return "Pre-order"
+    else:
+        return "In Stock"
 
-                brand_div = product.find("div", attrs={"class": "manufacturer-picture"})
-                brand_img = brand_div.find("img")
-                brand_name = brand_img.get("alt") if brand_img else None
-                product_info["brand"] = brand_name
 
-                product_info["availability"] = center_com_availbility_check(
-                    product, product_info["availability"]
+def get_availability(product, product_info, retailer):
+    if retailer == "centercom":
+        return get_centercom_availbility(product, product_info["availability"])
+    elif retailer == "pccasegear":
+        return get_pccasegear_avaibility(product_info["availability"])
+    elif retailer == "mwave":
+        return get_mwave_avaibility(product_info["availability"])
+    elif retailer == "scorptec":
+        return get_scorptec_avaibility(product_info["availability"])
+
+
+def get_product_brand(product, product_info, retailer):
+    if retailer == "centercom":
+        brand_div = product.find("div", attrs={"class": "manufacturer-picture"})
+        brand_img = brand_div.find("img")
+        brand_name = brand_img.get("alt") if brand_img else None
+        return brand_name
+
+    product_brand = product_info["title"].split(" ", 1)[0]
+    if product_brand == "Lian":
+        product_brand = "Lian Li"
+    elif product_brand == "be":
+        product_brand = "Be Quiet!"
+    elif product_brand == "Cooler":
+        product_brand = "Cooler Master"
+    elif product_brand == "Fractal":
+        product_brand = "Fractal Design"
+    return product_brand
+
+
+def scrape_retailer_products(
+    div_find, retailer, categories, selectors, url, items_per_page
+):
+    for item_category, category_selector in categories.items():
+        for sub_catergory in category_selector:
+            page_number = 1
+            while page_number:
+                driver.get(
+                    url.format(sub_catergory=sub_catergory, page_number=page_number)
+                )
+                time.sleep(1)
+
+                soup = BeautifulSoup(driver.page_source, "html.parser")
+                element, class_name = div_find
+                products = soup.find_all(element, class_=class_name)
+
+                get_product_info_list(
+                    products, product_dict, retailer, selectors, item_category
                 )
 
-                print(product_info)
-                product_dict[item_category].append(product_info)
+                if len(products) < items_per_page:
+                    break
 
-            if len(products) < results_per_page:
-                break
-
-            page_number += 1
+                page_number += 1
 
 
-def pc_case_gear_scraper(retailer_find):
-    results_per_page = 20
-    for item_category, category_selector in pc_case_gear_categories.items():
-        page_number = 1
-        while True:
-            pc_case_gear_url = f"https://www.pccasegear.com/search?query={category_selector}&hierarchicalMenu%5Bcategories.lvl0%5D={category_selector}&page={page_number}"
+def get_product_info_list(products, product_dict, retailer, selectors, item_category):
+    for product in products:
+        product_info = get_product_info(product, selectors)
 
-            driver.get(pc_case_gear_url)
-            time.sleep(2)
+        if retailer in ["centercom", "pccasegear", "mwave", "scorptec"]:
+            product_info["brand"] = get_product_brand(product, product_info, retailer)
+            product_info["availability"] = get_availability(
+                product, product_info, retailer
+            )
 
-            soup = BeautifulSoup(driver.page_source, "html.parser")
-
-            element, class_name = retailer_find["pc_case_gear"]
-            products = soup.find_all(element, class_=class_name)
-
-            for product in products:
-                product_info = get_product_info(product, pc_case_gear_selectors)
-
-                if product_info["availability"] == "Check back later!":
-                    product_info["availability"] = "Out of Stock"
-                elif product_info["availability"] != "In stock":
-                    product_info["availability"] = "Preorder"
-                else:
-                    product_info["availability"] = "In Stock"
-
-                print(product_info)
-                product_dict[item_category].append(product_info)
-
-            if len(products) < results_per_page:
-                break
-
-            page_number += 1
-
-
-def mwave_scraper(retailer_find):
-    results_per_page = 100
-    for item_category, category_selector in mwave_categories.items():
-        page_number = 0
-        while True:
-            mwave_url = f"https://www.mwave.com.au/searchresult?w={category_selector}&cnt=100&srt={page_number}&isort=score&view=grid&af="
-
-            driver.get(mwave_url)
-            time.sleep(2)
-
-            soup = BeautifulSoup(driver.page_source, "html.parser")
-
-            element, class_name = retailer_find["mwave"]
-            products = soup.find_all(element, class_=class_name)
-
-            for product in products:
-                product_info = get_product_info(product, mwave_selectors)
-
-                print(product_info)
-                product_dict[item_category].append(product_info)
-
-            if len(products) < results_per_page:
-                break
-
-            page_number += 100
+        print(product_info)
+        product_dict[item_category].append(product_info)
 
 
 if __name__ == "__main__":
-    options = Options()
-    # options.add_argument("--headless=new")
+    options = uc.ChromeOptions()
+    options.headless = False
 
-    driver = webdriver.Chrome(options=options)
+    driver = uc.Chrome(use_subprocess=True, options=options)
 
-    retailer_find = {
-        "umart": ["div", "row goods-item"],
-        "computer_alliance": ["div", "product"],
-        "center_com": ["div", "item-box"],
-        "pc_case_gear": ["div", "search-container list-container"],
-        "mwave": ["li", "listItem"],
+    product_dict = {
+        "cases": [],
+        "cooling": [],
+        "cpus": [],
+        "gpus": [],
+        "fans": [],
+        "ram": [],
+        "mother_boards": [],
+        "psus": [],
+        "sound_cards": [],
+        "ssds": [],
+        "hdds": [],
+        "headphones": [],
+        "keyboards": [],
+        "microphones": [],
+        "monitors": [],
+        "mouses": [],
+        "speakers": [],
+        "webcams": [],
     }
 
     # Open the page with Selenium
     try:
-        # umart_scaper(retailer_find)
-        # center_com_scraper(retailer_find)
-        # pc_case_gear_scraper(retailer_find)
-        mwave_scraper(retailer_find)
+        for retailer, info in retailer_info.items():
+            scrape_retailer_products(
+                info["div_find"],
+                retailer,
+                info["categories"],
+                info["selectors"],
+                info["url"],
+                info["items_per_page"],
+            )
+        # scrape_retailer_products(
+        #     retailer_info["pccasegear"]["div_find"],
+        #     "pccasegear",
+        #     retailer_info["pccasegear"]["categories"],
+        #     retailer_info["pccasegear"]["selectors"],
+        #     retailer_info["pccasegear"]["url"],
+        #     retailer_info["pccasegear"]["items_per_page"],
+        # )
+        write_to_csv(product_dict, "my_product_data")
     finally:
-        driver.quit()
+        driver.close()
