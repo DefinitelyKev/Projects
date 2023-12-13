@@ -3,6 +3,7 @@ umart_selctors = {
     "price": ["span", "class", "goods-price ele-goods-price"],
     "brand": ["span", "itemprop", "brand"],
     "availability": ["span", "class", "goods_stock"],
+    "product_url": ["div", "class", "goods_name"],
     "on_sale": ["span", "class", "is_hot_btn"],
     "price_off": ["span", "class", "discount"],
 }
@@ -28,35 +29,67 @@ umart_categories = {
     "webcams": ["peripherals/web-cams-508"],
 }
 
-# Need new function for brand
+jw_selctors = {
+    "title": ["h3", "itemprop", "name"],
+    "price": ["span", "class", "after_special"],
+    "brand": ["span", "class", "None"],
+    "availability": ["div", "class", "dispatch-label available"],
+    "product_url": ["div", "class", "result-wrapper"],
+    "on_sale": ["span", "class", "before_special"],
+    "price_off": ["span", "class", "before_special"],
+}
+
+jw_categories = {
+    "cases": ["computer-cases"],
+    "cooling": ["cpu-coolers"],
+    "cpus": ["cpu-processors"],
+    "gpus": ["graphics-cards"],
+    "fans": ["case-fans"],
+    "ram": ["ram-memory"],
+    "mother_boards": ["motherboards"],
+    "psus": ["power-supply-units"],
+    "sound_cards": ["sound-cards"],
+    "ssds": ["ssd-solid-state-drive"],
+    "hdds": ["hard-drives"],
+    "headphones": ["headsets"],
+    "keyboards": ["keyboards"],
+    "microphones": ["microphones"],
+    "monitors": ["monitors-screens"],
+    "mouses": ["mouse"],
+    "speakers": ["speakers"],
+    "webcams": ["webcams"],
+}
+
+
 computeralliance_selectors = {
     "title": ["h2", "class", "equalize"],
     "price": ["span", "class", "price"],
     "brand": ["span", "class", "None"],
     "availability": ["a", "class", ["instock", "lowstock"]],
+    "product_url": ["div", "class", "product"],
     "on_sale": ["span", "class", "save"],
     "price_off": ["span", "class", "save"],
 }
 
 computeralliance_categories = {
-    "cases": "cases",
-    "cooling": "cpu-cooling",
-    "cpus": "cpus",
-    "gpus": "graphics-cards",
-    "fans": "case-fans",
-    "ram": "desktop-ram",
-    "mother_boards": "motherboards",
-    "psus": "power-supplies",
-    "sound_cards": "sound-cards",
-    "ssds": "ssd-drives-internal",
-    "hdds": "hard-drives-(3.5)",
-    "headphones": "headphones-headsets",
-    "keyboards": "keyboards",
-    "microphones": "microphones",
-    "monitors": "monitors",
-    "mouses": "mice-input-devices",
-    "speakers": "audio-speakers",
-    "webcams": "webcams-laptops-pc",
+    "cases": ["cases"],
+    "cooling": ["cpu-cooling"],
+    "cpus": ["cpus"],
+    "gpus": ["graphics-cards"],
+    "fans": ["case-fans"],
+    "ram": ["desktop-ram"],
+    "mother_boards": ["motherboards"],
+    "psus": ["power-supplies"],
+    "sound_cards": ["sound-cards"],
+    "ssds": ["ssd-drives-internal"],
+    "hdds": ["hard-drives-(3.5)"],
+    "headphones": ["headphones-headsets"],
+    "keyboards": ["keyboards"],
+    "microphones": ["microphones"],
+    "monitors": ["monitors"],
+    "mouses": ["mice-input-devices"],
+    "speakers": ["audio-speakers"],
+    "webcams": ["webcams-laptops-pc"],
 }
 
 # Need new function for brand and availability
@@ -65,6 +98,7 @@ centercom_selectors = {
     "price": ["span", "class", "actual-price"],
     "brand": ["span", "class", "None"],
     "availability": ["span", "class", ["instock", "preorder"]],
+    "product_url": ["div", "class", "product-item"],
     "on_sale": ["span", "class", "old-price"],
     "price_off": ["span", "class", "old-price"],
 }
@@ -95,6 +129,7 @@ pccasegear_selectors = {
     "price": ["div", "class", "price"],
     "brand": ["span", "class", "None"],
     "availability": ["span", "class", "tool-tip-wrapper"],
+    "product_url": ["div", "class", "product-container list-view"],
     "on_sale": ["span", "class", "None"],
     "price_off": ["span", "class", "None"],
 }
@@ -151,6 +186,7 @@ mwave_selectors = {
     "price": ["div", "class", "current"],
     "brand": ["span", "class", "None"],
     "availability": ["a", "class", ["btnAddToCart", "btnRight"]],
+    "product_url": ["div", "class", "nameListView"],
     "on_sale": ["div", "class", "wasprice"],
     "price_off": ["div", "class", "wasprice"],
 }
@@ -201,6 +237,7 @@ scorptec_selectors = {
     "price": ["div", "class", "detail-product-price"],
     "brand": ["span", "class", "None"],
     "availability": ["div", "class", "detail-product-stock status-box"],
+    "product_url": ["div", "class", "detail-product-title"],
     "on_sale": ["div", "class", "detail-product-save"],
     "price_off": ["div", "class", "detail-product-before-price"],
 }
@@ -273,6 +310,20 @@ retailer_info = {
         "items_per_page": 120,
         "categories": umart_categories,
         "selectors": umart_selctors,
+    },
+    "jw": {
+        "url": "https://www.jw.com.au/{sub_catergory}?at__page={page_number}",
+        "div_find": ["li", "ais-InfiniteHits-item"],
+        "items_per_page": 24,
+        "categories": jw_categories,
+        "selectors": jw_selctors,
+    },
+    "computeralliance": {
+        "url": "https://www.computeralliance.com.au/{sub_catergory}",
+        "div_find": ["div", "col-sm-4 col-lg-3 no-padding-left-xs no-padding-right"],
+        "items_per_page": 999,
+        "categories": computeralliance_categories,
+        "selectors": computeralliance_selectors,
     },
     "centercom": {
         "url": "https://www.centrecom.com.au/{sub_catergory}?orderby=20&viewmode=list&pagenumber={page_number}",

@@ -16,7 +16,7 @@ from itertools import zip_longest
 from web_scraper_selectors import retailer_info
 
 
-def get_product_info(product, selectors):
+def get_product_info(product, selectors, retailer):
     product_details = {}
 
     for key, (tag, attribute, selector_name) in selectors.items():
@@ -27,6 +27,19 @@ def get_product_info(product, selectors):
                 break
             else:
                 continue
+
+        if key == "product_url":
+            product_link = element.find("a") if element else None
+            if product_link is None:
+                product_details[key] = None
+                continue
+
+            product_href = product_link.get("href")
+            if "https://www" in product_href:
+                product_details[key] = product_href
+            else:
+                product_details[key] = f"https://www.{retailer}.com.au" + product_href
+            continue
 
         if key == "availability":
             if not element:
@@ -57,6 +70,13 @@ def write_to_csv(product_dict, folder_name="product_data"):
             writer.writerows(products)
 
         print(f"Data for {category} written to {file_path}")
+
+
+def get_jw_availability(product_avaliable):
+    if "Dispatch" in product_avaliable:
+        return "In Stock"
+    else:
+        return "Pre-order"
 
 
 def get_centercom_availbility(product, product_available):
@@ -106,6 +126,10 @@ def get_availability(product, product_info, retailer):
         return get_mwave_avaibility(product_info["availability"])
     elif retailer == "scorptec":
         return get_scorptec_avaibility(product_info["availability"])
+    elif retailer == "jw":
+        return get_jw_availability(product_info["availability"])
+    else:
+        return product_info["availability"]
 
 
 def get_product_brand(product, product_info, retailer):
@@ -139,7 +163,7 @@ def scrape_retailer_products(
                 )
                 time.sleep(1)
 
-                soup = BeautifulSoup(driver.page_source, "html.parser")
+                soup = BeautifulSoup(driver.page_source, "lxml")
                 element, class_name = div_find
                 products = soup.find_all(element, class_=class_name)
 
@@ -155,9 +179,16 @@ def scrape_retailer_products(
 
 def get_product_info_list(products, product_dict, retailer, selectors, item_category):
     for product in products:
-        product_info = get_product_info(product, selectors)
+        product_info = get_product_info(product, selectors, retailer)
 
-        if retailer in ["centercom", "pccasegear", "mwave", "scorptec"]:
+        if retailer in [
+            "centercom",
+            "pccasegear",
+            "mwave",
+            "scorptec",
+            "jw",
+            "computeralliance",
+        ]:
             product_info["brand"] = get_product_brand(product, product_info, retailer)
             product_info["availability"] = get_availability(
                 product, product_info, retailer
@@ -206,12 +237,12 @@ if __name__ == "__main__":
                 info["items_per_page"],
             )
         # scrape_retailer_products(
-        #     retailer_info["pccasegear"]["div_find"],
-        #     "pccasegear",
-        #     retailer_info["pccasegear"]["categories"],
-        #     retailer_info["pccasegear"]["selectors"],
-        #     retailer_info["pccasegear"]["url"],
-        #     retailer_info["pccasegear"]["items_per_page"],
+        #     retailer_info["computeralliance"]["div_find"],
+        #     "computeralliance",
+        #     retailer_info["computeralliance"]["categories"],
+        #     retailer_info["computeralliance"]["selectors"],
+        #     retailer_info["computeralliance"]["url"],
+        #     retailer_info["computeralliance"]["items_per_page"],
         # )
         write_to_csv(product_dict, "my_product_data")
     finally:
