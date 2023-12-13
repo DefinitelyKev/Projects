@@ -1,451 +1,615 @@
-title,price,brand,availability,price_off
-Intel Core i5 12400F 6 Core LGA 1700 CPU Processor,229.0,Intel,In Stock,
-Intel Core i5 13400F 10 Core LGA 1700 4.6GHz CPU Processor,329.0,Intel,In Stock,
-Intel Core i7 14700KF 20 Core LGA 1700 CPU Processor,639.0,Intel,In Stock,Save $110.0
-AMD Ryzen 5 5500 6 Core AM4 4.20GHz CPU Processor with Wraith Stealth Cooler,147.0,AMD,In Stock,
-Intel Core i9 14900K 24 Core LGA 1700 CPU Processor,939.0,Intel,In Stock,Save $50.0
-Intel Core i5 14600K 14 Core LGA 1700 CPU Processor,519.0,Intel,In Stock,
-Intel Core i5 12400 6 Core LGA 1700 CPU Processor,259.0,Intel,In Stock,Save $10.0
-AMD Ryzen 5 5600G 6 Core AM4 3.9GHz CPU Processor,207.0,AMD,In Stock,
-Intel Core i9 14900KF 24 Core LGA 1700 CPU Processor,895.0,Intel,In Stock,
-Intel Core i5 13600K 14 Core LGA 1700 CPU Processor,499.0,Intel,In Stock,
-Intel Core i5 13600KF 14 Core LGA 1700 CPU Processor,469.0,Intel,In Stock,
-Intel Core i5 13400 10 Core LGA 1700 4.60GHz CPU Processor,375.0,Intel,In Stock,
-Intel Core i5 14600KF 14 Core LGA 1700 CPU Processor,469.0,Intel,In Stock,
-AMD Ryzen 7 7700 8 Core AM5 5.3GHz CPU Processor with Wraith Prism Cooler,515.0,AMD,In Stock,
-AMD Ryzen 5 5600 6 Core AM4 4.2Ghz CPU Processor with Wraith Stealth Cooler,195.0,AMD,In Stock,Save $24.0
-AMD Ryzen 7 7700X 8 Core AM5 4.5 GHz CPU Processor,549.0,AMD,In Stock,Save $140.0
-Intel Core i3 12100F 4 Core LGA 1700 4.30 GHz CPU Processor,149.0,Intel,In Stock,
-Intel Core i9 13900KS 24 Core LGA1700 6.0GHz CPU Processor,"1,149.0",Intel,In Stock,
-AMD Ryzen 7 5800X3D 8 Core AM4 4.5GHz CPU Processor,549.0,AMD,In Stock,Save $150.0
-AMD Ryzen 7 7800X3D 8 Core AM5 4.2GHz CPU Processor,595.0,AMD,In Stock,Save $154.0
-Intel Core i7 13700 16 Core LGA 1700 5.2GHz CPU Processor,619.0,Intel,In Stock,
-AMD Ryzen 5 5600X 6 Core AM4 4.6GHz CPU Processor,229.0,AMD,In Stock,Save $270.0
-Intel Core i7 13700KF 16 Core LGA 1700 CPU Processor,629.0,Intel,In Stock,
-Intel Core i7 13700K 16 Core LGA 1700 CPU Processor,635.0,Intel,In Stock,
-AMD Ryzen 7 5700X 8 Core AM4 3.4GHz CPU Processor,269.0,AMD,In Stock,Save $200.0
-Intel Core i7 13700F 16 Core LGA 1700 5.20GHz CPU Processor,595.0,Intel,In Stock,
-AMD Ryzen 7 5700G 8 Core AM4 3.8GHz CPU Processor,319.0,AMD,In Stock,Save $230.0
-Intel Core i3 13100F 4 Core LGA 1700 4.50GHz CPU Processor,169.0,Intel,In Stock,
-AMD Ryzen 9 7900 12 Core AM5 5.4GHz CPU Processor with Wraith Prism Cooler,677.0,AMD,In Stock,
-Intel Core i5 13500 14 Core LGA 1700 4.80GHz CPU Processor,379.0,Intel,In Stock,
-AMD Ryzen 9 7900X3D AM5 4.4GHz CPU Processor,829.0,AMD,In Stock,Save $150.0
-AMD Ryzen 3 4100 UpTo 4.0GHz AM4 CPU with Cooler,149.0,AMD,In Stock,
-AMD Ryzen 5 7600X 6 Core AM5 4.7GHz CPU Processor,359.0,AMD,In Stock,Save $110.0
-AMD Ryzen 9 7950X3D AM5 4.2 GHz CPU Processor,989.0,AMD,In Stock,Save $160.0
-Intel Core i9 13900 24 Core LGA 1700 5.6GHz CPU Processor,869.0,Intel,In Stock,
-AMD Ryzen 9 5950X 16 Core AM4 4.9GHz CPU Processor,809.0,AMD,In Stock,Save $430.0
-AMD Ryzen 5 4600G 6 Core AM4 3.7GHz CPU Processor with Wraith Stealth Cooler,238.0,AMD,In Stock,
-Intel Core i9 13900F 24 Core LGA 1700 5.60GHz CPU Processor,869.0,Intel,In Stock,
-Intel Core i7 12700K 12 Core LGA 1700 CPU Processor,509.0,Intel,In Stock,
-AMD Ryzen 9 3900X 12 Core AM4 3.8GHz CPU with Wraith Prism RGB Cooler,698.5,AMD,In Stock,
-Intel Core i9 12900KS 16 Core LGA 1700 CPU Processor,899.0,Intel,At Other Store,
-Intel Core i7 14700K 20 Core LGA 1700 CPU Processor,678.0,Intel,In Stock,
-AMD Ryzen 5 7600 6 Core AM5 5.2GHz CPU Processor with Wraith Stealth Cooler,339.0,AMD,At Other Store,Save $50.0
-Intel Core i3 13100 4 Core LGA 1700 4.50GHz CPU Processor,235.0,Intel,In Stock,
-Intel Core i3 10105 4 Core LGA 1200 3.7GHz CPU Processor,159.0,Intel,At Other Store,
-Intel Core i5 10400 6 Core LGA 1200 2.90GHz CPU Processor,199.0,Intel,At Other Store,
-Intel Core i7 10700KF 8 Core LGA 1200 3.80GHz CPU Processor,409.0,Intel,At Other Store,
-Intel Core i5 10600K 6 Core LGA 1200 4.10GHz CPU Processor,259.0,Intel,At Other Store,
-Intel Core i5 10600KF 6 Core LGA 1200 4.10GHz CPU Processor,239.0,Intel,In Stock,
-Intel Core i5 10400F 6 Core LGA 1200 2.9GHz CPU Processor,155.0,Intel,In Stock,
-Intel Core i5 10600 6 Core LGA 1200 3.30GHz CPU Processor,329.0,Intel,In Stock,
-Intel Core i5 10500 6 Core LGA 1200 3.10GHz CPU Processor,249.0,Intel,In Stock,
-Intel Core i3 10100 Quad Core LGA 1200 3.6GHz CPU Processor,155.0,Intel,At Other Store,
-AMD Ryzen 7 5800X 8 Core AM4 4.7GHz CPU Processor,369.0,AMD,At Other Store,Save $381.0
-AMD Ryzen 9 5900X 12 Core AM4 4.8GHz CPU Processor,499.0,AMD,In Stock,Save $400.0
-Intel Core i3-10100F Quad Core LGA 1200 3.6GHz CPU Processor,113.0,Intel,In Stock,
-Intel Core i5 11600K 6 Core LGA 1200 3.9Ghz CPU Processor,279.0,Intel,At Other Store,
-Intel Core i7-11700KF 8 Core LGA 1200 3.60GHz CPU Processor,399.0,Intel,At Other Store,
-Intel Core i9 13900K 24 Core LGA 1700 CPU Processor,899.0,Intel,In Stock,
-Intel Core i9 12900K 16 Core LGA 1700 CPU Processor,689.0,Intel,At Other Store,
-Intel Core i9 12900KF 16 Core LGA 1700 CPU Processor,649.0,Intel,At Other Store,
-Intel Core i5 12600K 10 Core LGA 1700 CPU Processor,419.0,Intel,In Stock,
-Intel Core i7 12700KF 12 Core LGA 1700 CPU Processor,468.0,Intel,At Other Store,
-Intel Core i5 12600KF 10 Core LGA 1700 CPU Processor,359.0,Intel,At Other Store,
-Intel Core i5 11600KF 6 Core FC LGA1200 4.90GHz CPU Processor,299.0,Intel,At Other Store,
-Intel Core i7 12700F 12 Core LGA 1700 CPU Processor,459.0,Intel,At Other Store,
-Intel Core i5 12600 6 Core LGA 1700 CPU Processor,359.0,Intel,At Other Store,
-Intel Core i3 12100 4 Core LGA 1700 4.30 GHz CPU Processor,195.0,Intel,In Stock,
-Intel Core i9 12900 16 Core LGA 1700 5.10GHz Boxed CPU Processor,669.0,Intel,At Other Store,
-AMD Ryzen 9 7950X 16 Core AM5 4.5 GHz CPU Processor,899.0,AMD,At Other Store,
-AMD Ryzen 9 7900X 12 Core AM5 4.7 GHz CPU Processor,649.0,AMD,At Other Store,Save $206.0
-Intel Core i9 13900KF 24 Core LGA 1700 CPU Processor,859.0,Intel,In Stock,
-Intel 14th Gen Core i7-14700K 20 Cores 28 Threads 5.6GHz Processor,$659,Intel,In Stock Online,
-Intel 14th Gen Core i7-14700KF 20 Cores 28 Threads 5.6GHz Processor,$629,Intel,In Stock Online,
-Intel 14th Gen Core i5-14600K 14 Cores 20 Threads 5.3GHz Processor,$499,Intel,In Stock Online,$519
-AMD Ryzen 5 5500 6C/12T 4.20GHz AM4 65W with Wraith Stealth Cooler,$147,AMD,In Stock Online,
-AMD Ryzen 5 5600 6C/12T Unlocked 4.4GHz AM4 65W with Wraith Stealth Cooler,$195,AMD,In Stock Online,
-AMD Ryzen 5 7600 5.2 GHz 6 Core AM5 with Desktop Processor AMD Wraith Stealth,$339,AMD,In Stock Online,$388
-AMD Ryzen 7 5700X 8C/16T 4.6GHz 36MB Cache AM4 65W without Cooler,$269,AMD,In Stock Online,$299
-AMD Ryzen 5 5600G 6 Cores 12 Threads up to 4.4 GHz with Radeon Graphics Desktop Processor,$207,AMD,In Stock Online,
-Intel 14th Gen Core i9-14900K 24 Cores 32 Threads 6.0GHz Processor,$929,Intel,In Stock Online,
-AMD Ryzen 5 7600X 6 Cores 12 Threads Up to 5.3GHz Processor without Cooler,$359,AMD,In Stock Online,$389
-Intel 12th Gen Core i7-12700 12 Cores 20 Threads 4.9Ghz Processor - Retail Box,$499,Intel,In Stock Online,
-AMD Ryzen 7 5800X3D 8C/16T 4.5GHz AM4 Processor Without Cooler,$549,AMD,In Stock Online,
-AMD Ryzen 7 7800X3D AM5 8 Cores 16 Threads Processor without Cooler,$589,AMD,In Stock Online,$639
-Intel 14th Gen Core i9-14900KF 24 Cores 32 Threads 6.0GHz Processor,$889,Intel,In Stock Online,
-AMD Ryzen 7 5800X 4.70GHZ 8C/16T 4.7GHz AM4 Desktop Processor,$369,AMD,In Stock Online,
-AMD Ryzen 5 5600X 4.60GHz 6C/12T AM4 Desktop Processor,$229,AMD,In Stock Online,$248
-Intel 14th Gen Core i5-14600KF 14 Cores 20 Threads 5.3GHz Processor,$469,Intel,In Stock Online,$489
-Intel 12th Gen Core i5-12400 6 Cores 12 Threads 4.40GHz Processor,$253,Intel,In Stock Online,
-Intel 13th Gen Core i7-13700F 16 Cores 24 Threads 5.2GHz Processor,$589,Intel,In Stock Online,
-Intel 13th Gen Core i5-13500 14 Cores 20 Threads 4.8GHz Processor,$379,Intel,In Stock Online,
-Intel 13th Gen Core i9-13900KS 24 Cores 32 Threads 6.0GHz Unlocked Processor,"$1,049",Intel,In Stock Online,"$1,099"
-AMD Ryzen 7 7700X 8 Cores 16 Threads Up to 5.4GHz Processor without Cooler,$549,AMD,In Stock Online,
-Intel 13th Gen Core i3-13100F 4 Cores 8 Threads 4.5GHz Processor,$169,Intel,In Stock Online,
-Intel 12th Gen Core i5-12400F 6 Cores 12 Threads 4.4GHz Processor,$205,Intel,In Stock Online,
-AMD Ryzen 9 7950X3D AM5 16 Cores 32 Threads 120W Processor without Cooler,$989,AMD,In Stock Online,
-AMD Ryzen 9 7950X 16 Cores 32 Threads Up to 5.7GHz Processor without Cooler,$899,AMD,In Stock Online,$949
-AMD Ryzen 9 7900X 12 Cores 24 Threads Up to 5.6GHz without Cooler,$649,AMD,In Stock Online,
-AMD Ryzen 7 5700G 8 Cores 16 Threads up to 4.6GHz with Radeon Graphics Desktop Processor,$319,AMD,In Stock Online,
-AMD Ryzen 7 7700 5.3 GHz 8 Core AM5 Desktop Processor with AMD Wraith Prism,$515,AMD,In Stock Online,$549
-Intel 13th Gen Core i9-13900 24 Cores 32 Threads 5.6GHz Processor,$859,Intel,In Stock Online,$944
-AMD Ryzen 9 7900 5.4 GHz 12 Core AM5 Desktop Processor with AMD Wraith Prism,$677,AMD,In Stock Online,
-Intel 12th Gen Core i7-12700F 4.9 GHz LGA1700 Desktop Processor,$458,Intel,In Stock Online,
-AMD Ryzen 9 5950X 16C/32T 4.9GHz AM4 Desktop Processor,$808,AMD,In Stock Online,
-Intel 13th Gen Core i9-13900F 24 Cores 32 Threads 5.6GHz Processor,$868,Intel,In Stock Online,
-Intel 13th Gen Core i7-13700 16 Cores 24 Threads 5.2GHz Processor,$615,Intel,In Stock Online,
-AMD Ryzen 9 7900X3D AM5 12 Cores 24 Threads 120W Processor without Cooler,$828,AMD,In Stock Online,
-Intel 13th Gen Core i9-13900KF 24 Cores 32 Threads 5.8GHz Processor,$855,Intel,In Stock Online,
-AMD Ryzen 9 5900X 12C/24T 4.8GHz AM4 Desktop Processor,$499,AMD,In Stock Online,$519
-Intel 13th Gen Core i3-13100 4 Cores 8 Threads 4.5GHz Processor,$225,Intel,In Stock Online,
-Intel Xeon E-2136 6 Cores 12 Threads 4.50GHz LGA1151 Processor,"$1,999",Intel,In Stock Online,
-Intel Xeon W-2135 6 Cores 12 Threads 3.70GHz LGA2066 Processor,$999,Intel,In Stock Online,
-Intel Xeon Processor E3-1230 v6 4-Core 8-Thread 3.50GHz LGA1151 Processor,$429,Intel,In Stock Online,
-Intel 13th Gen Core i9-13900K 24 Cores 32 Threads 5.8GHz Processor,$875,Intel,In Stock Online,
-Intel 12th Gen Core i3-12100F 4 Cores 8 Threads 4.3 GHz Processor,$145,Intel,In Stock Online,
-Intel 12th Gen Core i3-12100 4 Core 8 Threads 4.3GHz LGA1700 Processor - Retail Box,$193,Intel,Pre-order,
-Intel 13th Gen Core i5-13600K 14 Cores 20 Threads 5.1GHz Processor,$499,Intel,In Stock Online,$529
-Intel 13th Gen Core i5-13400 10 Cores 16 Threads 4.6GHz Processor,$365,Intel,In Stock Online,
-Intel 13th Gen Core i5-13400F 10 Cores 16 Threads 4.6GHz Processor,$325,Intel,In Stock Online,
-AMD Threadripper 7980X 64 Cores 128 Threads 5.1GHz sTR5 Processor,"$8,599",AMD,Pre-order,
-AMD Ryzen Threadripper 7960X 24 Cores 48 Threads 5.3GHz sTR5 Processor,"$2,579",AMD,Pre-order,
-Intel 12th Gen Core i9-12900K 16 Cores  24 Threads 5.2 GHz Unlocked Processor,$609,Intel,In Stock Instore,
-AMD Ryzen Threadripper PRO 7995WX 96 Cores 192 Threads 5.1GHz sTR5 Processor,"$16,999",AMD,Out of Stock,
-AMD Ryzen Threadripper PRO 7985WX 64 Cores 128 Threads 5.1GHz sTR5 Processor,"$12,499",AMD,Out of Stock,
-AMD Ryzen Threadripper PRO 7975WX 32 Cores 64 Threads 5.3GHz sTR5 Processor,"$6,699",AMD,Out of Stock,
-AMD Ryzen Threadripper PRO 7965WX 24 Cores 48 Threads 5.3GHz sTR5 Processor,"$4,549",AMD,Out of Stock,
-AMD Ryzen 3 4100 Processor with Wraith Stealth,$115,AMD,In Stock,
-AMD Ryzen 5 5500 with Wraith Stealth,$149,AMD,In Stock,
-AMD Ryzen 5 5600 with Wraith Stealth,$195,AMD,In Stock,
-AMD Ryzen 5 5600G with Wraith Stealth,$209,AMD,In Stock,
-AMD Ryzen 5 5600X with Wraith Stealth,$229,AMD,In Stock,
-AMD Ryzen 7 5700G with Wraith Stealth,$329,AMD,In Stock,
-AMD Ryzen 7 5700X Processor,$269,AMD,In Stock,
-AMD Ryzen 7 5800X Processor,$399,AMD,In Stock,
-AMD Ryzen 7 5800X3D Processor,$549,AMD,In Stock,
-AMD Ryzen 9 5900X Processor,$519,AMD,In Stock,
-AMD Ryzen 9 5950X Processor,$809,AMD,In Stock,
-AMD Ryzen 7 7800X3D Processor,$589,AMD,In Stock,
-AMD Ryzen 9 7900X3D Processor,$829,AMD,In Stock,
-AMD Ryzen 9 7950X3D Processor,$999,AMD,In Stock,
-AMD Ryzen 5 7600 Processor with Wraith Stealth,$339,AMD,In Stock,
-AMD Ryzen 5 7600X Processor,$359,AMD,In Stock,
-AMD Ryzen 7 7700 Processor with Wraith Prism,$515,AMD,In Stock,
-AMD Ryzen 7 7700X Processor,$549,AMD,In Stock,
-AMD Ryzen 9 7900 Processor with Wraith Prism,$679,AMD,In Stock,
-AMD Ryzen 9 7900X Processor,$659,AMD,In Stock,
-AMD Ryzen 9 7950X Processor,$899,AMD,In Stock,
-AMD Ryzen 5 7500F Processor with Wraith Stealth OEM,$299,AMD,Preorder,
-AMD Ryzen 5 7500F Stealth Gaming Bundle,$699,AMD,Out of Stock,
-Intel Core i5 10400F Processor,$169,Intel,In Stock,
-Intel Core i5 12400 Processor,$269,Intel,In Stock,
-Intel Core i5 12400F Processor,$205,Intel,In Stock,
-Intel Core i5 12500 Processor,$339,Intel,In Stock,
-Intel Core i7 12700 Processor,$499,Intel,Out of Stock,
-Intel Core i7 12700F Processor,$459,Intel,In Stock,
-Intel Core i7 12700K Processor,$499,Intel,In Stock,
-Intel Core i7 12700KF Processor,$469,Intel,In Stock,
-Intel Core i9 12900K Processor,$649,Intel,In Stock,
-Intel Core i9 12900KF Processor,$619,Intel,In Stock,
-Intel Core i9 12900KS Processor,$719,Intel,In Stock,
-Intel Core i3 13100 Processor,$235,Intel,In Stock,
-Intel Core i5 13400 Processor,$359,Intel,Preorder,
-Intel Core i5 13400F Processor,$329,Intel,In Stock,
-Intel Core i5 13600K Processor,$499,Intel,In Stock,
-Intel Core i7 13700 Processor,$615,Intel,In Stock,
-Intel Core i7 13700F Processor,$589,Intel,In Stock,
-Intel Core i7 13700K Processor,$649,Intel,In Stock,
-Intel Core i7 13700KF Processor,$629,Intel,In Stock,
-Intel Core i9 13900K Processor,$875,Intel,In Stock,
-Intel Core i9 13900KF Processor,$855,Intel,In Stock,
-Intel Core i9 13900KS Processor,$1049,Intel,In Stock,
-Intel Core i5 14600K Processor,$499,Intel,In Stock,
-Intel Core i5 14600KF Processor,$469,Intel,In Stock,
-Intel Core i7 14700K Processor,$659,Intel,In Stock,
-Intel Core i7 14700KF Processor,$629,Intel,In Stock,
-Intel Core i9 14900K Processor,$929,Intel,In Stock,
-Intel Core i9 14900KF Processor,$899,Intel,In Stock,
-AMD Ryzen 7 7800X3D 8 Core AM5 4.2GHz Unlocked CPU Processor,$589.00,AMD,In Stock,$780.00
-AMD Ryzen 5 5600 6-Core AM4 3.5GHz Unlocked CPU Processor + Wraith Stealth,$195.00,AMD,In Stock,$299.00
-AMD Ryzen 7 5700X 8 Core AM4 3.4GHz Unlocked CPU Processor,$269.00,AMD,In Stock,$449.00
-AMD Ryzen 5 5500 6-Core AM4 3.6GHz Unlocked CPU Processor + Wraith Stealth,$149.00,AMD,In Stock,$239.00
-AMD Ryzen 5 5600X 6-Core AM4 3.70 GHz Unlocked CPU Processor + Wraith Stealth,$229.00,AMD,In Stock,$479.00
-AMD Ryzen 5 7600X 6-Core AM5 4.70 GHz Unlocked CPU Processor,$359.00,AMD,In Stock,$515.00
-AMD Ryzen 5 7600 AM5 3.8 GHz Unlocked CPU Processor + Wraith Stealth,$389.00,AMD,In Stock,$409.00
-AMD Ryzen 9 7900X 12-Core AM5 4.70 GHz Unlocked CPU Processor,$649.00,AMD,In Stock,$949.00
-AMD Ryzen 7 5800X 8-Core AM4 3.80 GHz Unlocked CPU Processor,$389.00,AMD,In Stock,$699.00
-AMD Ryzen 7 5800X3D 8-Core 16-Thread AMD CPU up to 4.50GHz,$549.00,AMD,In Stock,$729.00
-AMD Ryzen 3 3100 4 Core Socket AM4 3.6GHz CPU Processor - Tray - No Cooler,$109.00,AMD,Out Of Stock,
-AMD Ryzen 7 7700X 8-Core AM5 4.50 GHz Unlocked CPU Processor,$549.00,AMD,In Stock,$689.00
-AMD Ryzen 5 5600G 6 Core Socket AM4 3.9GHz CPU Processor + Wraith Stealth Cooler,$209.00,AMD,In Stock,$225.00
-AMD Ryzen 9 5900X 12-Core AM4 3.70 GHz Unlocked CPU Processor,$499.00,AMD,In Stock,$869.00
-AMD Ryzen 9 5950X 16-Core AM4 3.40 GHz Unlocked CPU Processor,$809.00,AMD,In Stock,"$1,349.00"
-AMD Ryzen 9 7950X 16-Core AM5 4.50 GHz Unlocked CPU Processor,$899.00,AMD,In Stock,"$1,209.00"
-AMD Ryzen 7 7700 AM5 3.8 GHz Unlocked CPU Processor + Wraith Prism,$519.00,AMD,In Stock,$599.00
-AMD Ryzen 9 7950X3D 16-Core AM5 4.20GHz CPU Processor,$989.00,AMD,In Stock,"$1,199.00"
-AMD Ryzen 9 7900 AM5 3.7 GHz Unlocked CPU Processor + Wraith Prism,$679.00,AMD,In Stock,$749.00
-AMD Ryzen 7 5700G 8 Core Socket AM4 3.8GHz CPU Processor + Wraith Stealth Cooler,$329.00,AMD,In Stock,$549.00
-AMD Ryzen 9 7900X3D 12-Core AM5 4.4GHz CPU Processor,$829.00,AMD,In Stock,$999.00
-AMD Ryzen ThreadRipper Pro 5955WX 16-Core sWRX8 Processor,"$2,099.00",AMD,In Stock,"$2,149.00"
-AMD Ryzen Threadripper PRO 7995WX 96-Core sTR5 Unlocked CPU Processor,"$16,999.00",AMD,In Stock,
-AMD Ryzen Threadripper PRO 7985WX 64-Core sTR5 Unlocked CPU Processor,"$12,499.00",AMD,Out Of Stock,
-AMD Ryzen Threadripper PRO 7975WX 32-Core sTR5 Unlocked CPU Processor,"$6,699.00",AMD,Out Of Stock,
-AMD Ryzen Threadripper PRO 7965WX 24-Core sTR5 Unlocked CPU Processor,"$4,549.00",AMD,Out Of Stock,
-AMD Ryzen Threadripper 7980X 64-Core sTR5 Unlocked CPU Processor,"$8,599.00",AMD,In Stock,
-AMD Ryzen Threadripper 7970X 32-Core sTR5 Unlocked CPU Processor,"$4,299.00",AMD,Out Of Stock,
-AMD Ryzen Threadripper 7960X 24-Core sTR5 Unlocked CPU Processor,"$2,579.00",AMD,In Stock,
-AMD Ryzen ThreadRipper Pro 5975WX 32-Core sWRX8 Processor,"$4,899.00",AMD,Out Of Stock,"$5,050.95"
-AMD Ryzen ThreadRipper Pro 5965WX 24-Core sWRX8 Processor,"$3,499.00",AMD,In Stock,"$3,999.00"
-AMD Ryzen ThreadRipper Pro 5995WX 64-Core sWRX8 Processor,"$9,799.00",AMD,In Stock,"$11,999.00"
-Intel Core i7 14700K 20 Core LGA 1700 Unlocked CPU Processor,$679.00,Intel,In Stock,
-Intel Core i9 14900K 24 Core LGA 1700 Unlocked CPU Processor,$929.00,Intel,In Stock,
-Intel Core i9 14900KF 24 Core LGA 1700 Unlocked CPU Processor,$889.00,Intel,In Stock,
-Intel Core i7 14700KF 20 Core LGA 1700 Unlocked CPU Processor,$629.00,Intel,In Stock,
-Intel Core i5-12400 6 Core LGA 1700 2.5GHz CPU Processor,$269.00,Intel,In Stock,
-Intel Core i7-12700KF 12 Core LGA 1700 Unlocked CPU Processor,$469.00,Intel,In Stock,
-Intel Core i5 12400F 6 Core LGA 1700 2.5GHz CPU Processor,$229.00,Intel,In Stock,
-Intel Core i5 14600KF 14 Core LGA 1700 Unlocked CPU Processor,$479.00,Intel,In Stock,
-Intel Core i9 13900K 24 Core LGA 1700 3GHz Unlocked CPU Processor,$899.00,Intel,In Stock,
-Intel Core i5 13400F 10 Core LGA 1700 CPU Processor,$329.00,Intel,In Stock,
-Intel Core i5 14600K 14 Core LGA 1700 Unlocked CPU Processor,$499.00,Intel,In Stock,
-Intel Core i9 13900KF 24 Core LGA 1700 3GHz Unlocked CPU Processor,$859.00,Intel,In Stock,
-Intel Core i7 13700K 16 Core LGA 1700 3.4GHz Unlocked CPU Processor,$649.00,Intel,In Stock,
-Intel Core i9 13900KS 24 Core 32 Thread LGA 1700 6.0GHz Unlocked CPU Processor,"$1,049.00",Intel,In Stock,
-Intel Core i5 13600K 14 Core LGA 1700 3.5GHz Unlocked CPU Processor,$499.00,Intel,In Stock,
-Intel Core i5 13500 14 Core LGA 1700 CPU Processor,$389.00,Intel,In Stock,
-Intel Core i7-12700K 12 Core LGA 1700 Unlocked CPU Processor,$562.95,Intel,In Stock,
-Intel Core i7 13700 16 Core LGA 1700 CPU Processor,$619.00,Intel,In Stock,
-Intel Core i7 13700F 16 Core LGA 1700 CPU Processor,$589.00,Intel,In Stock,
-Intel Core i5-12600K 10 Core LGA 1700 Unlocked CPU Processor,$419.00,Intel,In Stock,
-Intel Core i7-12700F 12 Core LGA 1700 2.1GHz CPU Processor,$459.00,Intel,In Stock,
-Intel Core i7 12700 12-Core LGA 1700 2.10GHz CPU Processor,$499.00,Intel,In Stock,
-Intel Core i3 13100 Quad Core LGA 1700 CPU Processor,$235.00,Intel,In Stock,
-Intel Core i3 13100F Quad Core LGA 1700 CPU Processor,$187.00,Intel,In Stock,
-Intel Core i5 13400 10 Core LGA 1700 CPU Processor,$369.00,Intel,Out Of Stock,
-Intel Core i3-12100 4 Core LGA 1700 3.3GHz CPU Processor,$231.95,Intel,In Stock,
-Intel Core i9 13900F 24 Core LGA 1700 CPU Processor,$869.00,Intel,In Stock,
-Intel Core i5 13600KF 14 Core LGA 1700 3.5GHz Unlocked CPU Processor,$469.00,Intel,Out Of Stock,
-Intel Core i3 12100F 4 Core LGA 1700 3.3GHz CPU Processor,$149.00,Intel,Out Of Stock,
-Intel Core i9 13900 24 Core LGA 1700 CPU Processor,$899.00,Intel,In Stock,
-Intel Core i7 13700KF 16 Core LGA 1700 3.4GHz Unlocked CPU Processor,$629.00,Intel,Out Of Stock,
-Bundle Deal - Gigabyte i5 B760 Productivity Pack,$557.00,Bundle,In Stock,
-Bundle Deal - Gigabyte i5 B760 Gaming Pack,$627.00,Bundle,In Stock,
-Bundle Deal - MSI i5 B760 Productivity Pack,$637.00,Bundle,Out Of Stock,
-Bundle Deal - ASUS i5 B760 Prime Pack,$523.00,Bundle,Out Of Stock,
-Bundle Deal - ASUS i5 B760 TUF Pack,$647.00,Bundle,Out Of Stock,
-Intel Core i3 10105F Desktop Processor,$119,Intel,In Stock,
-Intel Core i5 10400F Desktop Processor,$169,Intel,In Stock,
-Intel Core i3 10105 Desktop Processor,$179,Intel,In Stock,
-Intel Core i5 11400F Desktop Processor,$185,Intel,In Stock,$219
+title,price,brand,availability,product_url,price_off
+Intel Core i5 12400F 6 Core LGA 1700 CPU Processor,219.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i5-12400f-6-core-lga-1700-cpu-processor-61652,Save $10.0
+Intel Core i5 13400F 10 Core LGA 1700 4.6GHz CPU Processor,329.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i5-13400f-10-core-lga-1700-4-6ghz-cpu-processor-68193,
+Intel Core i5 14600K 14 Core LGA 1700 CPU Processor,499.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i5-14600k-14-core-lga-1700-cpu-processor-73060,Save $20.0
+Intel Core i7 14700KF 20 Core LGA 1700 CPU Processor,628.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i7-14700kf-20-core-lga-1700-cpu-processor-73063,Save $121.0
+Intel Core i9 14900K 24 Core LGA 1700 CPU Processor,915.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i9-14900k-24-core-lga-1700-cpu-processor-73064,Save $74.0
+AMD Ryzen 5 5500 6 Core AM4 4.20GHz CPU Processor with Wraith Stealth Cooler,149.0,AMD,In Stock,https://www.umart.com.au/product/amd-ryzen-5-5500-6-core-am4-4-20ghz-cpu-processor-with-wraith-stealth-cooler-62861,Save $100.0
+Intel Core i5 12400 6 Core LGA 1700 CPU Processor,259.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i5-12400-6-core-lga-1700-cpu-processor-61651,Save $10.0
+AMD Ryzen 5 5600G 6 Core AM4 3.9GHz CPU Processor,209.0,AMD,In Stock,https://www.umart.com.au/product/amd-ryzen-5-5600g-6-core-am4-3-9ghz-cpu-processor-60020,Save $190.0
+Intel Core i9 14900KF 24 Core LGA 1700 CPU Processor,895.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i9-14900kf-24-core-lga-1700-cpu-processor-73065,
+AMD Ryzen 7 7800X3D 8 Core AM5 4.2GHz CPU Processor,595.0,AMD,In Stock,https://www.umart.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-4-2ghz-cpu-processor-69583,Save $154.0
+Intel Core i5 13600K 14 Core LGA 1700 CPU Processor,499.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i5-13600k-14-core-lga-1700-cpu-processor-65498,
+Intel Core i5 13600KF 14 Core LGA 1700 CPU Processor,469.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i5-13600kf-14-core-lga-1700-cpu-processor-65497,
+Intel Core i5 13400 10 Core LGA 1700 4.60GHz CPU Processor,375.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i5-13400-10-core-lga-1700-4-60ghz-cpu-processor-68192,
+AMD Ryzen 5 5600 6 Core AM4 4.2Ghz CPU Processor with Wraith Stealth Cooler,195.0,AMD,In Stock,https://www.umart.com.au/product/amd-ryzen-5-5600-6-core-am4-4-2ghz-cpu-processor-with-wraith-stealth-cooler-62808,Save $24.0
+Intel Core i5 14600KF 14 Core LGA 1700 CPU Processor,459.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i5-14600kf-14-core-lga-1700-cpu-processor-73061,
+AMD Ryzen 7 7700 8 Core AM5 5.3GHz CPU Processor with Wraith Prism Cooler,515.0,AMD,In Stock,https://www.umart.com.au/product/amd-ryzen-7-7700-8-core-am5-5-3ghz-cpu-processor-with-wraith-prism-cooler-68284,
+AMD Ryzen 7 7700X 8 Core AM5 4.5 GHz CPU Processor,549.0,AMD,In Stock,https://www.umart.com.au/product/amd-ryzen-7-7700x-8-core-am5-4-5-ghz-cpu-processor-65055,Save $140.0
+Intel Core i9 13900KS 24 Core LGA1700 6.0GHz CPU Processor,"1,049.0",Intel,In Stock,https://www.umart.com.au/product/intel-core-i9-13900ks-24-core-lga1700-6-0ghz-cpu-processor-68228,Save $100.0
+Intel Core i3 12100F 4 Core LGA 1700 4.30 GHz CPU Processor,149.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i3-12100f-4-core-lga-1700-4-30-ghz-cpu-processor-61800,
+AMD Ryzen 7 5800X3D 8 Core AM4 4.5GHz CPU Processor,549.0,AMD,In Stock,https://www.umart.com.au/product/amd-ryzen-7-5800x3d-8-core-am4-4-5ghz-cpu-processor-62759,Save $150.0
+Intel Core i7 13700 16 Core LGA 1700 5.2GHz CPU Processor,619.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i7-13700-16-core-lga-1700-5-2ghz-cpu-processor-68196,
+Intel Core i7 13700KF 16 Core LGA 1700 CPU Processor,629.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i7-13700kf-16-core-lga-1700-cpu-processor-65495,
+Intel Core i7 13700K 16 Core LGA 1700 CPU Processor,635.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i7-13700k-16-core-lga-1700-cpu-processor-65496,
+Intel Core i7 13700F 16 Core LGA 1700 5.20GHz CPU Processor,595.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i7-13700f-16-core-lga-1700-5-20ghz-cpu-processor-68197,
+Intel Core i3 13100F 4 Core LGA 1700 4.50GHz CPU Processor,169.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i3-13100f-4-core-lga-1700-4-50ghz-cpu-processor-68191,
+AMD Ryzen 7 5700G 8 Core AM4 3.8GHz CPU Processor,319.0,AMD,In Stock,https://www.umart.com.au/product/amd-ryzen-7-5700g-8-core-am4-3-8ghz-cpu-processor-60021,Save $230.0
+AMD Ryzen 9 7900 12 Core AM5 5.4GHz CPU Processor with Wraith Prism Cooler,679.0,AMD,In Stock,https://www.umart.com.au/product/amd-ryzen-9-7900-12-core-am5-5-4ghz-cpu-processor-with-wraith-prism-cooler-68286,Save $10.0
+AMD Ryzen 5 5600X 6 Core AM4 4.6GHz CPU Processor,229.0,AMD,In Stock,https://www.umart.com.au/product/amd-ryzen-5-5600x-6-core-am4-4-6ghz-cpu-processor-57284,Save $270.0
+AMD Ryzen 9 7900X3D AM5 4.4GHz CPU Processor,829.0,AMD,In Stock,https://www.umart.com.au/product/amd-ryzen-9-7900x3d-am5-4-4ghz-cpu-processor-68894,Save $150.0
+AMD Ryzen 3 4100 UpTo 4.0GHz AM4 CPU with Cooler,149.0,AMD,In Stock,https://www.umart.com.au/product/amd-ryzen-3-4100-upto-4-0ghz-am4-cpu-with-cooler-66726,
+AMD Ryzen 9 7950X3D AM5 4.2 GHz CPU Processor,989.0,AMD,In Stock,https://www.umart.com.au/product/amd-ryzen-9-7950x3d-am5-4-2-ghz-cpu-processor-68895,Save $160.0
+AMD Ryzen 7 5700X 8 Core AM4 3.4GHz CPU Processor,269.0,AMD,In Stock,https://www.umart.com.au/product/amd-ryzen-7-5700x-8-core-am4-3-4ghz-cpu-processor-62627,Save $200.0
+AMD Ryzen 5 7600X 6 Core AM5 4.7GHz CPU Processor,359.0,AMD,In Stock,https://www.umart.com.au/product/amd-ryzen-5-7600x-6-core-am5-4-7ghz-cpu-processor-65058,Save $110.0
+AMD Ryzen 9 5950X 16 Core AM4 4.9GHz CPU Processor,809.0,AMD,In Stock,https://www.umart.com.au/product/amd-ryzen-9-5950x-16-core-am4-4-9ghz-cpu-processor-57287,Save $430.0
+AMD Ryzen 5 4600G 6 Core AM4 3.7GHz CPU Processor with Wraith Stealth Cooler,238.0,AMD,In Stock,https://www.umart.com.au/product/amd-ryzen-5-4600g-6-core-am4-3-7ghz-cpu-processor-with-wraith-stealth-cooler-63958,
+Intel Core i9 13900 24 Core LGA 1700 5.6GHz CPU Processor,869.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i9-13900-24-core-lga-1700-5-6ghz-cpu-processor-68198,
+Intel Core i7 12700KF 12 Core LGA 1700 CPU Processor,468.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i7-12700kf-12-core-lga-1700-cpu-processor-61014,
+AMD Ryzen 9 3900X 12 Core AM4 3.8GHz CPU with Wraith Prism RGB Cooler,698.5,AMD,In Stock,https://www.umart.com.au/product/amd-ryzen-9-3900x-12-core-am4-3-8ghz-cpu-with-wraith-prism-rgb-cooler-51576,
+AMD Ryzen 7 5800X 8 Core AM4 4.7GHz CPU Processor,369.0,AMD,In Stock,https://www.umart.com.au/product/amd-ryzen-7-5800x-8-core-am4-4-7ghz-cpu-processor-57285,Save $381.0
+Intel Core i9 13900F 24 Core LGA 1700 5.60GHz CPU Processor,869.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i9-13900f-24-core-lga-1700-5-60ghz-cpu-processor-68199,
+Intel Core i3 13100 4 Core LGA 1700 4.50GHz CPU Processor,235.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i3-13100-4-core-lga-1700-4-50ghz-cpu-processor-68190,
+AMD Ryzen 5 7600 6 Core AM5 5.2GHz CPU Processor with Wraith Stealth Cooler,339.0,AMD,At Other Store,https://www.umart.com.au/product/amd-ryzen-5-7600-6-core-am5-5-2ghz-cpu-processor-with-wraith-stealth-cooler-68285,Save $50.0
+Intel Core i7 14700K 20 Core LGA 1700 CPU Processor,655.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i7-14700k-20-core-lga-1700-cpu-processor-73062,Save $134.0
+Intel Core i5 13500 14 Core LGA 1700 4.80GHz CPU Processor,379.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i5-13500-14-core-lga-1700-4-80ghz-cpu-processor-68194,
+Intel Core i9 12900KS 16 Core LGA 1700 CPU Processor,899.0,Intel,At Other Store,https://www.umart.com.au/product/intel-core-i9-12900ks-16-core-lga-1700-cpu-processor-62809,
+Intel Core i9 12900K 16 Core LGA 1700 CPU Processor,689.0,Intel,At Other Store,https://www.umart.com.au/product/intel-core-i9-12900k-16-core-lga-1700-cpu-processor-60996,
+Intel Core i5 10400 6 Core LGA 1200 2.90GHz CPU Processor,199.0,Intel,At Other Store,https://www.umart.com.au/product/intel-core-i5-10400-6-core-lga-1200-2-90ghz-cpu-processor-55246,
+Intel Core i7 10700KF 8 Core LGA 1200 3.80GHz CPU Processor,409.0,Intel,At Other Store,https://www.umart.com.au/product/intel-core-i7-10700kf-8-core-lga-1200-3-80ghz-cpu-processor-55255,
+Intel Core i5 10600K 6 Core LGA 1200 4.10GHz CPU Processor,259.0,Intel,At Other Store,https://www.umart.com.au/product/intel-core-i5-10600k-6-core-lga-1200-4-10ghz-cpu-processor-55257,
+Intel Core i5 10600KF 6 Core LGA 1200 4.10GHz CPU Processor,239.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i5-10600kf-6-core-lga-1200-4-10ghz-cpu-processor-55259,
+Intel Core i5 10400F 6 Core LGA 1200 2.9GHz CPU Processor,155.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i5-10400f-6-core-lga-1200-2-9ghz-cpu-processor-55261,
+Intel Core i5 10600 6 Core LGA 1200 3.30GHz CPU Processor,329.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i5-10600-6-core-lga-1200-3-30ghz-cpu-processor-55356,
+Intel Core i5 10500 6 Core LGA 1200 3.10GHz CPU Processor,249.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i5-10500-6-core-lga-1200-3-10ghz-cpu-processor-55394,
+Intel Core i3 10100 Quad Core LGA 1200 3.6GHz CPU Processor,155.0,Intel,At Other Store,https://www.umart.com.au/product/intel-core-i3-10100-quad-core-lga-1200-3-6ghz-cpu-processor-55857,
+AMD Ryzen 9 5900X 12 Core AM4 4.8GHz CPU Processor,499.0,AMD,In Stock,https://www.umart.com.au/product/amd-ryzen-9-5900x-12-core-am4-4-8ghz-cpu-processor-57286,Save $399.0
+Intel Core i3-10100F Quad Core LGA 1200 3.6GHz CPU Processor,113.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i3-10100f-quad-core-lga-1200-3-6ghz-cpu-processor-57392,
+Intel Core i5 11600K 6 Core LGA 1200 3.9Ghz CPU Processor,279.0,Intel,At Other Store,https://www.umart.com.au/product/intel-core-i5-11600k-6-core-lga-1200-3-9ghz-cpu-processor-58388,
+Intel Core i7-11700KF 8 Core LGA 1200 3.60GHz CPU Processor,399.0,Intel,At Other Store,https://www.umart.com.au/product/intel-core-i7-11700kf-8-core-lga-1200-3-60ghz-cpu-processor-58949,
+Intel Core i3 10105 4 Core LGA 1200 3.7GHz CPU Processor,159.0,Intel,At Other Store,https://www.umart.com.au/product/intel-core-i3-10105-4-core-lga-1200-3-7ghz-cpu-processor-59605,
+Intel Core i9 13900K 24 Core LGA 1700 CPU Processor,889.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i9-13900k-24-core-lga-1700-cpu-processor-65494,
+Intel Core i9 12900KF 16 Core LGA 1700 CPU Processor,649.0,Intel,At Other Store,https://www.umart.com.au/product/intel-core-i9-12900kf-16-core-lga-1700-cpu-processor-60997,
+Intel Core i5 12600K 10 Core LGA 1700 CPU Processor,419.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i5-12600k-10-core-lga-1700-cpu-processor-60998,
+Intel Core i5 12600KF 10 Core LGA 1700 CPU Processor,359.0,Intel,At Other Store,https://www.umart.com.au/product/intel-core-i5-12600kf-10-core-lga-1700-cpu-processor-61015,
+Intel Core i5 11600KF 6 Core FC LGA1200 4.90GHz CPU Processor,299.0,Intel,At Other Store,https://www.umart.com.au/product/intel-core-i5-11600kf-6-core-fc-lga1200-4-90ghz-cpu-processor-61125,
+Intel Core i7 12700K 12 Core LGA 1700 CPU Processor,509.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i7-12700k-12-core-lga-1700-cpu-processor-61134,
+Intel Core i7 12700F 12 Core LGA 1700 CPU Processor,459.0,Intel,At Other Store,https://www.umart.com.au/product/intel-core-i7-12700f-12-core-lga-1700-cpu-processor-61648,
+Intel Core i5 12600 6 Core LGA 1700 CPU Processor,359.0,Intel,At Other Store,https://www.umart.com.au/product/intel-core-i5-12600-6-core-lga-1700-cpu-processor-61649,
+Intel Core i3 12100 4 Core LGA 1700 4.30 GHz CPU Processor,195.0,Intel,At Other Store,https://www.umart.com.au/product/intel-core-i3-12100-4-core-lga-1700-4-30-ghz-cpu-processor-62499,
+Intel Core i9 12900 16 Core LGA 1700 5.10GHz Boxed CPU Processor,669.0,Intel,At Other Store,https://www.umart.com.au/product/intel-core-i9-12900-16-core-lga-1700-5-10ghz-boxed-cpu-processor-62597,
+AMD Ryzen 9 7950X 16 Core AM5 4.5 GHz CPU Processor,899.0,AMD,At Other Store,https://www.umart.com.au/product/amd-ryzen-9-7950x-16-core-am5-4-5-ghz-cpu-processor-65056,
+AMD Ryzen 9 7900X 12 Core AM5 4.7 GHz CPU Processor,649.0,AMD,At Other Store,https://www.umart.com.au/product/amd-ryzen-9-7900x-12-core-am5-4-7-ghz-cpu-processor-65057,Save $206.0
+Intel Core i9 13900KF 24 Core LGA 1700 CPU Processor,859.0,Intel,In Stock,https://www.umart.com.au/product/intel-core-i9-13900kf-24-core-lga-1700-cpu-processor-65493,
+AMD Ryzen 7 7800X3D 8 Core Processor,$589 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-7-7800x3d-8-core-processor,$719.00
+AMD Ryzen 5 5600X Processor with Wraith Stealth CPU Cooler,$229 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-5-5600x-processor-with-wraith-stealth-cpu-cooler,$469.00
+AMD Ryzen 5 5500 6 Core Processor With Wraith Stealth Fan,$149 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-5-5500-6-core-processor-with-wraith-stealth-fan,$229.00
+Intel Core i9 14900K 24 Core 32 Threads LGA 1700 Processor,$929 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i9-14900k-24-core-32-threads-lga-1700-processor,
+AMD Ryzen 7 5800X Processor,$389 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-7-5800x-processor,$649.00
+AMD Ryzen 5 7600 6 Core Processor,$339 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-5-7600-6-core-processor,$389.00
+AMD Ryzen 5 5600G Processor With Wraith Stealth Cooler,$209 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-5-5600g-processor-with-wraith-stealth-cooler,$399.00
+AMD Ryzen 5 7600X 6 Core Processor,$359 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-5-7600x-6-core-processor,$489.00
+AMD Ryzen 5-5600 AM4 CPU Processor,$209 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-5-5600-am4-cpu-processor,$289.00
+Intel Core i9 13900K 24 Core Processor,$899 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i9-13900k-24-core-processor,
+AMD Ryzen 7 5700X AM4 Processor,$269 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-7-5700x-am4-processor,$429.00
+AMD Ryzen 7 5800X3D 8 Core Processor,$559 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-7-5800x3d-8-core-processor,$719.00
+Intel Core i7 14700KF 20 Core 28 Threads LGA 1700 Processor,$629 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i7-14700kf-20-core-28-threads-lga-1700-processor,
+Intel Core i9 13900KS 24 Core Processor,"$1,099 .00",Intel,In Stock,https://www.jw.com.au/product/intel-core-i9-13900ks-24-core-processor,
+Intel Core i5 13600KF 14 Core Processor,$469 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i5-13600kf-14-core-processor,
+Intel Core i5 14600KF 14 Core 20 Threads LGA 1700 Processor,$479 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i5-14600kf-14-core-20-threads-lga-1700-processor,
+Intel Core i7 13700K 16 Core Processor,$649 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i7-13700k-16-core-processor,
+AMD Ryzen 9 7900 12 Core Processor,$679 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-9-7900-12-core-processor,
+AMD Ryzen 9 5900X Processor,$519 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-9-5900x-processor,$839.00
+AMD Ryzen 9 7900X 12 Core Processor,$659 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-9-7900x-12-core-processor,$879.00
+AMD Ryzen 9 7950X 16 Core Processor,$949 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-9-7950x-16-core-processor,"$1,139.00"
+Corsair AMD Elite CPU Bracket for AM5/AM4 Kit,$21 .87,Corsair,In Stock,https://www.jw.com.au/product/corsair-amd-elite-cpu-bracket-for-am5-am4-kit,
+Intel Core i5 12600KF 10 Core Processor,$369 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i5-12600kf-10-core-processor,
+Intel Core i7 14700K 20 Core 28 Threads LGA 1700 Processor,$675 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i7-14700k-20-core-28-threads-lga-1700-processor,
+Intel Core i7-12700K 12 Core Processor,$499 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i7-12700k-12-core-processor,
+Intel Core i5-12600K 10 Core Processor,$419 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i5-12600k-10-core-processor,
+Intel Core i7 13700KF 16 Core Processor,$629 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i7-13700kf-16-core-processor,
+Intel Core i7-12700KF 12 Core Processor,$469 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i7-12700kf-12-core-processor,
+Intel Core i9 13900KF 24 Core Processor,$859 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i9-13900kf-24-core-processor,
+Intel i3-12100F 3.30GHZ SKTLGA1700 12MB Boxed,$149 .00,Intel,In Stock,https://www.jw.com.au/product/intel-i3-12100f-3-30ghz-sktlga1700-12mb-boxed,
+AMD Ryzen 3 3100 AM4 3.6GHz CPU ---- OEM,$99 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-3-3100-am4-cpu,
+AMD Ryzen 9 7950X3D 16 Core Processor,$999 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-9-7950x3d-16-core-processor,"$1,085.00"
+Intel Core i5 13600K 14 Core Processor,$499 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i5-13600k-14-core-processor,
+Intel Core i9-12900K 16 Core Processor,$699 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i9-12900k-16-core-processor,
+AMD Ryzen 7 5700G Processor With Wraith Stealth Cooler,$329 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-7-5700g-processor-with-wraith-stealth-cooler,$549.00
+AMD Ryzen 7 7700X 8 Core Processor,$579 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-7-7700x-8-core-processor,$629.00
+AMD Ryzen 9 7900X3D AM5 12 Core Processor,$899 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-9-7900x3d-12-core-processor,$979.00
+Corsair Intel Elite CPU Bracket,$21 .87,Corsair,In Stock,https://www.jw.com.au/product/corsair-intel-elite-cpu-bracket,
+Intel Core i3-10105 Processor,$179 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i3-10105-processor,
+Intel Core i5 10400F 2.9GHz LGA 1200 Processor,$189 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i5-10400f-2-9ghz-lga-1200-processor,
+Intel Core i5 13400F LGA 1700 Processor,$329 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i5-13400f-lga-1700-processor,
+Intel Core i5 14600K 14 Core 20 Threads LGA 1700 Processor,$525 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i5-14600k-14-core-20-threads-lga-1700-processor,
+Intel Core i7 12700 Processor,$509 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i7-12700-processor,
+Intel Core i7 13700 LGA 1700 Processor,$639 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i7-13700-lga-1700-processor,
+Intel Core i9 13900 LGA 1700 Processor,$899 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i9-13900-lga-1700-processor,
+Intel Core i9 13900F LGA 1700 Processor,$869 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i9-13900f-lga-1700-processor,
+Intel Core i9 14900KF 24 Core 32 Threads LGA 1700 Processor,$899 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i9-14900kf-24-core-32-threads-lga-1700-processor,
+AMD Ryzen 7 7700 8 Core Processor,$515 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-7-7700-8-core-processor,
+AMD Ryzen 9 5950X Processor,$825 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-9-5950x-processor,"$1,199.00"
+Intel Core i3-10100 3.6GHz LGA 1200 CPU Processor,$175 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i3-10100-3-6ghz-lga-1200-cpu-processor,
+Intel Core i3-10105F Processor,$129 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i3-10105f-processor,
+Intel Core i5-12400 2.5GHz LGA1700 Desktop Processor,$269 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i5-12400-2-5ghz-lga1700-desktop-processor,
+Intel Core i5-12400F 2.5GHz LGA1700 Desktop Processor,$229 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i5-12400f-2-5ghz-lga1700-desktop-processor,
+Intel Core i9-12900KF 16 Core Processor,$639 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i9-12900kf-16-core-processor,
+(Open Box) Intel Xeon Bronze 3106 1.7Ghz 8 Core CPU,$279 .00,(Open,In Stock,https://www.jw.com.au/product/open-box-intel-xeon-bronze-3106-1-7ghz-8-core-cpu,$699.00
+"AMD EPYC 7542, 32-Core, 3.4Ghz Processor","$6,493 .83",AMD,In Stock,https://www.jw.com.au/product/amd-epyc-7542-32-core-3-4ghz-processor,
+AMD Ryzen 3-4100 AM4 Processor,$119 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-3-4100-am4-processor,$149.00
+AMD Ryzen 5 3500X Processor 3.6 GHz 32 MB L3 Box,$299 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-5-3500x-processor-3-6-ghz-32-mb-l3-box,
+AMD Ryzen Threadripper 2920X 12-Core Processor,$599 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-threadripper-2920x-12-core-processor,
+AMD Ryzen Threadripper 2970WX 24-Core Processor,$999 .00,AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-threadripper-2970wx-24-core-processor,
+AMD Ryzen Threadripper 7960X 24 Cores Processor,"$2,579 .00",AMD,In Stock,https://www.jw.com.au/product/amd-threadripper-7960x-24cores-processor,
+AMD Ryzen Threadripper 7970X 32 Cores Processor,"$4,299 .00",AMD,In Stock,https://www.jw.com.au/product/amd-threadripper-7970x-32cores-processor,
+AMD Ryzen Threadripper 7980X 64 Cores Processor,"$8,599 .00",AMD,In Stock,https://www.jw.com.au/product/amd-threadripper-7980x-64cores-processor,
+AMD Ryzen Threadripper Pro 3955WX Processor,"$1,949 .00",AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-threadripper-pro-3955wx-processor,
+AMD Ryzen Threadripper PRO 7965WX 24 Cores Processor,"$4,549 .00",AMD,In Stock,https://www.jw.com.au/product/amd-threadripper-pro-7965wx-24cores-processor,
+AMD Ryzen Threadripper PRO 7975WX 32 Cores Processor,"$6,699 .00",AMD,In Stock,https://www.jw.com.au/product/amd-threadripper-pro-7975wx-32cores-processor,
+AMD Ryzen Threadripper PRO 7985WX 64 Cores Processor,"$12,499 .00",AMD,In Stock,https://www.jw.com.au/product/amd-threadripper-pro-7985wx-64cores-processor,
+AMD Ryzen Threadripper Pro 7995WX sTR5 96 Core Processor,"$16,999 .00",AMD,In Stock,https://www.jw.com.au/product/amd-ryzen-threadripper-pro-7995wx-96-core-processor,
+AMD Threadripper Pro 5995WX 64 Core Processor,"$9,699 .00",AMD,In Stock,https://www.jw.com.au/product/amd-threadripper-pro-5995wx-64-core-processor,"$11,299.00"
+Asus AMD EPYC 7302 Processor 16 Cores 32 Threads,$999 .00,Asus,In Stock,https://www.jw.com.au/product/asus-amd-epyc-7302-processor-16-cores-32-threads,
+Carton Damaged AMD Ryzen 5 3600X Processor With Cooler,$299 .00,Carton,In Stock,https://www.jw.com.au/product/carton-damaged-amd-ryzen-5-3600x-processor-with-cooler,
+Dell Intel Xeon Silver 4309Y (15G Only),"$1,346 .87",Dell,In Stock,https://www.jw.com.au/product/dell-intel-xeon-silver-4309y-15g-only,
+Dell Xeon Bronze 3204 1.9 GHz 8.25 MB LGA 3647 CPU Processor,$150 .87,Dell,In Stock,https://www.jw.com.au/product/dell-xeon-bronze-3204-1-9-ghz-8-25-mb-lga-3647-cpu-processor,
+HPE AMD EPYC 7351 Processor 2.4 GHz 64 MB L3,"$1,931 .87",HPE,In Stock,https://www.jw.com.au/product/hpe-amd-epyc-7351-processor-2-4-ghz-64-mb-l3,
+HPE DL380 Gen10 Xeon Gold 5222 Processor,"$4,064 .87",HPE,In Stock,https://www.jw.com.au/product/hpe-dl380-gen10-xeon-gold-5222-processor,
+HPE DL560 Gen8 Intel Xeon E5-4610 (2.4GHz/6-core/15MB/95W) Processor L3,"$3,688 .87",HPE,In Stock,https://www.jw.com.au/product/hpe-dl560-gen8-intel-xeon-e5-4610-2-4ghz-6-core-15mb-95w-processor-l3,
+HPE Intel Xeon Silver 4214R 2.40GHz Processor,"$2,196 .87",HPE,Pre-order,https://www.jw.com.au/product/hpe-intel-xeon-silver-4214r-2-40ghz-processor,
+Intel Core i3-13100 Processor,$229 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i5-13100-processor,
+Intel Core i3-13100F Desktop Processor,$179 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i5-13100f-processor,
+Intel Core i5 13500 LGA 1700 Processor,$399 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i5-13500-lga-1700-processor,
+Intel Core i5-13400 Desktop Processor,$379 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i5-13400-lga-1700-processor,
+Intel Core i7 13700F LGA 1700 Processor,$595 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i7-13700f-lga-1700-processor,
+Intel Core i7-12700F LGA1700 Desktop Processor,$459 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i7-12700f-lga1700-desktop-processor,
+Intel Core i9-12900 Desktop Processor,$789 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i9-12900-desktop-processor,
+Intel Core i9-12900F Desktop Processor,$689 .00,Intel,In Stock,https://www.jw.com.au/product/intel-core-i9-12900f-desktop-processor,
+Intel i3-12100 3.30GHZ SKTLGA1700 12MB Boxed,$209 .00,Intel,In Stock,https://www.jw.com.au/product/intel-i3-12100-3-30ghz-sktlga1700-12mb-boxed,
+Intel Xeon E-2336 12M Cache 2.90 GHz 6C CPU,$603 .87,Intel,In Stock,https://www.jw.com.au/product/intel-xeon-e-2336-12m-cache-2-90-ghz-6c-cpu,
+Intel Xeon W-2223 Processor 8.25M Cache,$699 .00,Intel,In Stock,https://www.jw.com.au/product/intel-xeon-w-2223-processor-8-25m-cache,
+Intel Xeon W-2225 Processor 8.25M Cache,$849 .00,Intel,In Stock,https://www.jw.com.au/product/intel-xeon-w-2225-processor-8-25m-cache,
+Intel Xeon X3430 Lynnfield 2.4 GHz 8MB L3 Cache LGA 1156 95W Server Processor,$59 .00,Intel,In Stock,https://www.jw.com.au/product/intel-xeon-x3430-lynnfield-2-4-ghz-8mb-l3-cache-lga-1156-95w-server-processor,
+Lenovo CPU ST550 Xeon Silver 4208,"$1,238 .87",Lenovo,In Stock,https://www.jw.com.au/product/lenovo-cpu-st550-xeon-silver-4208,
+Lenovo CPU ST550 Xeon Silver 4210,"$1,432 .87",Lenovo,In Stock,https://www.jw.com.au/product/lenovo-cpu-st550-xeon-silver-4210,
+Lenovo SR650 V3 Xeon Silver 4410Y 12C 150W CPU,"$2,192 .87",Lenovo,In Stock,https://www.jw.com.au/product/lenovo-sr650-v3-xeon-silver-4410y-12c-150w-cpu,
+Lenovo SR650 Xeon Silver 4314 Processor,"$2,076 .56",Lenovo,Pre-order,https://www.jw.com.au/product/lenovo-sr650-xeon-silver-4314-processor,
+Lenovo ThinkSystem 2nd Xeon Silver 4310 CPU Kit,"$1,312 .87",Lenovo,In Stock,https://www.jw.com.au/product/lenovo-thinksystem-2nd-xeon-silver-4310-cpu-kit,
+Lenovo ThinkSystem ST650 V2 Xeon Silver 4309Y 2.8 GHz CPU,"$1,587 .87",Lenovo,In Stock,https://www.jw.com.au/product/lenovo-thinksystem-st650-v2-xeon-silver-4309y-2-8-ghz-cpu,
+Lenovo Xeon Silver 4310 LGA 4189 Processor,"$1,368 .87",Lenovo,In Stock,https://www.jw.com.au/product/lenovo-xeon-silver-4310-lga-4189-processor,
+Lenovo Xeon Silver SR630 V2 4314 16C 2.4GHz FCLGA4189 Processor,"$1,891 .87",Lenovo,Pre-order,https://www.jw.com.au/product/lenovo-xeon-silver-sr630-v2-4314-16c-2-4ghz-fclga4189-processor,
+Intel S1700 Core i3 12100F 4 Core CPU 3.3GHz BX8071512100F,$145,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i3-12100f-4-core-cpu-3.3ghz-bx8071512100f,
+AMD AM4 Ryzen 5 5500 6 Core 3.6GHz CPU 100-100000457BOX,$149,AMD,In Stock,https://www.computeralliance.com.au/amd-am4-ryzen-5-5500-6-core-3.6ghz-cpu-100-100000457box,
+Intel S1700 Core i3 13100F 4 Core CPU BX8071513100F,$189,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i3-13100f-4-core-cpu-bx8071513100f,
+AMD AM4 Ryzen 5 5600 6 Core 3.5GHz CPU 100-100000927BOX,$199,AMD,In Stock,https://www.computeralliance.com.au/amd-am4-ryzen-5-5600-6-core-3.5ghz-cpu-100-100000927box,SAVE $10
+Intel S1700 Core i3 12100 4 Core CPU 3.3GHz BX8071512100,$209,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i3-12100-4-core-cpu-3.3ghz-bx8071512100,
+AMD AM4 Ryzen 5 5600G 6 Core 3.9GHz CPU 100-100000252BOX with Wraith Stealth Cooler,$209,AMD,In Stock,https://www.computeralliance.com.au/amd-am4-ryzen-5-5600g-6-core-3.9ghz-cpu-100-100000252box-with-wraith-stealth-cooler,
+Intel S1700 Core i5 12400F 6 Core CPU 2.5GHz BX8071512400F,$219,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i5-12400f-6-core-cpu-2.5ghz-bx8071512400f,SAVE $30
+AMD AM4 Ryzen 5 5600X 6 Core 3.7GHz CPU 100-100000065BOX,$229,AMD,In Stock,https://www.computeralliance.com.au/amd-am4-ryzen-5-5600x-6-core-3.7ghz-cpu-100-100000065box,SAVE $20
+Intel S1700 Core i3 13100 4 Core CPU BX8071513100,$229,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i3-13100-4-core-cpu-bx8071513100,
+Intel S1700 Core i5 12400 6 Core CPU 2.5GHz BX8071512400,$259,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i5-12400-6-core-cpu-2.5ghz-bx8071512400,SAVE $10
+AMD AM4 Ryzen 7 5700X 8 Core 4.6GHz CPU 100-100000926WOF,$269,AMD,In Stock,https://www.computeralliance.com.au/amd-am4-ryzen-7-5700x-8-core-4.6ghz-cpu-100-100000926wof,SAVE $30
+AMD AM4 Ryzen 7 5700G 8 Core 3.8GHz CPU 100-100000263BOX with Wraith Stealth Cooler,$309,AMD,In Stock,https://www.computeralliance.com.au/amd-am4-ryzen-7-5700g-8-core-3.8ghz-cpu-100-100000263box-with-wraith-stealth-cooler,SAVE $20
+AMD AM5 Ryzen 5 7600 6 Core 3.8GHz CPU 100-100001015BOX,$339,AMD,In Stock,https://www.computeralliance.com.au/amd-am5-ryzen-5-7600-6-core-3.8ghz-cpu-100-100001015box,SAVE $50
+Intel S1700 Core i5 13400F 10 Core CPU BX8071513400F,$349,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i5-13400f-10-core-cpu-bx8071513400f,
+AMD AM5 Ryzen 5 7600X 6 Core 4.7GHz CPU No Cooler 100-100000593WOF,$359,AMD,In Stock,https://www.computeralliance.com.au/amd-am5-ryzen-5-7600x-6-core-4.7ghz-cpu-no-cooler-100-100000593wof,SAVE $30
+Intel S1700 Core i5 13400 10 Core CPU BX8071513400,$369,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i5-13400-10-core-cpu-bx8071513400,
+AMD AM4 Ryzen 7 5800X 8 Core 4.7GHz CPU (No Cooler) 100-100000063WOF,$369,AMD,In Stock,https://www.computeralliance.com.au/amd-am4-ryzen-7-5800x-8-core-4.7ghz-cpu-(no-cooler)-100-100000063wof,SAVE $20
+Intel S1700 Core i5 12600KF 10 Core 3.70 GHz CPU BX8071512600KF,$369,Intel,Out Of Stock,https://www.computeralliance.com.au/intel-s1700-core-i5-12600kf-10-core-3.70-ghz-cpu-bx8071512600kf,SAVE $30
+Intel S1700 Core i5 13500 14 Core CPU BX8071513500,$399,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i5-13500-14-core-cpu-bx8071513500,
+Intel S1700 Core i7 12700F 12 Core CPU 2.1GHz BX8071512700F,$459,Intel,Out Of Stock,https://www.computeralliance.com.au/intel-s1700-core-i7-12700f-12-core-cpu-2.1ghz-bx8071512700f,SAVE $40
+Intel S1700 Core i5 14600KF 14 Core CPU BX8071514600KF,$459,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i5-14600kf-14-core-cpu-bx8071514600kf,SAVE $40
+Intel S1700 Core i5 13600KF 14 Core CPU BX8071513600KF,$469,Intel,Low Stock,https://www.computeralliance.com.au/intel-s1700-core-i5-13600kf-14-core-cpu-bx8071513600kf,
+Intel S1700 Core i7 12700KF 12 Core 3.60 GHz CPU BX8071512700KF,$479,Intel,Out Of Stock,https://www.computeralliance.com.au/intel-s1700-core-i7-12700kf-12-core-3.60-ghz-cpu-bx8071512700kf,
+Intel S1700 Core i5 14600K 14 Core CPU BX8071514600K,$479,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i5-14600k-14-core-cpu-bx8071514600k,SAVE $50
+Intel S1700 Core i7 12700K 12 Core 3.60 GHz CPU BX8071512700K,$499,Intel,Out Of Stock,https://www.computeralliance.com.au/intel-s1700-core-i7-12700k-12-core-3.60-ghz-cpu-bx8071512700k,
+Intel S1700 Core i7 12700 12 Core CPU 2.1GHz BX8071512700,$499,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i7-12700-12-core-cpu-2.1ghz-bx8071512700,SAVE $20
+AMD AM4 Ryzen 9 5900X 12 Core 4.8GHz CPU (No Cooler) 100-100000061WOF,$499,AMD,In Stock,https://www.computeralliance.com.au/amd-am4-ryzen-9-5900x-12-core-4.8ghz-cpu-(no-cooler)-100-100000061wof,SAVE $90
+Intel S1700 Core i5 13600K 14 Core CPU BX8071513600K,$499,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i5-13600k-14-core-cpu-bx8071513600k,
+AMD AM5 Ryzen 7 7700 8 Core 3.8GHz CPU 100-100000592BOX,$509,AMD,In Stock,https://www.computeralliance.com.au/amd-am5-ryzen-7-7700-8-core-3.8ghz-cpu-100-100000592box,SAVE $40
+AMD AM5 Ryzen 7 7700X 8 Core 4.5GHz CPU No Cooler 100-100000591WOF,$549,AMD,In Stock,https://www.computeralliance.com.au/amd-am5-ryzen-7-7700x-8-core-4.5ghz-cpu-no-cooler-100-100000591wof,SAVE $10
+AMD AM4 Ryzen 7 5800X3D 8 Core 4.5GHz CPU (No Heatsink) 100-100000651WOF,$549,AMD,In Stock,https://www.computeralliance.com.au/amd-am4-ryzen-7-5800x3d-8-core-4.5ghz-cpu-(no-heatsink)-100-100000651wof,
+"AMD AM5 Ryzen 7 7800X3D 8 Core CPU 100-100000910WOF, *Bonus Ryzen Avatar Game Bundle",$589,AMD,In Stock,https://www.computeralliance.com.au/amd-am5-ryzen-7-7800x3d-8-core-cpu-100-100000910wof,SAVE $50
+Intel S1700 Core i7 13700F 16 Core CPU BX8071513700F,$589,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i7-13700f-16-core-cpu-bx8071513700f,
+Intel S1700 Core i7 13700K 16 Core CPU BX8071513700K,$599,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i7-13700k-16-core-cpu-bx8071513700k,SAVE $60
+Intel S1700 Core i7 13700KF 16 Core CPU BX8071513700KF,$629,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i7-13700kf-16-core-cpu-bx8071513700kf,
+Intel S1700 Core i7 14700KF 20 Core CPU BX8071514700KF,$629,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i7-14700kf-20-core-cpu-bx8071514700kf,SAVE $30
+Intel S1700 Core i7 13700 16 Core CPU BX8071513700,$639,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i7-13700-16-core-cpu-bx8071513700,
+"AMD AM5 Ryzen 9 7900X 12 Core 4.7GHz CPU (No Cooler) 100-100000589WOF, *Bonus Ryzen Avatar Game Bundle",$649,AMD,In Stock,https://www.computeralliance.com.au/amd-am5-ryzen-9-7900x-12-core-4.7ghz-cpu-(no-cooler)-100-100000589wof,SAVE $50
+"AMD AM5 Ryzen 9 7900 12 Core 3.7GHz CPU 100-100000590BOX, *Bonus Ryzen Avatar Game Bundle",$659,AMD,In Stock,https://www.computeralliance.com.au/amd-am5-ryzen-9-7900-12-core-3.7ghz-cpu-100-100000590box,SAVE $20
+Intel S1700 Core i7 14700K 20 Core CPU BX8071514700K,$669,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i7-14700k-20-core-cpu-bx8071514700k,SAVE $30
+Intel S1700 Core i9 12900K 3.20GHz 16 Core CPU BX8071512900K,$729,Intel,Out Of Stock,https://www.computeralliance.com.au/intel-s1700-core-i9-12900k-3.20ghz-16-core-cpu-bx8071512900k,SAVE $70
+AMD AM4 Ryzen 9 5950X 16 Core 4.9GHz CPU (No Cooler) 100-100000059WOF,$809,AMD,In Stock,https://www.computeralliance.com.au/amd-am4-ryzen-9-5950x-16-core-4.9ghz-cpu-(no-cooler)-100-100000059wof,
+"AMD AM5 Ryzen 9 7900X3D 12 Core CPU 100-100000909WOF, *Bonus Ryzen Avatar Game Bundle",$829,AMD,In Stock,https://www.computeralliance.com.au/amd-am5-ryzen-9-7900x3d-12-core-cpu-100-100000909wof,
+Intel S1700 Core i9 13900F 24 Core CPU BX8071513900F,$849,Intel,Out Of Stock,https://www.computeralliance.com.au/intel-s1700-core-i9-13900f-24-core-cpu-bx8071513900f,SAVE $140
+Intel S1700 Core i9 13900 24 Core CPU BX8071513900,$869,Intel,Out Of Stock,https://www.computeralliance.com.au/intel-s1700-core-i9-13900-24-core-cpu-bx8071513900,
+Intel S1700 Core i9 13900KF 24 Core CPU BX8071513900KF,$879,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i9-13900kf-24-core-cpu-bx8071513900kf,SAVE $20
+Intel S1700 Core i9 14900KF 24 Core CPU BX8071514900KF,$889,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i9-14900kf-24-core-cpu-bx8071514900kf,SAVE $50
+Intel S1700 Core i9 13900K 24 Core CPU BX8071513900K,$899,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i9-13900k-24-core-cpu-bx8071513900k,
+"AMD AM5 Ryzen 9 7950X 16 Core 4.5GHz CPU No Cooler 100-100000514WOF, *Bonus Ryzen Avatar Game Bundle",$899,AMD,In Stock,https://www.computeralliance.com.au/amd-am5-ryzen-9-7950x-16-core-4.5ghz-cpu-no-cooler-100-100000514wof,
+Intel S1700 Core i9 14900K 24 Core CPU BX8071514900K,$949,Intel,In Stock,https://www.computeralliance.com.au/intel-s1700-core-i9-14900k-24-core-cpu-bx8071514900k,SAVE $40
+"AMD AM5 Ryzen 9 7950X3D 16 Core CPU 100-100000908WOF, *Bonus Ryzen Avatar Game Bundle",$989,AMD,In Stock,https://www.computeralliance.com.au/amd-am5-ryzen-9-7950x3d-16-core-cpu-100-100000908wof,SAVE $150
+AMD sTR5 Ryzen Threadripper 7960X 24 Core 5.3GHz CPU 100-100001352WO,$2579,AMD,Out Of Stock,https://www.computeralliance.com.au/amd-str5-ryzen-threadripper-7960x-24-core-5.3ghz-cpu-100-100001352wo,
+AMD sWRX8 Ryzen Threadripper PRO 5965WX 24 Core 4.5GHz CPU 100-100000446WOF (No Cooler),$2999,AMD,In Stock,https://www.computeralliance.com.au/amd-swrx8-ryzen-threadripper-pro-5965wx-24-core-4.5ghz-cpu-100-100000446wof-(no-cooler),SAVE $400
+AMD sTR5 Ryzen Threadripper 7970X 32 Core 5.3GHz CPU 100-100001351WOF,$4299,AMD,Out Of Stock,https://www.computeralliance.com.au/amd-str5-ryzen-threadripper-7970x-32-core-5.3ghz-cpu-100-100001351wof,
+AMD sTR5 Ryzen Threadripper PRO 7965WX 24 Core 5.3GHz CPU 100-100000885WOF,$4549,AMD,Out Of Stock,https://www.computeralliance.com.au/amd-str5-ryzen-threadripper-pro-7965wx-24-core-5.3ghz-cpu-100-100000885wof,
+AMD sTR5 Ryzen Threadripper PRO 7975WX 32 Core 5.1GHz CPU 100-100000453WOF,$6699,AMD,Out Of Stock,https://www.computeralliance.com.au/amd-str5-ryzen-threadripper-pro-7975wx-32-core-5.1ghz-cpu-100-100000453wof,
+AMD sTR5 Ryzen Threadripper 7980X 64 Core 5.1GHz CPU 100-100001350WOF,$8599,AMD,Out Of Stock,https://www.computeralliance.com.au/amd-str5-ryzen-threadripper-7980x-64-core-5.1ghz-cpu-100-100001350wof,
+AMD sTR5 Ryzen Threadripper PRO 7985WX 64 Core 5.1GHz CPU 100-100000454WOF,$12499,AMD,Out Of Stock,https://www.computeralliance.com.au/amd-str5-ryzen-threadripper-pro-7985wx-64-core-5.1ghz-cpu-100-100000454wof,
+AMD sTR5 Ryzen Threadripper PRO 7995WX 96 Core 5.1GHz CPU 100-100000884WOF,$17999,AMD,Out Of Stock,https://www.computeralliance.com.au/amd-str5-ryzen-threadripper-pro-7995wx-96-core-5.1ghz-cpu-100-100000884wof,
+Intel 14th Gen Core i7-14700K 20 Cores 28 Threads 5.6GHz Processor,$655,Intel,In Stock Online,https://www.centercom.com.au/intel-14th-gen-core-i7-14700k-20-cores-28-threads-56ghz-processor,
+Intel 14th Gen Core i7-14700KF 20 Cores 28 Threads 5.6GHz Processor,$628,Intel,In Stock Online,https://www.centercom.com.au/intel-14th-gen-core-i7-14700kf-20-cores-28-threads-56ghz-processor,
+Intel 14th Gen Core i5-14600K 14 Cores 20 Threads 5.3GHz Processor,$499,Intel,In Stock Online,https://www.centercom.com.au/intel-14th-gen-core-i5-14600k-14-cores-20-threads-53ghz-processor,$519
+AMD Ryzen 5 5500 6C/12T 4.20GHz AM4 65W with Wraith Stealth Cooler,$149,AMD,In Stock Online,https://www.centercom.com.au/amd-ryzen-5-5500-6c12t-420ghz-am4-65w-with-wraith-stealth-cooler,
+AMD Ryzen 5 7600 5.2 GHz 6 Core AM5 with Desktop Processor AMD Wraith Stealth,$339,AMD,In Stock Online,https://www.centercom.com.au/amd-ryzen-5-7600-52-ghz-6-core-am5-with-amd-wraith-stealth,$388
+AMD Ryzen 5 5600 6C/12T Unlocked 4.4GHz AM4 65W with Wraith Stealth Cooler,$195,AMD,In Stock Online,https://www.centercom.com.au/amd-ryzen-5-5600-6c12t-unlocked-44ghz-am4-65w-with-wraith-stealth-cooler,
+AMD Ryzen 5 5600G 6 Cores 12 Threads up to 4.4 GHz with Radeon Graphics Desktop Processor,$207,AMD,In Stock Online,https://www.centercom.com.au/amd-ryzen-5-5600g-6-cores-12-threads-up-to-44-ghz-with-radeon-graphics-desktop-processor,
+AMD Ryzen 7 5700X 8C/16T 4.6GHz 36MB Cache AM4 65W without Cooler,$269,AMD,In Stock Online,https://www.centercom.com.au/amd-ryzen-7-5700x-8c16t-46ghz-36mb-cache-am4-65w-without-cooler,$299
+Intel 14th Gen Core i9-14900K 24 Cores 32 Threads 6.0GHz Processor,$915,Intel,In Stock Online,https://www.centercom.com.au/intel-14th-gen-core-i9-14900k-24-cores-32-threads-60ghz-processor,
+AMD Ryzen 5 7600X 6 Cores 12 Threads Up to 5.3GHz Processor without Cooler,$359,AMD,In Stock Online,https://www.centercom.com.au/amd-ryzen-5-7600x-6-cores-12-threads-up-to-53ghz-processor-without-cooler,$389
+AMD Ryzen 7 5800X3D 8C/16T 4.5GHz AM4 Processor Without Cooler,$549,AMD,In Stock Online,https://www.centercom.com.au/amd-ryzen-7-5800x3d-8c16t-45ghz-am4-processor-without-cooler,
+Intel 14th Gen Core i9-14900KF 24 Cores 32 Threads 6.0GHz Processor,$889,Intel,In Stock Online,https://www.centercom.com.au/intel-14th-gen-core-i9-14900kf-24-cores-32-threads-60ghz-processor,
+Intel 14th Gen Core i5-14600KF 14 Cores 20 Threads 5.3GHz Processor,$459,Intel,In Stock Online,https://www.centercom.com.au/intel-14th-gen-core-i5-14600kf-14-cores-20-threads-53ghz-processor,
+AMD Ryzen 7 5800X 4.70GHZ 8C/16T 4.7GHz AM4 Desktop Processor,$379,AMD,In Stock Online,https://www.centercom.com.au/amd-ryzen-7-5800x-470ghz-8-cores-16-threads-am4-desktop-processor,
+Intel 13th Gen Core i9-13900KS 24 Cores 32 Threads 6.0GHz Unlocked Processor,"$1,049",Intel,In Stock Online,https://www.centercom.com.au/intel-13th-gen-core-i9-13900ks-24-cores-32-thread-60ghz-lga1700-desktop-processor,"$1,099"
+Intel 12th Gen Core i7-12700 12 Cores 20 Threads 4.9Ghz Processor - Retail Box,$499,Intel,In Stock Online,https://www.centercom.com.au/intel-core-i7-12700-alder-lake-12c20t-49ghz-lga1700-processor-retail-box,
+AMD Ryzen 7 7700X 8 Cores 16 Threads Up to 5.4GHz Processor without Cooler,$549,AMD,In Stock Online,https://www.centercom.com.au/amd-ryzen-7-7700x-8-cores-16-threads-up-to-54ghz-without-cooler,
+Intel 13th Gen Core i3-13100F 4 Cores 8 Threads 4.5GHz Processor,$169,Intel,In Stock Online,https://www.centercom.com.au/intel-13th-gen-core-i3-13100f-4-cores-8-thread-45ghz-processor,
+AMD Ryzen 9 7950X 16 Cores 32 Threads Up to 5.7GHz Processor without Cooler,$899,AMD,In Stock Online,https://www.centercom.com.au/amd-ryzen-9-7950x-16-cores-32-threads-up-to-57ghz-processor-without-cooler,$949
+AMD Ryzen 7 5700G 8 Cores 16 Threads up to 4.6GHz with Radeon Graphics Desktop Processor,$319,AMD,In Stock Online,https://www.centercom.com.au/amd-ryzen-7-5700g-8-cores-16-threads-up-to-46ghz-with-radeon-graphics-desktop-processor,
+Intel 13th Gen Core i7-13700F 16 Cores 24 Threads 5.2GHz Processor,$589,Intel,In Stock Online,https://www.centercom.com.au/intel-13th-gen-core-i7-13700f-16-cores-24-thread-52ghz-processor,
+AMD Ryzen 7 7700 5.3 GHz 8 Core AM5 Desktop Processor with AMD Wraith Prism,$515,AMD,In Stock Online,https://www.centercom.com.au/amd-ryzen-7-7700-53-ghz-8-core-am5-with-amd-wraith-prism,$549
+AMD Ryzen 9 7900X 12 Cores 24 Threads Up to 5.6GHz without Cooler,$649,AMD,In Stock Online,https://www.centercom.com.au/amd-ryzen-9-7900x-12-cores-24-threads-up-to-56ghz-without-cooler,
+Intel 13th Gen Core i5-13500 14 Cores 20 Threads 4.8GHz Processor,$379,Intel,In Stock Online,https://www.centercom.com.au/intel-13th-gen-core-i5-13500-14-cores-20-thread-48ghz-processor,
+Intel 13th Gen Core i3-13100 4 Cores 8 Threads 4.5GHz Processor,$225,Intel,In Stock Online,https://www.centercom.com.au/intel-13th-gen-core-i3-13100-4-cores-8-thread-45ghz-processor,
+AMD Ryzen 9 7900 5.4 GHz 12 Core AM5 Desktop Processor with AMD Wraith Prism,$677,AMD,In Stock Online,https://www.centercom.com.au/amd-ryzen-9-7900-54-ghz-12-core-am5-with-amd-wraith-prism,
+Intel 13th Gen Core i5-13400 10 Cores 16 Threads 4.6GHz Processor,$365,Intel,In Stock Online,https://www.centercom.com.au/intel-13th-gen-core-i5-13400-10-cores-16-thread-46ghz-processor-lga1700,
+AMD Ryzen 9 5950X 16C/32T 4.9GHz AM4 Desktop Processor,$808,AMD,In Stock Online,https://www.centercom.com.au/amd-ryzen-9-5950x-490ghz-16-cores-32-threads-am4-desktop-processor,
+AMD Ryzen 5 5600X 4.60GHz 6C/12T AM4 Desktop Processor,$229,AMD,In Stock Online,https://www.centercom.com.au/amd-ryzen-5-5600x-460ghz-6-cores-12-threads-am4-desktop-processor,$248
+Intel 13th Gen Core i9-13900 24 Cores 32 Threads 5.6GHz Processor,$859,Intel,In Stock Online,https://www.centercom.com.au/intel-13th-gen-core-i9-13900-24-cores-32-thread-56ghz-processor,$944
+AMD Ryzen 9 7950X3D AM5 16 Cores 32 Threads 120W Processor without Cooler,$989,AMD,In Stock Online,https://www.centercom.com.au/amd-ryzen-9-7950x3d-am5-16-cores-32-threads-120w-processor-without-cooler,
+AMD Ryzen 9 7900X3D AM5 12 Cores 24 Threads 120W Processor without Cooler,$828,AMD,In Stock Online,https://www.centercom.com.au/amd-ryzen-9-7900x3d-am5-12-cores-24-threads-120w-processor-without-cooler,
+Intel Xeon E-2136 6 Cores 12 Threads 4.50GHz LGA1151 Processor,"$1,999",Intel,In Stock Online,https://www.centercom.com.au/intel-xeon-e-2136-6-cores-12-threads-450ghz-lga1151-processor,
+Intel Xeon W-2135 6 Cores 12 Threads 3.70GHz LGA2066 Processor,$999,Intel,In Stock Online,https://www.centercom.com.au/intel-xeon-w-2135-6-cores-12-threads-370-ghz-lga2066-processor,
+Intel Xeon Processor E3-1230 v6 4-Core 8-Thread 3.50GHz LGA1151 Processor,$429,Intel,In Stock Online,https://www.centercom.com.au/intel-xeon-processor-e3-1230-v6-4-core-8-thread-350ghz-lga1151-processor,
+Intel 12th Gen Core i5-12400F 6 Cores 12 Threads 4.4GHz Processor,$205,Intel,In Stock Online,https://www.centercom.com.au/intel-12th-gen-core-i5-12400f-lga1700-desktop-processor,
+Intel 13th Gen Core i9-13900K 24 Cores 32 Threads 5.8GHz Processor,$875,Intel,In Stock Online,https://www.centercom.com.au/intel-13th-gen-core-i9-13900k-24-cores-32-thread-58ghz-processor,
+Intel 13th Gen Core i5-13400F 10 Cores 16 Threads 4.6GHz Processor,$325,Intel,In Stock Online,https://www.centercom.com.au/intel-13th-gen-core-i5-13400f-10-cores-16-thread-46ghz-processor,
+Intel 13th Gen Core i7-13700 16 Cores 24 Threads 5.2GHz Processor,$615,Intel,In Stock Online,https://www.centercom.com.au/intel-13th-gen-core-i7-13700-16-cores-24-thread-52ghz-processor,
+Intel 13th Gen Core i9-13900F 24 Cores 32 Threads 5.6GHz Processor,$868,Intel,In Stock Online,https://www.centercom.com.au/intel-13th-gen-core-i9-13900f-24-cores-32-thread-56ghz-processor,
+AMD Ryzen 9 5900X 12C/24T 4.8GHz AM4 Desktop Processor,$499,AMD,In Stock Online,https://www.centercom.com.au/amd-ryzen-9-5900x-12-cores-24-threads-bc-37ghzmax-boost-48ghz-processor,$519
+Intel 12th Gen Core i5-12400 6 Cores 12 Threads 4.40GHz Processor,$253,Intel,In Stock Online,https://www.centercom.com.au/intel-12th-gen-core-i5-12400-lga1700-desktop-processor,
+Intel 12th Gen Core i3-12100 4 Core 8 Threads 4.3GHz LGA1700 Processor - Retail Box,$193,Intel,Pre-order,https://www.centercom.com.au/intel-12th-gen-core-i3-12100-4-core-8-thread-43ghz-lga1700-desktop-processor-retail-box,
+Intel 13th Gen Core i5-13600K 14 Cores 20 Threads 5.1GHz Processor,$499,Intel,In Stock Online,https://www.centercom.com.au/intel-13th-gen-core-i5-13600k-14-cores-20-thread-51ghz-processor,$529
+AMD Ryzen 7 7800X3D AM5 8 Cores 16 Threads Processor without Cooler,$579,AMD,In Stock Online,https://www.centercom.com.au/amd-ryzen-7-7800x3d-am5-5ghz-8c-16t-processor-without-cooler,
+AMD Threadripper 7980X 64 Cores 128 Threads 5.1GHz sTR5 Processor,"$8,599",AMD,Pre-order,https://www.centercom.com.au/amd-threadripper-7980x-64-cores-128-threads-51ghz-str5-processor,
+AMD Ryzen Threadripper 7960X 24 Cores 48 Threads 5.3GHz sTR5 Processor,"$2,579",AMD,Pre-order,https://www.centercom.com.au/amd-ryzen-threadripper-7960x-24-cores-48-threads-53ghz-str5-processor,
+Intel 12th Gen Core i9-12900K 16 Cores  24 Threads 5.2 GHz Unlocked Processor,$609,Intel,In Stock Instore,https://www.centercom.com.au/intel-core-i9-i9-12900k-hexadeca-core-16-core-320ghz-processor,
+Intel 12th Gen Core i7-12700F 4.9 GHz LGA1700 Desktop Processor,$458,Intel,In Stock Instore,https://www.centercom.com.au/intel-12th-gen-core-i7-12700f-49-ghz-lga1700-desktop-processor,
+Intel 12th Gen Core i3-12100F 4 Cores 8 Threads 4.3 GHz Processor,$145,Intel,In Stock Instore,https://www.centercom.com.au/intel-12th-gen-core-i3-12100f-lga1700-alder-lake-boxed-cpu,
+AMD Ryzen Threadripper PRO 7995WX 96 Cores 192 Threads 5.1GHz sTR5 Processor,"$16,999",AMD,Out of Stock,https://www.centercom.com.au/amd-ryzen-threadripper-pro-7995wx-96-cores-192-threads-51ghz-str5-processor,
+AMD Ryzen Threadripper PRO 7985WX 64 Cores 128 Threads 5.1GHz sTR5 Processor,"$12,499",AMD,Out of Stock,https://www.centercom.com.au/amd-ryzen-threadripper-pro-7985wx-64-cores-128-threads-51ghz-str5-processor,
+AMD Ryzen Threadripper PRO 7975WX 32 Cores 64 Threads 5.3GHz sTR5 Processor,"$6,699",AMD,Out of Stock,https://www.centercom.com.au/amd-ryzen-threadripper-pro-7975wx-32-cores-64-threads-53ghz-str5-processor,
+AMD Ryzen Threadripper PRO 7965WX 24 Cores 48 Threads 5.3GHz sTR5 Processor,"$4,549",AMD,Out of Stock,https://www.centercom.com.au/amd-ryzen-threadripper-pro-7965wx-24-cores-48-threads-53ghz-str5-processor,
+AMD Ryzen 3 4100 Processor with Wraith Stealth,$115,AMD,In Stock,,
+AMD Ryzen 5 5500 with Wraith Stealth,$149,AMD,In Stock,,
+AMD Ryzen 5 5600 with Wraith Stealth,$195,AMD,In Stock,,
+AMD Ryzen 5 5600G with Wraith Stealth,$209,AMD,In Stock,,
+AMD Ryzen 5 5600X with Wraith Stealth,$229,AMD,In Stock,,
+AMD Ryzen 7 5700G with Wraith Stealth,$329,AMD,In Stock,,
+AMD Ryzen 7 5700X Processor,$269,AMD,In Stock,,
+AMD Ryzen 7 5800X Processor,$399,AMD,In Stock,,
+AMD Ryzen 7 5800X3D Processor,$549,AMD,In Stock,,
+AMD Ryzen 9 5900X Processor,$519,AMD,In Stock,,
+AMD Ryzen 9 5950X Processor,$809,AMD,In Stock,,
+AMD Ryzen 7 7800X3D Processor,$589,AMD,In Stock,,
+AMD Ryzen 9 7900X3D Processor,$829,AMD,In Stock,,
+AMD Ryzen 9 7950X3D Processor,$999,AMD,In Stock,,
+AMD Ryzen 5 7600 Processor with Wraith Stealth,$339,AMD,In Stock,,
+AMD Ryzen 5 7600X Processor,$359,AMD,In Stock,,
+AMD Ryzen 7 7700 Processor with Wraith Prism,$515,AMD,In Stock,,
+AMD Ryzen 7 7700X Processor,$549,AMD,In Stock,,
+AMD Ryzen 9 7900 Processor with Wraith Prism,$679,AMD,In Stock,,
+AMD Ryzen 9 7900X Processor,$659,AMD,In Stock,,
+AMD Ryzen 9 7950X Processor,$899,AMD,In Stock,,
+AMD Ryzen 5 7500F Processor with Wraith Stealth OEM,$299,AMD,Preorder,,
+AMD Ryzen 5 7500F Stealth Gaming Bundle,$699,AMD,Out of Stock,,
+Intel Core i5 10400F Processor,$169,Intel,In Stock,,
+Intel Core i5 12400 Processor,$269,Intel,In Stock,,
+Intel Core i5 12400F Processor,$205,Intel,In Stock,,
+Intel Core i5 12500 Processor,$339,Intel,In Stock,,
+Intel Core i7 12700 Processor,$499,Intel,Out of Stock,,
+Intel Core i7 12700F Processor,$459,Intel,In Stock,,
+Intel Core i7 12700K Processor,$499,Intel,In Stock,,
+Intel Core i7 12700KF Processor,$469,Intel,In Stock,,
+Intel Core i9 12900K Processor,$649,Intel,In Stock,,
+Intel Core i9 12900KF Processor,$619,Intel,In Stock,,
+Intel Core i9 12900KS Processor,$719,Intel,In Stock,,
+Intel Core i3 13100 Processor,$235,Intel,In Stock,,
+Intel Core i5 13400 Processor,$359,Intel,Preorder,,
+Intel Core i5 13400F Processor,$329,Intel,In Stock,,
+Intel Core i5 13600K Processor,$499,Intel,In Stock,,
+Intel Core i7 13700 Processor,$615,Intel,In Stock,,
+Intel Core i7 13700F Processor,$589,Intel,In Stock,,
+Intel Core i7 13700K Processor,$649,Intel,In Stock,,
+Intel Core i7 13700KF Processor,$629,Intel,In Stock,,
+Intel Core i9 13900K Processor,$875,Intel,In Stock,,
+Intel Core i9 13900KF Processor,$855,Intel,In Stock,,
+Intel Core i9 13900KS Processor,$1049,Intel,In Stock,,
+Intel Core i5 14600K Processor,$499,Intel,In Stock,,
+Intel Core i5 14600KF Processor,$469,Intel,In Stock,,
+Intel Core i7 14700K Processor,$659,Intel,In Stock,,
+Intel Core i7 14700KF Processor,$629,Intel,In Stock,,
+Intel Core i9 14900K Processor,$915,Intel,In Stock,,
+Intel Core i9 14900KF Processor,$889,Intel,In Stock,,
+AMD Ryzen 7 7800X3D 8 Core AM5 4.2GHz Unlocked CPU Processor,$579.00,AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-42ghz-unlocked-cpu-processor-ac61927,$780.00
+AMD Ryzen 5 5600 6-Core AM4 3.5GHz Unlocked CPU Processor + Wraith Stealth,$195.00,AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-5-5600-6core-am4-35ghz-unlocked-cpu-processor-wraith-stealth-ac53026,$299.00
+AMD Ryzen 7 5700X 8 Core AM4 3.4GHz Unlocked CPU Processor,$269.00,AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-7-5700x-8-core-am4-34ghz-unlocked-cpu-processor-ac52970,$449.00
+AMD Ryzen 5 5600X 6-Core AM4 3.70 GHz Unlocked CPU Processor + Wraith Stealth,$229.00,AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-5-5600x-6core-am4-370-ghz-unlocked-cpu-processor-wraith-stealth-ac39467,$479.00
+AMD Ryzen 5 5500 6-Core AM4 3.6GHz Unlocked CPU Processor + Wraith Stealth,$149.00,AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-5-5500-6core-am4-36ghz-unlocked-cpu-processor-wraith-stealth-ac53064,$239.00
+AMD Ryzen 5 7600X 6-Core AM5 4.70 GHz Unlocked CPU Processor,$359.00,AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-5-7600x-6core-am5-470-ghz-unlocked-cpu-processor-ac56413,$515.00
+AMD Ryzen 5 7600 AM5 3.8 GHz Unlocked CPU Processor + Wraith Stealth,$339.00,AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-5-7600-am5-38-ghz-unlocked-cpu-processor-wraith-stealth-ac60034,$409.00
+AMD Ryzen 9 7900X 12-Core AM5 4.70 GHz Unlocked CPU Processor,$649.00,AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-9-7900x-12core-am5-470-ghz-unlocked-cpu-processor-ac56411,$949.00
+AMD Ryzen 7 5800X 8-Core AM4 3.80 GHz Unlocked CPU Processor,$389.00,AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-7-5800x-8core-am4-380-ghz-unlocked-cpu-processor-ac39468,$699.00
+AMD Ryzen 3 3100 4 Core Socket AM4 3.6GHz CPU Processor - Tray - No Cooler,$109.00,AMD,Out Of Stock,https://www.mwave.com.au/product/amd-ryzen-3-3100-4-core-socket-am4-36ghz-cpu-processor-tray-no-cooler-ac43226,
+AMD Ryzen 7 5800X3D 8-Core 16-Thread AMD CPU up to 4.50GHz,$549.00,AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-7-5800x3d-8core-16thread-amd-cpu-up-to-450ghz-ac53065,$729.00
+AMD Ryzen 7 7700X 8-Core AM5 4.50 GHz Unlocked CPU Processor,$549.00,AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-7-7700x-8core-am5-450-ghz-unlocked-cpu-processor-ac56412,$689.00
+AMD Ryzen 9 5900X 12-Core AM4 3.70 GHz Unlocked CPU Processor,$499.00,AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-9-5900x-12core-am4-370-ghz-unlocked-cpu-processor-ac39469,$869.00
+AMD Ryzen 9 5950X 16-Core AM4 3.40 GHz Unlocked CPU Processor,$809.00,AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-9-5950x-16core-am4-340-ghz-unlocked-cpu-processor-ac39470,"$1,349.00"
+AMD Ryzen 7 7700 AM5 3.8 GHz Unlocked CPU Processor + Wraith Prism,$519.00,AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-7-7700-am5-38-ghz-unlocked-cpu-processor-wraith-prism-ac60033,$599.00
+AMD Ryzen 9 7950X3D 16-Core AM5 4.20GHz CPU Processor,$989.00,AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-9-7950x3d-16core-am5-420ghz-cpu-processor-ac60815,"$1,199.00"
+AMD Ryzen 5 5600G 6 Core Socket AM4 3.9GHz CPU Processor + Wraith Stealth Cooler,$209.00,AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-5-5600g-6-core-socket-am4-39ghz-cpu-processor-wraith-stealth-cooler-ac46162,$225.00
+AMD Ryzen 9 7950X 16-Core AM5 4.50 GHz Unlocked CPU Processor,$899.00,AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-9-7950x-16core-am5-450-ghz-unlocked-cpu-processor-ac56410,"$1,209.00"
+AMD Ryzen 9 7900 AM5 3.7 GHz Unlocked CPU Processor + Wraith Prism,$679.00,AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-9-7900-am5-37-ghz-unlocked-cpu-processor-wraith-prism-ac60032,$749.00
+AMD Ryzen 7 5700G 8 Core Socket AM4 3.8GHz CPU Processor + Wraith Stealth Cooler,$329.00,AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-7-5700g-8-core-socket-am4-38ghz-cpu-processor-wraith-stealth-cooler-ac46163,$549.00
+AMD Ryzen 9 7900X3D 12-Core AM5 4.4GHz CPU Processor,$829.00,AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-9-7900x3d-12core-am5-44ghz-cpu-processor-ac60814,$999.00
+AMD Ryzen Threadripper 7960X 24-Core sTR5 Unlocked CPU Processor,"$2,579.00",AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-threadripper-7960x-24core-str5-unlocked-cpu-processor-ac71111,
+AMD Ryzen ThreadRipper Pro 5955WX 16-Core sWRX8 Processor,"$2,099.00",AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-threadripper-pro-5955wx-16core-swrx8-processor-ac62514,"$2,149.00"
+AMD Ryzen Threadripper PRO 7995WX 96-Core sTR5 Unlocked CPU Processor,"$16,999.00",AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-threadripper-pro-7995wx-96core-str5-unlocked-cpu-processor-ac71104,
+AMD Ryzen Threadripper PRO 7985WX 64-Core sTR5 Unlocked CPU Processor,"$12,499.00",AMD,Out Of Stock,https://www.mwave.com.au/product/amd-ryzen-threadripper-pro-7985wx-64core-str5-unlocked-cpu-processor-ac71106,
+AMD Ryzen Threadripper PRO 7975WX 32-Core sTR5 Unlocked CPU Processor,"$6,699.00",AMD,Out Of Stock,https://www.mwave.com.au/product/amd-ryzen-threadripper-pro-7975wx-32core-str5-unlocked-cpu-processor-ac71107,
+AMD Ryzen Threadripper PRO 7965WX 24-Core sTR5 Unlocked CPU Processor,"$4,549.00",AMD,Out Of Stock,https://www.mwave.com.au/product/amd-ryzen-threadripper-pro-7965wx-24core-str5-unlocked-cpu-processor-ac71108,
+AMD Ryzen Threadripper 7980X 64-Core sTR5 Unlocked CPU Processor,"$8,599.00",AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-threadripper-7980x-64core-str5-unlocked-cpu-processor-ac71109,
+AMD Ryzen Threadripper 7970X 32-Core sTR5 Unlocked CPU Processor,"$4,299.00",AMD,Out Of Stock,https://www.mwave.com.au/product/amd-ryzen-threadripper-7970x-32core-str5-unlocked-cpu-processor-ac71110,
+AMD Ryzen ThreadRipper Pro 5975WX 32-Core sWRX8 Processor,"$4,899.00",AMD,Out Of Stock,https://www.mwave.com.au/product/amd-ryzen-threadripper-pro-5975wx-32core-swrx8-processor-ac55031,"$5,050.95"
+AMD Ryzen ThreadRipper Pro 5965WX 24-Core sWRX8 Processor,"$3,499.00",AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-threadripper-pro-5965wx-24core-swrx8-processor-ac55257,"$3,999.00"
+AMD Ryzen ThreadRipper Pro 5995WX 64-Core sWRX8 Processor,"$9,799.00",AMD,In Stock,https://www.mwave.com.au/product/amd-ryzen-threadripper-pro-5995wx-64core-swrx8-processor-ac55258,"$11,999.00"
+Intel Core i7 14700KF 20 Core LGA 1700 Unlocked CPU Processor,$629.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i7-14700kf-20-core-lga-1700-unlocked-cpu-processor-ac69339,
+Intel Core i7 14700K 20 Core LGA 1700 Unlocked CPU Processor,$679.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i7-14700k-20-core-lga-1700-unlocked-cpu-processor-ac69338,
+Intel Core i9 14900K 24 Core LGA 1700 Unlocked CPU Processor,$929.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i9-14900k-24-core-lga-1700-unlocked-cpu-processor-ac69340,
+Intel Core i9 14900KF 24 Core LGA 1700 Unlocked CPU Processor,$889.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i9-14900kf-24-core-lga-1700-unlocked-cpu-processor-ac69341,
+Intel Core i5-12400 6 Core LGA 1700 2.5GHz CPU Processor,$269.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i512400-6-core-lga-1700-25ghz-cpu-processor-ac50384,
+Intel Core i7-12700KF 12 Core LGA 1700 Unlocked CPU Processor,$479.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i712700kf-12-core-lga-1700-unlocked-cpu-processor-ac48592,
+Intel Core i5 14600KF 14 Core LGA 1700 Unlocked CPU Processor,$479.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i5-14600kf-14-core-lga-1700-unlocked-cpu-processor-ac69337,
+Intel Core i5 12400F 6 Core LGA 1700 2.5GHz CPU Processor,$229.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i5-12400f-6-core-lga-1700-25ghz-cpu-processor-ac50490,
+Intel Core i5 14600K 14 Core LGA 1700 Unlocked CPU Processor,$499.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i5-14600k-14-core-lga-1700-unlocked-cpu-processor-ac69336,
+Intel Core i9 13900KF 24 Core LGA 1700 3GHz Unlocked CPU Processor,$859.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i9-13900kf-24-core-lga-1700-3ghz-unlocked-cpu-processor-ac57592,
+Intel Core i5 13400F 10 Core LGA 1700 CPU Processor,$329.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i5-13400f-10-core-lga-1700-cpu-processor-ac59595,
+Intel Core i9 13900K 24 Core LGA 1700 3GHz Unlocked CPU Processor,$899.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i9-13900k-24-core-lga-1700-3ghz-unlocked-cpu-processor-ac57593,
+Intel Core i7 13700K 16 Core LGA 1700 3.4GHz Unlocked CPU Processor,$649.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i7-13700k-16-core-lga-1700-34ghz-unlocked-cpu-processor-ac57591,
+Intel Core i9 13900KS 24 Core 32 Thread LGA 1700 6.0GHz Unlocked CPU Processor,"$1,049.00",Intel,In Stock,https://www.mwave.com.au/product/intel-core-i9-13900ks-24-core-32-thread-lga-1700-60ghz-unlocked-cpu-processor-ac59718,
+Intel Core i5 13500 14 Core LGA 1700 CPU Processor,$389.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i5-13500-14-core-lga-1700-cpu-processor-ac59593,
+Intel Core i5 13600K 14 Core LGA 1700 3.5GHz Unlocked CPU Processor,$499.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i5-13600k-14-core-lga-1700-35ghz-unlocked-cpu-processor-ac57589,
+Intel Core i7 13700 16 Core LGA 1700 CPU Processor,$619.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i7-13700-16-core-lga-1700-cpu-processor-ac59591,
+Intel Core i7 13700F 16 Core LGA 1700 CPU Processor,$589.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i7-13700f-16-core-lga-1700-cpu-processor-ac59592,
+Intel Core i7-12700K 12 Core LGA 1700 Unlocked CPU Processor,$562.95,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i712700k-12-core-lga-1700-unlocked-cpu-processor-ac48593,
+Intel Core i5-12600K 10 Core LGA 1700 Unlocked CPU Processor,$419.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i512600k-10-core-lga-1700-unlocked-cpu-processor-ac48594,
+Intel Core i3 13100F Quad Core LGA 1700 CPU Processor,$187.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i3-13100f-quad-core-lga-1700-cpu-processor-ac59598,
+Intel Core i7 12700 12-Core LGA 1700 2.10GHz CPU Processor,$499.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i7-12700-12core-lga-1700-210ghz-cpu-processor-ac52648,
+Intel Core i7-12700F 12 Core LGA 1700 2.1GHz CPU Processor,$469.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i712700f-12-core-lga-1700-21ghz-cpu-processor-ac50381,
+Intel Core i3-12100 4 Core LGA 1700 3.3GHz CPU Processor,$231.95,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i312100-4-core-lga-1700-33ghz-cpu-processor-ac50735,
+Intel Core i9 13900F 24 Core LGA 1700 CPU Processor,$869.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i9-13900f-24-core-lga-1700-cpu-processor-ac59590,
+Intel Core i3 13100 Quad Core LGA 1700 CPU Processor,$235.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i3-13100-quad-core-lga-1700-cpu-processor-ac59596,
+Intel Core i5 13400 10 Core LGA 1700 CPU Processor,$369.00,Intel,Out Of Stock,https://www.mwave.com.au/product/intel-core-i5-13400-10-core-lga-1700-cpu-processor-ac59594,
+Intel Core i5 13600KF 14 Core LGA 1700 3.5GHz Unlocked CPU Processor,$469.00,Intel,Out Of Stock,https://www.mwave.com.au/product/intel-core-i5-13600kf-14-core-lga-1700-35ghz-unlocked-cpu-processor-ac57588,
+Intel Core i7 13700KF 16 Core LGA 1700 3.4GHz Unlocked CPU Processor,$629.00,Intel,Out Of Stock,https://www.mwave.com.au/product/intel-core-i7-13700kf-16-core-lga-1700-34ghz-unlocked-cpu-processor-ac57590,
+Intel Core i9 13900 24 Core LGA 1700 CPU Processor,$899.00,Intel,In Stock,https://www.mwave.com.au/product/intel-core-i9-13900-24-core-lga-1700-cpu-processor-ac59589,
+Intel Core i3 12100F 4 Core LGA 1700 3.3GHz CPU Processor,$149.00,Intel,Out Of Stock,https://www.mwave.com.au/product/intel-core-i3-12100f-4-core-lga-1700-33ghz-cpu-processor-ac50734,
+Bundle Deal - Gigabyte i5 B760 Productivity Pack,$557.00,Bundle,In Stock,https://www.mwave.com.au/product/bundle-deal-gigabyte-i5-b760-productivity-pack-ac68015,
+Bundle Deal - Gigabyte i5 B760 Gaming Pack,$627.00,Bundle,In Stock,https://www.mwave.com.au/product/bundle-deal-gigabyte-i5-b760-gaming-pack-ac68016,
+Bundle Deal - MSI i5 B760 Productivity Pack,$637.00,Bundle,Out Of Stock,https://www.mwave.com.au/product/bundle-deal-msi-i5-b760-productivity-pack-ac68018,
+Bundle Deal - ASUS i5 B760 Prime Pack,$523.00,Bundle,Out Of Stock,https://www.mwave.com.au/product/bundle-deal-asus-i5-b760-prime-pack-ac68020,
+Bundle Deal - ASUS i5 B760 TUF Pack,$647.00,Bundle,Out Of Stock,https://www.mwave.com.au/product/bundle-deal-asus-i5-b760-tuf-pack-ac68024,
+Intel Core i3 10105F Desktop Processor,$119,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1200/88298-bx8070110105f,
+Intel Core i5 10400F Desktop Processor,$169,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1200/82941-bx8070110400f,
+Intel Core i3 10105 Desktop Processor,$179,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1200/94879-bx8070110105,
+Intel Core i5 11400F Desktop Processor,$185,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1200/88386-bx8070811400f,$219
+Intel Core i7 11700K Desktop Processor,$489,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1200/88373-bx8070811700k,
 "Intel Core i7 11700 Desktop Processor
 
 
-Refurbished Available at $469",$479,Intel,In Stock,$519
-Intel Core i7 12700 Desktop Processor,$499,Intel,In Stock,
-Intel Core i5 12400F Desktop Processor,$215,Intel,In Stock,$235
-Intel Core i5 12400 Desktop Processor,$253,Intel,In Stock,$269
-Intel Core i7 12700K Desktop Processor,$509,Intel,In Stock,
-Intel Core i3-12100F Desktop Processor,$145,Intel,In Stock,
-Intel Core i5 12600KF Desktop Processor,$359,Intel,Out of Stock,
-Intel Core i7 12700F Desktop Processor,$459,Intel,In Stock,$499
-Intel Core i7 12700KF Desktop Processor,$475,Intel,In Stock,
-Intel Core i5 12600K Desktop Processor,$409,Intel,In Stock,
-Intel Core i9 12900K Desktop Processor,$699,Intel,In Stock,$729
-Intel Core i3-12100 Desktop Processor,$199,Intel,In Stock,
-Intel Core i9 12900KF Desktop Processor,$649,Intel,In Stock,
-Intel Core i9 12900 Desktop Processor,$699,Intel,In Stock,$749
-Intel Core i5 12500 Desktop Processor,$385,Intel,In Stock,
+Refurbished Available at $469",$479,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1200/88376-bx8070811700,$519
+Intel Core i7 12700 Desktop Processor,$499,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/94570-bx8071512700,
+Intel Core i5 12400F Desktop Processor,$215,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/94371-bx8071512400f,$235
+Intel Core i5 12400 Desktop Processor,$253,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/94370-bx8071512400,$269
+Intel Core i7 12700K Desktop Processor,$509,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/92975-bx8071512700k,
+Intel Core i3-12100F Desktop Processor,$145,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/94559-bx8071512100f,
+Intel Core i5 12600KF Desktop Processor,$359,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/92974-bx8071512600kf,
+Intel Core i7 12700F Desktop Processor,$459,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/94366-bx8071512700f,$499
+Intel Core i7 12700KF Desktop Processor,$475,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/92976-bx8071512700kf,
+Intel Core i5 12600K Desktop Processor,$409,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/92973-bx8071512600k,
+Intel Core i3-12100 Desktop Processor,$199,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/94560-bx8071512100,
+Intel Core i9 12900K Desktop Processor,$699,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/92977-bx8071512900k,$729
+Intel Core i9 12900KF Desktop Processor,$649,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/92979-bx8071512900kf,
+Intel Core i9 12900 Desktop Processor,$699,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/96322-bx8071512900,$749
+Intel Core i5 12500 Desktop Processor,$385,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/94369-bx8071512500,
 "Intel Core i9 12900KS Desktop Processor
 
 
-Refurbished Available at $719",$899,Intel,In Stock,
-Intel Core i9 13900 Desktop Processor,$899,Intel,In Stock,$909
-Intel Core i9 13900F Desktop Processor,$869,Intel,In Stock,
-Intel Core i9 13900K Desktop Processor,$879,Intel,In Stock,$899
-Intel Core i9 13900KF Desktop Processor,$859,Intel,In Stock,
-Intel Core i9 13900KS Desktop Processor,$1099,Intel,In Stock,$1149
-Intel Core i7 13700 Desktop Processor,$615,Intel,In Stock,$629
-Intel Core i7 13700F Desktop Processor,$589,Intel,In Stock,
-Intel Core i7 13700K Desktop Processor,$649,Intel,In Stock,
-Intel Core i7 13700KF Desktop Processor,$629,Intel,In Stock,
-Intel Core i5 13400 Desktop Processor,$365,Intel,In Stock,$375
-Intel Core i5 13400F Desktop Processor,$325,Intel,In Stock,$329
-Intel Core i5 13500 Desktop Processor,$395,Intel,In Stock,
-Intel Core i5 13600K Desktop Processor,$509,Intel,In Stock,
-Intel Core i5 13600KF Desktop Processor,$469,Intel,In Stock,
-Intel Core i3 13100 Desktop Processor,$225,Intel,In Stock,$235
-Intel Core i3 13100F Desktop Processor,$169,Intel,In Stock,$189
-Intel Core i5 14600K Desktop Processor,$499,Intel,In Stock,$525
-Intel Core i5 14600KF Desktop Processor,$469,Intel,In Stock,
-Intel Core i7 14700K Desktop Processor,$679,Intel,In Stock,
-Intel Core i7 14700KF Desktop Processor,$629,Intel,In Stock,$639
-Intel Core i9 14900K Desktop Processor,$929,Intel,In Stock,$949
-Intel Core i9 14900KF Desktop Processor,$899,Intel,In Stock,$919
-Intel Core i5 11400F Desktop Processor,$185,Intel,In Stock,$219
-Intel Core i3 10105F Desktop Processor,$119,Intel,In Stock,
+Refurbished Available at $719",$899,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/95838-bx8071512900ks,
+Intel Core i9 13900 Desktop Processor,$899,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/101313-bx8071513900,$909
+Intel Core i9 13900F Desktop Processor,$869,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/101314-bx8071513900f,
+Intel Core i9 13900K Desktop Processor,$879,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/99739-bx8071513900k,$899
+Intel Core i9 13900KF Desktop Processor,$859,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/99740-bx8071513900kf,
+Intel Core i9 13900KS Desktop Processor,$1099,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/101301-bx8071513900ks,$1149
+Intel Core i7 13700 Desktop Processor,$615,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/101311-bx8071513700,$629
+Intel Core i7 13700F Desktop Processor,$589,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/101312-bx8071513700f,
+Intel Core i7 13700K Desktop Processor,$649,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/99737-bx8071513700k,
+Intel Core i7 13700KF Desktop Processor,$629,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/99738-bx8071513700kf,
+Intel Core i5 13400 Desktop Processor,$365,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/101308-bx8071513400,$375
+Intel Core i5 13400F Desktop Processor,$325,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/101309-bx8071513400f,$329
+Intel Core i5 13500 Desktop Processor,$395,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/101310-bx8071513500,
+Intel Core i5 13600K Desktop Processor,$509,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/99734-bx8071513600k,
+Intel Core i5 13600KF Desktop Processor,$479,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/99736-bx8071513600kf,
+Intel Core i3 13100 Desktop Processor,$225,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/101306-bx8071513100,$235
+Intel Core i3 13100F Desktop Processor,$172,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/101307-bx8071513100f,$189
+Intel Core i5 14600K Desktop Processor,$499,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/105933-bx8071514600k,$525
+Intel Core i5 14600KF Desktop Processor,$459,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/105934-bx8071514600kf,$469
+Intel Core i7 14700K Desktop Processor,$655,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/105935-bx8071514700k,$679
+Intel Core i7 14700KF Desktop Processor,$629,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/105936-bx8071514700kf,$639
+Intel Core i9 14900K Desktop Processor,$915,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/105937-bx8071514900k,$949
+Intel Core i9 14900KF Desktop Processor,$889,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/105938-bx8071514900kf,$919
+Intel Core i5 11400F Desktop Processor,$185,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1200/88386-bx8070811400f,$219
+Intel Core i7 11700K Desktop Processor,$489,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1200/88373-bx8070811700k,
 "Intel Core i7 11700 Desktop Processor
 
 
-Refurbished Available at $469",$479,Intel,In Stock,$519
-Intel Core i5 10400F Desktop Processor,$169,Intel,In Stock,
-Intel Core i3 10105 Desktop Processor,$179,Intel,In Stock,
-Intel Pentium Gold G6405 Desktop Processor,$109,Intel,Out of Stock,
-Asus Z790 Core i9 Power Bundle,$2037,Asus,In Stock,$2097
-Asus B760 Core i5 Gamer Bundle,$782,Asus,In Stock,$852
-Gigabyte B760 Core i5 Gamer Bundle,$783,Gigabyte,In Stock,$833
-Asus Z790 Core i7 D5 Bundle,$1282,Asus,In Stock,$1307
-Intel x ASUS Gamer Days Hardware Bundle,$1137,Intel,In Stock,$1237
-Gigabyte Z690 Core i7 Power Bundle,$767,Gigabyte,In Stock,$787
-ASUS Z790 Core i9 Ultimate Bundle,$2297,ASUS,In Stock,$2457
-MSI Core i7 Z790 Gamer Bundle,$1199,MSI,In Stock,$1287
-Asus Z790 Core i9 Power Bundle,$2187,Asus,In Stock,$2227
-Intel Core i7 12700 Desktop Processor,$499,Intel,In Stock,
-Intel Core i7 13700K Desktop Processor,$649,Intel,In Stock,
-Intel Core i5 12400F Desktop Processor,$215,Intel,In Stock,$235
-Intel Core i9 13900K Desktop Processor,$879,Intel,In Stock,$899
-Intel Core i5 13600K Desktop Processor,$509,Intel,In Stock,
-Intel Core i9 14900K Desktop Processor,$929,Intel,In Stock,$949
-Intel Core i5 12400 Desktop Processor,$253,Intel,In Stock,$269
-Intel Core i7 12700K Desktop Processor,$509,Intel,In Stock,
-Intel Core i7 14700K Desktop Processor,$679,Intel,In Stock,
-Intel Core i5 13500 Desktop Processor,$395,Intel,In Stock,
-Intel Core i5 13600KF Desktop Processor,$469,Intel,In Stock,
-Intel Core i5 13400F Desktop Processor,$325,Intel,In Stock,$329
-Intel Core i7 13700KF Desktop Processor,$629,Intel,In Stock,
-Intel Core i7 13700 Desktop Processor,$615,Intel,In Stock,$629
-Intel Core i7 14700KF Desktop Processor,$629,Intel,In Stock,$639
-Intel Core i5 13400 Desktop Processor,$365,Intel,In Stock,$375
-Intel Core i9 13900KF Desktop Processor,$859,Intel,In Stock,
-Intel Core i9 13900KS Desktop Processor,$1099,Intel,In Stock,$1149
-Intel Core i7 13700F Desktop Processor,$589,Intel,In Stock,
-Intel Core i3-12100F Desktop Processor,$145,Intel,In Stock,
-Intel Core i5 12600KF Desktop Processor,$359,Intel,Out of Stock,
-Intel Core i7 12700F Desktop Processor,$459,Intel,In Stock,$499
-Intel Core i7 12700KF Desktop Processor,$475,Intel,In Stock,
-Intel Core i9 14900KF Desktop Processor,$899,Intel,In Stock,$919
-Intel Core i5 14600KF Desktop Processor,$469,Intel,In Stock,
-Intel Core i5 14600K Desktop Processor,$499,Intel,In Stock,$525
-Intel Core i5 12600K Desktop Processor,$409,Intel,In Stock,
-Intel Core i9 12900K Desktop Processor,$699,Intel,In Stock,$729
-Intel Core i3 13100 Desktop Processor,$225,Intel,In Stock,$235
-Intel Core i3-12100 Desktop Processor,$199,Intel,In Stock,
-Intel Core i3 13100F Desktop Processor,$169,Intel,In Stock,$189
-Intel Core i9 13900 Desktop Processor,$899,Intel,In Stock,$909
-Intel Core i9 12900KF Desktop Processor,$649,Intel,In Stock,
-Intel Core i9 13900F Desktop Processor,$869,Intel,In Stock,
-Intel Core i9 12900 Desktop Processor,$699,Intel,In Stock,$749
-Intel Core i5 12500 Desktop Processor,$385,Intel,In Stock,
+Refurbished Available at $469",$479,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1200/88376-bx8070811700,$519
+Intel Core i3 10105F Desktop Processor,$119,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1200/88298-bx8070110105f,
+Intel Core i5 10400F Desktop Processor,$169,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1200/82941-bx8070110400f,
+Intel Core i3 10105 Desktop Processor,$179,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1200/94879-bx8070110105,
+Intel Pentium Gold G6405 Desktop Processor,$109,Intel,Out of Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1200/96710-bx80701g6405,
+Asus Z790 Core i9 Power Bundle,$2037,Asus,In Stock,https://www.scorptec.com.au/bundle/cpu/intel-socket-1700/1535-bdl-1535,$2097
+Asus B760 Core i5 Gamer Bundle,$782,Asus,In Stock,https://www.scorptec.com.au/bundle/cpu/intel-socket-1700/1598-bdl-1598,$852
+Gigabyte B760 Core i5 Gamer Bundle,$783,Gigabyte,In Stock,https://www.scorptec.com.au/bundle/cpu/intel-socket-1700/1599-bdl-1599,$833
+Asus Z790 Core i7 D5 Bundle,$1282,Asus,In Stock,https://www.scorptec.com.au/bundle/cpu/intel-socket-1700/1631-bdl-1631,$1307
+Intel x ASUS Gamer Days Hardware Bundle,$1137,Intel,In Stock,https://www.scorptec.com.au/bundle/cpu/intel-socket-1700/1680-bdl-1680,$1237
+Gigabyte Z690 Core i7 Power Bundle,$767,Gigabyte,In Stock,https://www.scorptec.com.au/bundle/cpu/intel-socket-1700/1700-bdl-1700,$787
+ASUS Z790 Core i9 Ultimate Bundle,$2297,ASUS,In Stock,https://www.scorptec.com.au/bundle/cpu/intel-socket-1700/1717-bdl-1717,$2457
+MSI Core i7 Z790 Gamer Bundle,$1199,MSI,In Stock,https://www.scorptec.com.au/bundle/cpu/intel-socket-1700/1718-bdl-1718,$1303
+Asus Z790 Core i9 Power Bundle,$2187,Asus,In Stock,https://www.scorptec.com.au/bundle/cpu/intel-socket-1700/1719-bdl-1719,$2227
+Gigabyte Z790 Elite X Core i7 Bundle,$1379,Gigabyte,In Stock,https://www.scorptec.com.au/bundle/cpu/intel-socket-1700/1800-bdl-1800,$1429
+Asus Z790 Dark Hero Core i9 Bundle,$2443,Asus,In Stock,https://www.scorptec.com.au/bundle/cpu/intel-socket-1700/1801-bdl-1801,$2543
+Intel Core i7 12700 Desktop Processor,$499,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/94570-bx8071512700,
+Intel Core i7 13700K Desktop Processor,$649,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/99737-bx8071513700k,
+Intel Core i5 12400F Desktop Processor,$215,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/94371-bx8071512400f,$235
+Intel Core i9 13900K Desktop Processor,$879,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/99739-bx8071513900k,$899
+Intel Core i5 13600K Desktop Processor,$509,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/99734-bx8071513600k,
+Intel Core i9 14900K Desktop Processor,$915,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/105937-bx8071514900k,$949
+Intel Core i5 12400 Desktop Processor,$253,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/94370-bx8071512400,$269
+Intel Core i7 14700K Desktop Processor,$655,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/105935-bx8071514700k,$679
+Intel Core i7 12700K Desktop Processor,$509,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/92975-bx8071512700k,
+Intel Core i5 13500 Desktop Processor,$395,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/101310-bx8071513500,
+Intel Core i5 13600KF Desktop Processor,$479,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/99736-bx8071513600kf,
+Intel Core i5 13400F Desktop Processor,$325,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/101309-bx8071513400f,$329
+Intel Core i7 13700 Desktop Processor,$615,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/101311-bx8071513700,$629
+Intel Core i7 13700KF Desktop Processor,$629,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/99738-bx8071513700kf,
+Intel Core i7 14700KF Desktop Processor,$629,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/105936-bx8071514700kf,$639
+Intel Core i5 13400 Desktop Processor,$365,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/101308-bx8071513400,$375
+Intel Core i9 13900KF Desktop Processor,$859,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/99740-bx8071513900kf,
+Intel Core i9 13900KS Desktop Processor,$1099,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/101301-bx8071513900ks,$1149
+Intel Core i3-12100F Desktop Processor,$145,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/94559-bx8071512100f,
+Intel Core i5 12600KF Desktop Processor,$359,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/92974-bx8071512600kf,
+Intel Core i7 13700F Desktop Processor,$589,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/101312-bx8071513700f,
+Intel Core i9 14900KF Desktop Processor,$889,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/105938-bx8071514900kf,$919
+Intel Core i7 12700F Desktop Processor,$459,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/94366-bx8071512700f,$499
+Intel Core i5 14600KF Desktop Processor,$459,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/105934-bx8071514600kf,$469
+Intel Core i7 12700KF Desktop Processor,$475,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/92976-bx8071512700kf,
+Intel Core i5 14600K Desktop Processor,$499,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/105933-bx8071514600k,$525
+Intel Core i5 12600K Desktop Processor,$409,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/92973-bx8071512600k,
+Intel Core i3-12100 Desktop Processor,$199,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/94560-bx8071512100,
+Intel Core i3 13100 Desktop Processor,$225,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/101306-bx8071513100,$235
+Intel Core i9 12900K Desktop Processor,$699,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/92977-bx8071512900k,$729
+Intel Core i3 13100F Desktop Processor,$172,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/101307-bx8071513100f,$189
+Intel Core i9 13900 Desktop Processor,$899,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/101313-bx8071513900,$909
+Intel Core i9 12900KF Desktop Processor,$649,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/92979-bx8071512900kf,
+Intel Core i9 13900F Desktop Processor,$869,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/101314-bx8071513900f,
+Intel Core i9 12900 Desktop Processor,$699,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/96322-bx8071512900,$749
+Intel Core i5 12500 Desktop Processor,$385,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/94369-bx8071512500,
 "Intel Core i9 12900KS Desktop Processor
 
 
-Refurbished Available at $719",$899,Intel,In Stock,
-MSI B550 Ryzen 5 Ultimate Bundle,$588,MSI,In Stock,$603
-Asus B550 Ryzen 7 RGB Bundle,$852,Asus,In Stock,$887
-MSI B550 Ryzen 7 RGB Bundle,$597,MSI,In Stock,$617
-Asus B550 Ryzen 5 Ultimate Bundle,$553,Asus,In Stock,$583
-Asus B550 Ryzen 5 Value Bundle,$432,Asus,In Stock,$447
-Gigabyte B550 Ryzen 5 RGB Bundle,$613,Gigabyte,In Stock,$633
-Asus B550 Ryzen 7 RGB Bundle,$657,Asus,In Stock,$677
-AMD Ryzen 7 5700X Desktop Processor,$269,AMD,In Stock,$489
-AMD Ryzen 5 5600 Desktop Processor,$199,AMD,In Stock,$309
-AMD Ryzen 5 5600X Desktop Processor,$229,AMD,In Stock,$519
-AMD Ryzen 5 5600G Desktop Processor,$209,AMD,In Stock,$399
-AMD Ryzen 5 5500 Desktop Processor,$149,AMD,In Stock,$259
-"AMD Ryzen 7 5800X Desktop Processor
-
-
-Refurbished Available at $354",$389,AMD,In Stock,$729
+Refurbished Available at $719",$899,Intel,In Stock,https://www.scorptec.com.au/product/cpu/intel-socket-1700/95838-bx8071512900ks,
+MSI B550 Ryzen 5 Ultimate Bundle,$588,MSI,In Stock,https://www.scorptec.com.au/bundle/cpu/amd-socket-am4/1232-bdl-1232,$603
+Asus B550 Ryzen 7 RGB Bundle,$852,Asus,In Stock,https://www.scorptec.com.au/bundle/cpu/amd-socket-am4/1412-bdl-1412,$887
+MSI B550 Ryzen 7 RGB Bundle,$597,MSI,In Stock,https://www.scorptec.com.au/bundle/cpu/amd-socket-am4/1413-bdl-1413,$617
+Asus B550 Ryzen 5 Ultimate Bundle,$553,Asus,In Stock,https://www.scorptec.com.au/bundle/cpu/amd-socket-am4/1414-bdl-1414,$583
+Asus B550 Ryzen 5 Value Bundle,$432,Asus,In Stock,https://www.scorptec.com.au/bundle/cpu/amd-socket-am4/1415-bdl-1415,$447
+Gigabyte B550 Ryzen 5 RGB Bundle,$613,Gigabyte,In Stock,https://www.scorptec.com.au/bundle/cpu/amd-socket-am4/1434-bdl-1434,$633
+Asus B550 Ryzen 7 RGB Bundle,$657,Asus,In Stock,https://www.scorptec.com.au/bundle/cpu/amd-socket-am4/1521-bdl-1521,$677
+AMD Ryzen 7 5700X Desktop Processor,$269,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/96439-100-100000926wof,$489
+AMD Ryzen 5 5600 Desktop Processor,$199,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/96440-100-100000927box,$309
+AMD Ryzen 5 5600X Desktop Processor,$229,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/86005-100-100000065box,$519
+AMD Ryzen 5 5600G Desktop Processor,$209,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/91395-100-100000252box,$399
+AMD Ryzen 5 5500 Desktop Processor,$149,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/96441-100-100000457box,$259
 "AMD Ryzen 9 5900X Desktop Processor
 
 
-Refurbished Available at $527",$519,AMD,In Stock,$919
-AMD Ryzen 7 5800X3D Desktop Processor,$559,AMD,In Stock,$719
-AMD Ryzen 7 5700G Desktop Processor,$334,AMD,In Stock,$599
-AMD Ryzen 9 5950X Desktop Processor,$809,AMD,In Stock,$1349
-AMD Ryzen 3 4100 Desktop Processor,$115,AMD,In Stock,$169
-AMD Ryzen 7 7800X3D Desktop Processor,$589,AMD,In Stock,$719
-Gigabyte Ryzen 9 Pro Bundle,$1327,Gigabyte,In Stock,$1377
-Asus Ryzen 9 Ultimate Bundle,$2157,Asus,In Stock,$2227
-Asus Ryzen 9 Hero Bundle,$2127,Asus,In Stock,$2217
-Asus Ryzen 9 Power Bundle,$1362,Asus,In Stock,$1397
-AMD Ryzen 5 7600X Desktop Processor,$359,AMD,In Stock,$489
-AMD Ryzen 9 7900X Desktop Processor,$659,AMD,In Stock,$849
-AMD Ryzen 7 7700X Desktop Processor,$549,AMD,In Stock,$659
-AMD Ryzen 5 7600 Desktop Processor,$339,AMD,In Stock,$389
-"AMD Ryzen 9 7950X3D Desktop Processor
-
-
-Refurbished Available at $909",$999,AMD,In Stock,$1139
-"AMD Ryzen 9 7950X Desktop Processor
-
-
-Refurbished Available at $863",$949,AMD,In Stock,$1179
-AMD Ryzen 7 7700 Desktop Processor,$549,AMD,In Stock,
-AMD Ryzen 9 7900X3D Desktop Processor,$829,AMD,In Stock,$949
-AMD Ryzen 9 7900 Desktop Processor,$699,AMD,In Stock,
-AMD Ryzen 5 5600X Desktop Processor,$229,AMD,In Stock,$519
+Refurbished Available at $527",$499,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/86007-100-100000061wof,$919
 "AMD Ryzen 7 5800X Desktop Processor
 
 
-Refurbished Available at $354",$389,AMD,In Stock,$729
-AMD Ryzen 9 5950X Desktop Processor,$809,AMD,In Stock,$1349
-AMD Ryzen 5 5600 Desktop Processor,$199,AMD,In Stock,$309
-AMD Ryzen 7 5700X Desktop Processor,$269,AMD,In Stock,$489
-AMD Ryzen 7 5800X3D Desktop Processor,$559,AMD,In Stock,$719
-AMD Ryzen 5 5500 Desktop Processor,$149,AMD,In Stock,$259
-AMD Ryzen 7 5700G Desktop Processor,$334,AMD,In Stock,$599
-AMD Ryzen 5 5600G Desktop Processor,$209,AMD,In Stock,$399
-"AMD Ryzen 9 5900X Desktop Processor
+Refurbished Available at $354",$389,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/86006-100-100000063wof,$729
+AMD Ryzen 7 5800X3D Desktop Processor,$559,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/96438-100-100000651wof,$719
+AMD Ryzen 7 5700G Desktop Processor,$334,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/91396-100-100000263box,$599
+AMD Ryzen 9 5950X Desktop Processor,$809,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/86008-100-100000059wof,$1349
+AMD Ryzen 3 4100 Desktop Processor,$115,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/97988-100-100000510box,$169
+"AMD Ryzen 5 5600X OEM Desktop Processor, Wraith Stealth Cooler
 
 
-Refurbished Available at $527",$519,AMD,In Stock,$919
-AMD Ryzen 5 7600X Desktop Processor,$359,AMD,In Stock,$489
-AMD Ryzen 7 7700X Desktop Processor,$549,AMD,In Stock,$659
-AMD Ryzen 9 7900X Desktop Processor,$659,AMD,In Stock,$849
-"AMD Ryzen 9 7950X Desktop Processor
-
-
-Refurbished Available at $863",$949,AMD,In Stock,$1179
-AMD Ryzen 9 7900 Desktop Processor,$699,AMD,In Stock,
+Refurbished Available at $223",$245,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/94024-100-100000065mpk,
+AMD Ryzen 7 7800X3D Desktop Processor,$589,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am5/101653-100-100000910wof,$719
+Gigabyte Ryzen 9 Pro Bundle,$1327,Gigabyte,In Stock,https://www.scorptec.com.au/bundle/cpu/amd-socket-am5/1547-bdl-1547,$1377
+Asus Ryzen 9 Ultimate Bundle,$2157,Asus,In Stock,https://www.scorptec.com.au/bundle/cpu/amd-socket-am5/1549-bdl-1549,$2227
+Asus Ryzen 9 Hero Bundle,$2127,Asus,In Stock,https://www.scorptec.com.au/bundle/cpu/amd-socket-am5/1584-bdl-1584,$2217
+Asus Ryzen 9 Power Bundle,$1362,Asus,In Stock,https://www.scorptec.com.au/bundle/cpu/amd-socket-am5/1742-bdl-1742,$1397
+AMD Ryzen 5 7600X Desktop Processor,$359,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am5/99240-100-100000593wof,$489
+AMD Ryzen 9 7900X Desktop Processor,$659,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am5/99238-100-100000589wof,$849
+AMD Ryzen 5 7600 Desktop Processor,$339,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am5/101540-100-100001015box,$389
+AMD Ryzen 7 7700X Desktop Processor,$549,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am5/99239-100-100000591wof,$659
 "AMD Ryzen 9 7950X3D Desktop Processor
 
 
-Refurbished Available at $909",$999,AMD,In Stock,$1139
-AMD Ryzen 9 7900X3D Desktop Processor,$829,AMD,In Stock,$949
-AMD Ryzen 5 7600 Desktop Processor,$339,AMD,In Stock,$389
-AMD Ryzen 7 7700 Desktop Processor,$549,AMD,In Stock,
-AMD Ryzen 7 7800X3D Desktop Processor,$589,AMD,In Stock,$719
-AMD Ryzen Threadripper Pro 7975WX Desktop Processor,$6699,AMD,In Stock,
-AMD Ryzen Threadripper Pro 7985WX Desktop Processor,$12499,AMD,In Stock,
-AMD Ryzen Threadripper Pro 7995WX Desktop Processor,$16999,AMD,In Stock,
-AMD Ryzen Threadripper Pro 7965WX Desktop Processor,$4549,AMD,In Stock,
-Asrock WRX80 Threadripper Pro Bundle,$5998,Asrock,In Stock,$6098
-AMD Ryzen Threadripper Pro 5975WX Desktop Processor,$4899,AMD,In Stock,$5699
-AMD Ryzen Threadripper Pro 5955WX Desktop Processor,$2099,AMD,In Stock,$2249
-AMD Ryzen Threadripper Pro 5995WX Desktop Processor,$9599,AMD,In Stock,$10999
-AMD Ryzen Threadripper Pro 5965WX,$3479,AMD,In Stock,$3899
-AMD Ryzen Threadripper Pro 3995WX Desktop Processor,$7799,AMD,In Stock,$9299
+Refurbished Available at $909",$999,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am5/101651-100-100000908wof,$1139
+"AMD Ryzen 9 7950X Desktop Processor
+
+
+Refurbished Available at $863",$949,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am5/99237-100-100000514wof,$1179
+AMD Ryzen 9 7900X3D Desktop Processor,$829,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am5/101652-100-100000909wof,$949
+AMD Ryzen 7 7700 Desktop Processor,$549,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am5/101539-100-100000592box,
+AMD Ryzen 9 7900 Desktop Processor,$699,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am5/101538-100-100000590box,
+AMD Ryzen 5 5600X Desktop Processor,$229,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/86005-100-100000065box,$519
+"AMD Ryzen 7 5800X Desktop Processor
+
+
+Refurbished Available at $354",$389,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/86006-100-100000063wof,$729
+AMD Ryzen 9 5950X Desktop Processor,$809,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/86008-100-100000059wof,$1349
+AMD Ryzen 5 5600 Desktop Processor,$199,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/96440-100-100000927box,$309
+AMD Ryzen 7 5700X Desktop Processor,$269,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/96439-100-100000926wof,$489
+AMD Ryzen 7 5800X3D Desktop Processor,$559,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/96438-100-100000651wof,$719
+AMD Ryzen 5 5500 Desktop Processor,$149,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/96441-100-100000457box,$259
+AMD Ryzen 7 5700G Desktop Processor,$334,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/91396-100-100000263box,$599
+AMD Ryzen 5 5600G Desktop Processor,$209,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/91395-100-100000252box,$399
+"AMD Ryzen 9 5900X Desktop Processor
+
+
+Refurbished Available at $527",$499,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am4/86007-100-100000061wof,$919
+AMD Ryzen 5 7600X Desktop Processor,$359,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am5/99240-100-100000593wof,$489
+AMD Ryzen 7 7700X Desktop Processor,$549,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am5/99239-100-100000591wof,$659
+AMD Ryzen 9 7900X Desktop Processor,$659,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am5/99238-100-100000589wof,$849
+"AMD Ryzen 9 7950X Desktop Processor
+
+
+Refurbished Available at $863",$949,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am5/99237-100-100000514wof,$1179
+AMD Ryzen 9 7900 Desktop Processor,$699,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am5/101538-100-100000590box,
+"AMD Ryzen 9 7950X3D Desktop Processor
+
+
+Refurbished Available at $909",$999,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am5/101651-100-100000908wof,$1139
+AMD Ryzen 9 7900X3D Desktop Processor,$829,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am5/101652-100-100000909wof,$949
+AMD Ryzen 5 7600 Desktop Processor,$339,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am5/101540-100-100001015box,$389
+AMD Ryzen 7 7700 Desktop Processor,$549,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am5/101539-100-100000592box,
+AMD Ryzen 7 7800X3D Desktop Processor,$589,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-socket-am5/101653-100-100000910wof,$719
+AMD Ryzen Threadripper Pro 7975WX Desktop Processor,$6699,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-threadripper/107028-100-100000453wof,
+AMD Ryzen Threadripper Pro 7985WX Desktop Processor,$12499,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-threadripper/107027-100-100000454wof,
+AMD Ryzen Threadripper Pro 7995WX Desktop Processor,$16999,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-threadripper/107024-100-100000884wof,
+AMD Ryzen Threadripper Pro 7965WX Desktop Processor,$4549,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-threadripper/107029-100-100000885wof,
+Asrock WRX80 Threadripper Pro Bundle,$5998,Asrock,In Stock,https://www.scorptec.com.au/bundle/cpu/amd-threadripper/1650-bdl-1650,$6098
+AMD Ryzen Threadripper Pro 5975WX Desktop Processor,$4899,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-threadripper/98188-100-100000445wof,$5699
+AMD Ryzen Threadripper Pro 5955WX Desktop Processor,$2099,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-threadripper/103840-100-100000447wof,$2249
+AMD Ryzen Threadripper Pro 5995WX Desktop Processor,$9599,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-threadripper/98187-100-100000444wof,$10999
+AMD Ryzen Threadripper Pro 5965WX,$3479,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-threadripper/98189-100-100000446wof,$3899
+AMD Ryzen Threadripper Pro 3995WX Desktop Processor,$7799,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-threadripper/88215-100-100000087wof,$9299
 "AMD Ryzen Threadripper 1900X
 
 
-Refurbished Available at $299",$399,AMD,In Stock,
-AMD Ryzen Threadripper Pro 3955WX Desktop Processor,$1849,AMD,In Stock,$1949
-AMD Ryzen Threadripper Pro 7995WX Desktop Processor,$16999,AMD,In Stock,
-AMD Ryzen Threadripper Pro 7985WX Desktop Processor,$12499,AMD,In Stock,
-AMD Ryzen Threadripper Pro 7975WX Desktop Processor,$6699,AMD,In Stock,
-AMD Ryzen Threadripper Pro 7965WX Desktop Processor,$4549,AMD,In Stock,
-AMD Ryzen Threadripper 7980X Desktop Processor,$8599,AMD,In Stock,
-AMD Ryzen Threadripper 7970X Desktop Processor,$4299,AMD,In Stock,
-AMD Ryzen Threadripper 7960X Desktop Processor,$2579,AMD,In Stock,
+Refurbished Available at $299",$399,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-threadripper/69747-yd190xa8aewof,
+AMD Ryzen Threadripper Pro 3955WX Desktop Processor,$1849,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-threadripper/88213-100-100000167wof,$1949
+AMD Ryzen Threadripper Pro 7995WX Desktop Processor,$16999,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-threadripper/107024-100-100000884wof,
+AMD Ryzen Threadripper Pro 7985WX Desktop Processor,$12499,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-threadripper/107027-100-100000454wof,
+AMD Ryzen Threadripper Pro 7975WX Desktop Processor,$6699,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-threadripper/107028-100-100000453wof,
+AMD Ryzen Threadripper Pro 7965WX Desktop Processor,$4549,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-threadripper/107029-100-100000885wof,
+AMD Ryzen Threadripper 7980X Desktop Processor,$8599,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-threadripper/107030-100-100001350wof,
+AMD Ryzen Threadripper 7970X Desktop Processor,$4299,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-threadripper/107032-100-100001351wof,
+AMD Ryzen Threadripper 7960X Desktop Processor,$2579,AMD,In Stock,https://www.scorptec.com.au/product/cpu/amd-threadripper/107033-100-100001352wof,
