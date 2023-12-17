@@ -12,7 +12,6 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.chrome.options import Options
 import re
 import os
-from itertools import zip_longest
 from web_scraper_selectors import retailer_info
 
 
