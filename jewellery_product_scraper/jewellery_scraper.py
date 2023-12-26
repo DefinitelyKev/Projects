@@ -54,12 +54,6 @@ from retailer_selectors import (
 # Create a newsletter so that customers get updated discount. Such as sending top 3 discount of day
 
 
-def website_lazy_loading(driver):
-    for website_y_axis in range(1000, 11000, 1000):
-        driver.execute_script("window.scrollTo(0, " + str(website_y_axis) + ")")
-        time.sleep(0.3)
-
-
 def get_product_url(retailer_name, box, retailer_selectors):
     """
     Extracts the product URL from a BeautifulSoup 'box' element based on the retailer's specifics.
@@ -166,22 +160,52 @@ def get_product_info(
     return False
 
 
+def construct_url(retailer_items, type_key, material, page_number):
+    """
+    Constructs the URL based on retailer name, material type, and page number.
+    """
+    base_url = retailer_items.get("url", "")
+    if retailer_items["name"] == "ross_simons":
+        if type_key == "stone" and material not in [
+            "Diamond",
+            "Pearls",
+            "Other+Stones",
+        ]:
+            return retailer_items["url_gemstone"].format(
+                material=material, page_number=page_number
+            )
+        elif type_key == "stone" and material == "Cubic+Zirconia":
+            return retailer_items["url_faux"].format(page_number=page_number)
+
+    return base_url.format(type=type_key, material=material, page_number=page_number)
+
+
+def website_lazy_loading(driver):
+    """
+    Scrolls through website to load all products with lazy loading.
+    """
+    website_height = driver.execute_script("return document.body.scrollHeight")
+    scroll_count = round(website_height, -3)
+
+    for website_y_axis in range(1000, scroll_count, 1000):
+        driver.execute_script(f"window.scrollTo(0, {website_y_axis})")
+        time.sleep(0.3)
+
+
 def retailer_earring_data_scraper(
     retailer_items, results_per_page, starting_page, page_increment
 ):
     """
     Scrapes earring product data from a retailer's website.
-
-    Returns:
-    dict: A dictionary containing scraped product information.
     """
 
     def scrape_material(type_key, driver, product_info_dict):
+        """
+        Scrapes material data from the retailer's website.
+        """
         page_number = starting_page
-        while page_number < 1:
-            url = retailer_items["url"].format(
-                type=type_key, material=material, page_number=page_number
-            )
+        while page_number < 2:
+            url = construct_url(retailer_items, type_key, material, page_number)
             driver.get(url)
             time.sleep(2)
 
@@ -209,6 +233,166 @@ def retailer_earring_data_scraper(
     return product_info_dict
 
 
+def superjeweler_close_popup(driver):
+    """
+    Closes the popup on the SuperJeweler website.
+    """
+    try:
+        time.sleep(2)
+        driver.switch_to.frame(driver.find_element(By.ID, "attentive_creative"))
+
+        WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.ID, "closeIconContainer"))
+        )
+        driver.find_element(By.ID, "closeIconContainer").click()
+        driver.switch_to.default_content()
+    except NoSuchElementException:
+        print("Popup close button or iframe not found.")
+    except TimeoutException:
+        print("Timed out waiting for popup to be clickable.")
+
+
+def superjeweler_change_items_per_page(driver, item_count):
+    """
+    Changes the number of items per page on the SuperJeweler website.
+    """
+    try:
+        select_element = WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.ID, "ss-items"))
+        )
+        Select(select_element).select_by_value(str(item_count))
+    except NoSuchElementException:
+        print("Dropdown for changing items per page not found.")
+    except TimeoutException:
+        print("Timed out waiting for the dropdown.")
+
+
+def reeds_change_items_per_page(driver, item_count):
+    """
+    Changes the number of items per page on the Reeds website.
+    """
+    wait = WebDriverWait(driver, 10)
+    wait.until(EC.element_to_be_clickable((By.CLASS_NAME, "rfk_nview")))
+
+    dropdown = driver.find_element(By.CLASS_NAME, "rfk_nview")
+    dropdown.click()
+
+    time.sleep(2)
+    option_96 = driver.find_element(
+        By.XPATH, "//li[contains(text(), '{item_count}')]".format(item_count=item_count)
+    )
+    option_96.click()
+
+
+def get_superjeweler_next_page(driver, page_number):
+    """
+    Navigates to the next page on the SuperJeweler website.
+    """
+    try:
+        driver.execute_script(f"setPage({page_number})")
+        time.sleep(2)
+        return False
+    except WebDriverException:
+        print(f"Failed to load page {page_number}")
+        return True
+
+
+def get_reeds_next_page(driver, page_number):
+    """
+    Navigates to the next page on the Reeds website.
+    """
+    try:
+        all_next_buttons = WebDriverWait(driver, 10).until(
+            EC.presence_of_all_elements_located((By.CLASS_NAME, "rfk_next"))
+        )
+
+        last_next_button = all_next_buttons[-1]
+        last_next_button.click()
+        time.sleep(2)
+        return False
+    except WebDriverException:
+        print(f"Failed to load page {page_number}")
+        return True
+
+
+def click_material_filter(type_key, driver, material_id):
+    """
+    Clicks on a material filter on the website.
+    """
+    if type_key == "stone":
+        material_id = f"gemstone_{material_id}"
+    else:
+        material_id = f"metal_type_{material_id}"
+    WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, material_id)))
+    driver.find_element(By.ID, material_id).click()
+
+
+def scrape_superjeweler_reeds(retailer_items, results_per_page):
+    """
+    Scrapes earring product data from a retailer's website.
+    """
+
+    def navigate_next_page(driver, retailer_items, page_number):
+        """
+        Navigates to the next page of products on the retailer's website.
+        """
+        if retailer_items["name"] == "superjeweler":
+            return not get_superjeweler_next_page(driver, page_number)
+        elif retailer_items["name"] == "reeds":
+            return not get_reeds_next_page(driver, page_number)
+
+    def scrape_responsive_material(type_key, driver, product_info_dict, material):
+        """
+        Scrapes material data from the retailer's website.
+        """
+        page_number = 1
+        while True:
+            time.sleep(2)
+            website_lazy_loading(driver)
+
+            out_of_products = get_product_info(
+                driver,
+                product_info_dict,
+                retailer_items,
+                results_per_page,
+                [type_key, material],
+            )
+
+            if out_of_products:
+                if retailer_items["name"] == "superjeweler":
+                    get_superjeweler_next_page(driver, 1)
+                break
+
+            if not navigate_next_page(driver, retailer_items, page_number):
+                break
+            page_number += 1
+
+    product_info_dict = {}
+    driver.get(retailer_items["url"])
+
+    if retailer_items["name"] == "superjeweler":
+        superjeweler_close_popup(driver)
+        superjeweler_change_items_per_page(driver, 240)
+    elif retailer_items["name"] == "reeds":
+        reeds_change_items_per_page(driver, "48")
+
+    type_counter = 0
+    for material in retailer_items["stone_type"]:
+        time.sleep(3)
+        click_material_filter("stone", driver, type_counter)
+        scrape_responsive_material("stone", driver, product_info_dict, material)
+        click_material_filter("stone", driver, type_counter)
+        type_counter += 1
+
+    type_counter = 0
+    for material in retailer_items["metal_type"]:
+        time.sleep(3)
+        click_material_filter("metal", driver, type_counter)
+        scrape_responsive_material("metal", driver, product_info_dict, material)
+        click_material_filter("metal", driver, type_counter)
+        type_counter += 1
+
+
 if __name__ == "__main__":
     options = uc.ChromeOptions()
     options.headless = False
@@ -222,7 +406,11 @@ if __name__ == "__main__":
 
     zales_earrings = {}
 
-    banana = retailer_earring_data_scraper(zales_items, 30, 0, 1)
+    # banana = retailer_earring_data_scraper(zales_items, 30, 0, 1)
+    # pear = retailer_earring_data_scraper(jomashop_items, 50, 1, 1)
+    # apple = retailer_earring_data_scraper(ross_simons_items, 110, 0, 120)
+    kiwi = scrape_superjeweler_reeds(superjeweler_items, 235)
+    # grape = scrape_superjeweler_reeds(reeds_items, 48, 1)
 
     try:
         driver.close()
@@ -231,114 +419,7 @@ if __name__ == "__main__":
         pass
 
 
-# kiwi = scrape_superjeweler_reeds(superjeweler_items, 235, 1)
-# grape = scrape_superjeweler_reeds(reeds_items, 48, 1)
 # pear = retailer_earring_data_scraper(jomashop_items, 50, 1, 1)
-# apple = retailer_earring_data_scraper(ross_simons_items, 110, 0, 120)
+
 # pineapple = retailer_earring_data_scraper(jared_items, 30, 0, 1)
 # blueberry = retailer_earring_data_scraper(kay_items, 30, 0, 1)
-# apple = earring_scraper_v1(ross_simons_url, 110, 120, ross_simons_selectors)
-# banana = earring_scraper_v1(zale_urls, 30, 1, zales_selectors)
-
-# def superjeweler_close_popup(driver):
-#     try:
-#         driver.switch_to.frame(
-#             driver.find_element(By.XPATH, "//iframe[@id='attentive_creative']")
-#         )
-
-#         WebDriverWait(driver, 10).until(
-#             EC.element_to_be_clickable((By.ID, "closeIconContainer"))
-#         )
-#         driver.find_element(By.ID, "closeIconContainer").click()
-
-#         driver.switch_to.default_content()
-#     except NoSuchElementException:
-#         print("Popup close button or iframe not found.")
-#     except TimeoutException:
-#         print("Timed out waiting for popup to be clickable.")
-
-
-# def superjeweler_change_items_per_page(driver, item_count):
-#     try:
-#         select_element = WebDriverWait(driver, 10).until(
-#             EC.presence_of_element_located((By.ID, "ss-items"))
-#         )
-#         Select(select_element).select_by_value(str(item_count))
-#     except NoSuchElementException:
-#         print("Dropdown for changing items per page not found.")
-#     except TimeoutException:
-#         print("Timed out waiting for the dropdown.")
-
-
-# def reeds_change_items_per_page(driver, item_count):
-#     wait = WebDriverWait(driver, 10)
-#     wait.until(EC.element_to_be_clickable((By.CLASS_NAME, "rfk_nview")))
-
-#     dropdown = driver.find_element(By.CLASS_NAME, "rfk_nview")
-#     dropdown.click()
-
-#     time.sleep(2)
-#     option_96 = driver.find_element(
-#         By.XPATH, "//li[contains(text(), '{item_count}')]".format(item_count=item_count)
-#     )
-#     option_96.click()
-
-
-# def get_superjeweler_next_page(driver, page_number):
-#     try:
-#         driver.execute_script(f"setPage({page_number})")
-#         time.sleep(2)
-#         return False
-#     except WebDriverException:
-#         print(f"Failed to load page {page_number}")
-#         return True
-
-
-# def get_reeds_next_page(driver, page_number):
-#     try:
-#         all_next_buttons = WebDriverWait(driver, 10).until(
-#             EC.presence_of_all_elements_located((By.CLASS_NAME, "rfk_next"))
-#         )
-
-#         last_next_button = all_next_buttons[-1]
-#         last_next_button.click()
-#         time.sleep(2)
-#         return False
-#     except WebDriverException:
-#         print(f"Failed to load page {page_number}")
-#         return True
-
-
-# def scrape_superjeweler_reeds(retailer_items, results_per_page, page_number):
-#     link_list = []
-#     driver.get(retailer_items["url"])
-
-#     if retailer_items["name"] == "superjeweler":
-#         superjeweler_close_popup(driver)
-#         superjeweler_change_items_per_page(driver, 240)
-#     elif retailer_items["name"] == "reeds":
-#         reeds_change_items_per_page(driver, "48")
-
-#     while True:
-#         time.sleep(2)
-#         out_of_products = get_product_info(
-#             driver,
-#             link_list,
-#             retailer_items["selectors"],
-#             results_per_page,
-#             retailer_items["name"],
-#         )
-#         page_number += 1
-#         if out_of_products:
-#             break
-
-#         if retailer_items["name"] == "superjeweler":
-#             no_next_page = get_superjeweler_next_page(driver, page_number)
-#             if no_next_page:
-#                 break
-#         elif retailer_items["name"] == "reeds":
-#             no_next_page = get_reeds_next_page(driver, page_number)
-#             if no_next_page:
-#                 break
-
-#     print(len(link_list))
