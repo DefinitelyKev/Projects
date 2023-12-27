@@ -40,9 +40,9 @@ from retailer_selectors import (
 if __name__ == "__main__":
     options = uc.ChromeOptions()
     options.headless = False
+    options.add_argument("--disable-notifications")
     options.add_argument("--disable-infobars")
     options.add_argument("--disable-extensions")
-
     options.add_experimental_option(
         "prefs", {"profile.default_content_setting_values.notifications": 1}
     )
@@ -50,11 +50,12 @@ if __name__ == "__main__":
 
     zales_earrings = {}
 
-    banana = static_retailer_earring_scraper(driver, zales_items, 30, 0, 1)
+    # banana = static_retailer_earring_scraper(driver, zales_items, 30, 0, 1)
     # pear = static_retailer_earring_scraper(driver, jomashop_items, 50, 1, 1)
     # apple = static_retailer_earring_scraper(driver, ross_simons_items, 110, 0, 120)
     # kiwi = dynamic_retailer_earring_scrape(driver, superjeweler_items, 235)
-    # grape = dynamic_retailer_earring_scrape(reeds_items, 48, 1)
+    # grape = static_retailer_earring_scraper(driver, reeds_items, 24, 1, 1)
+    grape = dynamic_retailer_earring_scrape(driver, reeds_items, 24)
 
     try:
         driver.close()
