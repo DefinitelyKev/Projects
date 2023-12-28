@@ -97,6 +97,7 @@ def get_product_info(driver, product_info, retailer_items, results_per_page, mat
             if title in product_info and add_material_type(
                 title, product_info, material
             ):
+                print(product_info[title])
                 continue
 
             product_info[title] = extract_product_details(
@@ -162,6 +163,9 @@ def static_retailer_earring_scraper(
         page_number = starting_page
         while True:
             time.sleep(2)
+            url = construct_url(retailer_items, type_key, material, page_number)
+            driver.get(url)
+
             website_lazy_loading(driver)
 
             out_of_products = get_product_info(
