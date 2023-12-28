@@ -1,12 +1,14 @@
-zales_kay_jared_selectors = {
-    "product_boxes": ["div", {"class": "product-item-inner"}],
-    "product_on_sale": ["div", {"class": "other-prices"}],
-    "product_href": ["a", {"class": "thumb main-thumb"}],
-    "image_src": ["img", {"class": "img-responsive with-border"}],
-    "title": ["div", {"class": "name product-tile-description"}],
-    "price": ["div", {"class": "price"}],
-    "original_price": ["div", {"class": "original-price"}],
-}
+def initialize_retailer_items(name, url, selectors, stone_types, metal_types):
+    """
+    Initializes and returns a dictionary containing the retailer's scraping configuration.
+    """
+    return {
+        "name": name,
+        "url": url,
+        "selectors": selectors,
+        "stone_type": stone_types,
+        "metal_type": metal_types,
+    }
 
 
 zales_kay_jared_stone_types = [
@@ -45,7 +47,6 @@ zales_kay_jared_stone_types = [
     "Turquoise",
     "Zircon",
 ]
-
 zales_kay_jared_metal_types = [
     "Gold",
     "Sterling+Silver",
@@ -53,14 +54,112 @@ zales_kay_jared_metal_types = [
     "Stainless+Steel",
 ]
 
-ross_simons_stone_type_sub_class = [
-    "gemstones",
-    "diamond",
-    "perals",
-    "faux_stone",
-    "other_stones",
+zales_kay_jared_selectors = {
+    "product_boxes": ["div", {"class": "product-item-inner"}],
+    "product_on_sale": ["div", {"class": "other-prices"}],
+    "product_href": ["a", {"class": "thumb main-thumb"}],
+    "image_src": ["img", {"class": "img-responsive with-border"}],
+    "title": ["div", {"class": "name product-tile-description"}],
+    "price": ["div", {"class": "price"}],
+    "original_price": ["div", {"class": "original-price"}],
+}
+
+zales_items = initialize_retailer_items(
+    "zales",
+    "https://www.zales.com/earrings/c/0104000000?q=*%3A_relevance_Ascending%3Agender_string%3ALADIES%3A{type}Types_string_mv%3A{material}&loadMore={page_number}",
+    zales_kay_jared_selectors,
+    zales_kay_jared_stone_types,
+    zales_kay_jared_metal_types,
+)
+
+kay_items = initialize_retailer_items(
+    "kay",
+    "https://www.kay.com/earrings/womens-earrings/c/9000000197?q=*%3A_relevance_Ascending%3Agender_string%3AWOMEN%3A{type}Types_string_mv%3A{material}&loadMore={page_number}",
+    zales_kay_jared_selectors,
+    zales_kay_jared_stone_types,
+    zales_kay_jared_metal_types,
+)
+
+jared_items = initialize_retailer_items(
+    "jared",
+    "https://www.jared.com/jewelry/earrings/c/7000000106?q=*%3A_relevance_Ascending%3Agender_string%3AWOMEN%3A{type}Types_string_mv%3A{material}&loadMore={page_number}",
+    zales_kay_jared_selectors,
+    zales_kay_jared_stone_types,
+    zales_kay_jared_metal_types,
+)
+
+jomashop_stone_types = [
+    "Amethyst",
+    "Aquamarine",
+    "Black+Diamond",
+    "Blue+Topaz",
+    "Citrine",
+    "Cubic+Zirconia",
+    "Diamond",
+    "Diopside",
+    "Emerald",
+    "Garnet",
+    "Gemstone",
+    "Jade",
+    "Moissanite",
+    "Moonstone",
+    "Morganite",
+    "None",
+    "Opal",
+    "Other",
+    "Pearl",
+    "Peridot",
+    "Quartz",
+    "Rubellite",
+    "Ruby",
+    "Sapphire",
+    "Spinel",
+    "Tanzanite",
+    "Topaz",
+    "Turquoise",
+]
+jomashop_metal_types = [
+    "Brass",
+    "Gold",
+    "No+Metal+Type",
+    "Pewter",
+    "Platinum",
+    "Rhodium",
+    "Rose+Gold",
+    "Silver",
+    "Silver+Plated",
+    "Stainless+Steel",
+    "Sterling+Silver",
+    "Two-Tone",
+    "White+Gold",
+    "Yellow+Gold",
 ]
 
+jomashop_items_selectors = {
+    "product_boxes": ["div", {"class": "productItemBlock"}],
+    "product_on_sale": ["div", {"class": "was-price-wrapper"}],
+    "product_href": ["a", {"class": "productName-link"}],
+    "image_src": ["img", {"class": "productImg"}],
+    "title": ["span", {"class": "name-out-brand"}],
+    "price": ["div", {"class": "now-price"}],
+    "original_price": ["div", {"class": "was-wrapper"}],
+}
+
+jomashop_items = initialize_retailer_items(
+    "jomashop",
+    "https://www.jomashop.com/filters/jewelry?gender=Ladies&subtype=Earrings&{type}_type={material}&p={page_number}",
+    jomashop_items_selectors,
+    jomashop_stone_types,
+    jomashop_metal_types,
+)
+
+# ross_simons_stone_type_sub_class = [
+#     "gemstones",
+#     "diamond",
+#     "perals",
+#     "faux_stone",
+#     "other_stones",
+# ]
 ross_simons_stone_types = [
     "Agate",
     "Amber",
@@ -99,7 +198,6 @@ ross_simons_stone_types = [
     "Cubic+Zirconia",
     "Other+Stones",
 ]
-
 ross_simons_metal_types = [
     "Gold",
     "Sterling+Silver",
@@ -109,6 +207,37 @@ ross_simons_metal_types = [
     "Platinum",
     "Stainless+Steel",
 ]
+
+ross_simons_items_selectors = {
+    "product_boxes": ["div", {"class": "grid-tile"}],
+    "product_on_sale": ["div", {"class": "price price-tier3"}],
+    "product_href": ["a", {"class": "thumb-link rollover"}],
+    "image_src": [
+        "img",
+        {"class": "c-product-tile__image-src lazy rollover-main-image"},
+    ],
+    "title": ["div", {"class": "product-name"}],
+    "price": ["span", {"class": "c-product-pricing__sales__price"}],
+    "original_price": ["div", {"class": "price price-tier3"}],
+}
+
+ross_simons_items = initialize_retailer_items(
+    "ross_simons",
+    "https://www.ross-simons.com/jewelry/earrings/?prefn1={type}1&prefv1={material}&srule=sales-rank&start={page_number}&sz=120",
+    ross_simons_items_selectors,
+    ross_simons_stone_types,
+    ross_simons_metal_types,
+)
+
+ross_simons_items.setdefault(
+    "url_gemstone",
+    "https://www.ross-simons.com/jewelry/earrings/?prefn1=stone2&prefv1=Gemstones%3B{material}&srule=sales-rank&start={page_number}&sz=120",
+)
+ross_simons_items.setdefault(
+    "url_faux",
+    "https://www.ross-simons.com/jewelry/earrings/?prefn1=stone2&prefv1=Faux%20Stone%3BCubic+Zirconia&srule=sales-rank&start={page_number}&sz=120",
+)
+
 
 superjeweler_stone_types = [
     "Amethyst",
@@ -141,7 +270,6 @@ superjeweler_stone_types = [
     "Smoky+Quartz",
     "Tanzanite",
 ]
-
 superjeweler_metal_types = [
     "White+Gold",
     "Yellow+Gold",
@@ -150,6 +278,25 @@ superjeweler_metal_types = [
     "Sterling+Silver",
     "Rose+Gold+Plated+Silver",
 ]
+
+superjeweler_items_selectors = {
+    "product_boxes": ["div", {"class": "sj-grid-element"}],
+    "product_on_sale": ["p", {"class": "regular-price-value"}],
+    "product_href": ["a", {"class": "short_desc_container"}],
+    "image_src": ["img", {"class": "star fadeIn"}],
+    "title": ["h6", {"class": "t-dgrey md-mb0 sm-mb0 xs-mb0"}],
+    "price": ["p", {"class": "our-price-value"}],
+    "original_price": ["p", {"class": "regular-price-value"}],
+}
+
+superjeweler_items = initialize_retailer_items(
+    "superjeweler",
+    "https://www.superjeweler.com/earrings",
+    superjeweler_items_selectors,
+    superjeweler_stone_types,
+    superjeweler_metal_types,
+)
+
 
 reeds_stone_types = [
     "Abalone+Shell",
@@ -186,7 +333,6 @@ reeds_stone_types = [
     "Topaz",
     "Turquoise",
 ]
-
 reeds_metal_types = [
     "Brass",
     "Gold+Filled",
@@ -208,143 +354,20 @@ reeds_metal_types = [
     "Yellow+Gold",
 ]
 
-jomashop_stone_types = [
-    "Amethyst",
-    "Aquamarine",
-    "Black+Diamond",
-    "Blue+Topaz",
-    "Citrine",
-    "Cubic+Zirconia",
-    "Diamond",
-    "Diopside",
-    "Emerald",
-    "Garnet",
-    "Gemstone",
-    "Jade",
-    "Moissanite",
-    "Moonstone",
-    "Morganite",
-    "None",
-    "Opal",
-    "Other",
-    "Pearl",
-    "Peridot",
-    "Quartz",
-    "Rubellite",
-    "Ruby",
-    "Sapphire",
-    "Spinel",
-    "Tanzanite",
-    "Topaz",
-    "Turquoise",
-]
-
-jomashop_metal_types = [
-    "Brass",
-    "Gold",
-    "No+Metal+Type",
-    "Pewter",
-    "Platinum",
-    "Rhodium",
-    "Rose+Gold",
-    "Silver",
-    "Silver+Plated",
-    "Stainless+Steel",
-    "Sterling+Silver",
-    "Two-Tone",
-    "White+Gold",
-    "Yellow+Gold",
-]
-
-zales_items = {
-    "name": "zales",
-    "url": "https://www.zales.com/earrings/c/0104000000?q=*%3A_relevance_Ascending%3Agender_string%3ALADIES%3A{type}Types_string_mv%3A{material}&loadMore={page_number}",
-    "selectors": zales_kay_jared_selectors,
-    "stone_type": zales_kay_jared_stone_types,
-    "metal_type": zales_kay_jared_metal_types,
+reeds_items_selectors = {
+    "product_boxes": ["div", {"class": "rfk_prodwrap"}],
+    "product_on_sale": ["span", {"class": "original-price"}],
+    "product_href": ["a", {"class": "rfk_container"}],
+    "image_src": ["img", {"class": "rfk_image1"}],
+    "title": ["span", {"itemprop": "name"}],
+    "price": ["span", {"class": "final-price"}],
+    "original_price": ["span", {"class": "original-price"}],
 }
 
-kay_items = {
-    "name": "kay",
-    "url": "https://www.kay.com/earrings/womens-earrings/c/9000000197?q=*%3A_relevance_Ascending%3Agender_string%3AWOMEN%3A{type}Types_string_mv%3A{material}&loadMore={page_number}",
-    "selectors": zales_kay_jared_selectors,
-    "stone_type": zales_kay_jared_stone_types,
-    "metal_type": zales_kay_jared_metal_types,
-}
-
-jared_items = {
-    "name": "jared",
-    "url": "https://www.jared.com/jewelry/earrings/c/7000000106?q=*%3A_relevance_Ascending%3Agender_string%3AWOMEN%3A{type}Types_string_mv%3A{material}&loadMore={page_number}",
-    "selectors": zales_kay_jared_selectors,
-    "stone_type": zales_kay_jared_stone_types,
-    "metal_type": zales_kay_jared_metal_types,
-}
-
-ross_simons_items = {
-    "name": "ross_simons",
-    "url": "https://www.ross-simons.com/jewelry/earrings/?prefn1={type}1&prefv1={material}&srule=sales-rank&start={page_number}&sz=120",
-    "url_gemstone": "https://www.ross-simons.com/jewelry/earrings/?prefn1=stone2&prefv1=Gemstones%3B{material}&srule=sales-rank&start={page_number}&sz=120",
-    "url_faux": "https://www.ross-simons.com/jewelry/earrings/?prefn1=stone2&prefv1=Faux%20Stone%3BCubic+Zirconia&srule=sales-rank&start={page_number}&sz=120",
-    "selectors": {
-        "product_boxes": ["div", {"class": "grid-tile"}],
-        "product_on_sale": ["div", {"class": "price price-tier3"}],
-        "product_href": ["a", {"class": "thumb-link rollover"}],
-        "image_src": [
-            "img",
-            {"class": "c-product-tile__image-src lazy rollover-main-image"},
-        ],
-        "title": ["div", {"class": "product-name"}],
-        "price": ["span", {"class": "c-product-pricing__sales__price"}],
-        "original_price": ["div", {"class": "price price-tier3"}],
-    },
-    "stone_type": ross_simons_stone_types,
-    "metal_type": ross_simons_metal_types,
-}
-
-jomashop_items = {
-    "name": "jomashop",
-    "url": "https://www.jomashop.com/filters/jewelry?gender=Ladies&subtype=Earrings&{type}_type={material}&p={page_number}",
-    "selectors": {
-        "product_boxes": ["div", {"class": "productItemBlock"}],
-        "product_on_sale": ["div", {"class": "was-price-wrapper"}],
-        "product_href": ["a", {"class": "productName-link"}],
-        "image_src": ["img", {"class": "productImg"}],
-        "title": ["span", {"class": "name-out-brand"}],
-        "price": ["div", {"class": "now-price"}],
-        "original_price": ["div", {"class": "was-wrapper"}],
-    },
-    "stone_type": jomashop_stone_types,
-    "metal_type": jomashop_metal_types,
-}
-
-superjeweler_items = {
-    "name": "superjeweler",
-    "url": "https://www.superjeweler.com/earrings",
-    "selectors": {
-        "product_boxes": ["div", {"class": "sj-grid-element"}],
-        "product_on_sale": ["p", {"class": "regular-price-value"}],
-        "product_href": ["a", {"class": "short_desc_container"}],
-        "image_src": ["img", {"class": "star fadeIn"}],
-        "title": ["h6", {"class": "t-dgrey md-mb0 sm-mb0 xs-mb0"}],
-        "price": ["p", {"class": "our-price-value"}],
-        "original_price": ["p", {"class": "regular-price-value"}],
-    },
-    "stone_type": superjeweler_stone_types,
-    "metal_type": superjeweler_metal_types,
-}
-
-reeds_items = {
-    "name": "reeds",
-    "url": "https://www.reeds.com/jewelry/earrings/all-earrings.html?{type}={material}&genders=Ladies&rfk=1",
-    "selectors": {
-        "product_boxes": ["div", {"class": "rfk_prodwrap"}],
-        "product_on_sale": ["span", {"class": "original-price"}],
-        "product_href": ["a", {"class": "rfk_container"}],
-        "image_src": ["img", {"class": "rfk_image1"}],
-        "title": ["span", {"itemprop": "name"}],
-        "price": ["span", {"class": "final-price"}],
-        "original_price": ["span", {"class": "original-price"}],
-    },
-    "stone_type": reeds_stone_types,
-    "metal_type": reeds_metal_types,
-}
+reeds_items = initialize_retailer_items(
+    "reeds",
+    "https://www.reeds.com/jewelry/earrings/all-earrings.html?{type}={material}&genders=Ladies&rfk=1",
+    reeds_items_selectors,
+    reeds_stone_types,
+    reeds_metal_types,
+)

@@ -37,7 +37,10 @@ from retailer_selectors import (
 # Create a newsletter so that customers get updated discount. Such as sending top 3 discount of day
 
 
-if __name__ == "__main__":
+def initialize_driver():
+    """
+    Initializes and returns a Chrome webdriver with specific options for web scraping.
+    """
     options = uc.ChromeOptions()
     options.headless = False
     options.add_argument("--disable-notifications")
@@ -46,23 +49,51 @@ if __name__ == "__main__":
     options.add_experimental_option(
         "prefs", {"profile.default_content_setting_values.notifications": 1}
     )
-    driver = uc.Chrome(use_subprocess=True, options=options)
 
-    zales_earrings = {}
+    return uc.Chrome(use_subprocess=True, options=options)
 
-    # banana = static_retailer_earring_scraper(driver, zales_items, 30, 0, 1)
-    # pear = static_retailer_earring_scraper(driver, jomashop_items, 50, 1, 1)
-    # apple = static_retailer_earring_scraper(driver, ross_simons_items, 110, 0, 120)
-    # kiwi = dynamic_retailer_earring_scrape(driver, superjeweler_items, 235)
-    # grape = static_retailer_earring_scraper(driver, reeds_items, 24, 1, 1)
-    grape = dynamic_retailer_earring_scrape(driver, reeds_items, 24)
 
+def scrape_retailer_data(driver):
+    """
+    Scrapes earring product data from various retailers and accumulates it in a dictionary.
+    """
+    product_info = {}
+
+    # Scraping data from static retailers
+    static_retailers = [
+        (zales_items, 30, 0, 1),
+        (jared_items, 30, 0, 1),
+        (kay_items, 30, 0, 1),
+        (jomashop_items, 50, 1, 1),
+        (ross_simons_items, 110, 0, 120),
+    ]
+    for retailer, results_per_page, starting_page, page_increment in static_retailers:
+        product_info = product_info | static_retailer_earring_scraper(
+            driver, retailer, results_per_page, starting_page, page_increment
+        )
+
+    # Scraping data from dynamic retailers
+    dynamic_retailers = [(superjeweler_items, 235), (reeds_items, 24)]
+    for retailer, results_per_page in dynamic_retailers:
+        product_info = product_info | dynamic_retailer_earring_scrape(
+            driver, retailer, results_per_page
+        )
+
+    return product_info
+
+
+def close_driver(driver):
+    """
+    Closes the Chrome driver and handles any exceptions during closure.
+    """
     try:
         driver.close()
         driver.quit()
-    except:
-        pass
+    except Exception as e:
+        print(f"Error closing the driver: {e}")
 
 
-# pineapple = static_retailer_earring_scraper(jared_items, 30, 0, 1)
-# blueberry = static_retailer_earring_scraper(kay_items, 30, 0, 1)
+if __name__ == "__main__":
+    driver = initialize_driver()
+    product_info = scrape_retailer_data(driver)
+    close_driver(driver)
