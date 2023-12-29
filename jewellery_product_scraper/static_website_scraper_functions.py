@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import time
 import re
 from re import sub
+from retailer_selectors import base_urls
 
 
 def get_product_url(retailer_name, box, retailer_selectors):
@@ -41,7 +42,7 @@ def add_material_type(title, product_info, material):
     return True
 
 
-def extract_product_details(box, retailer_name, retailer_selectors, material):
+def extract_product_details(box, retailer_items, material):
     """
     Extracts product details from a BeautifulSoup 'box' element.
     """
@@ -52,6 +53,9 @@ def extract_product_details(box, retailer_name, retailer_selectors, material):
         """
         element = box.find(*selector)
         return element.text.strip() if element else None
+
+    retailer_name = retailer_items["name"]
+    retailer_selectors = retailer_items["selectors"]
 
     price_text = get_element_text(box, retailer_selectors["price"])
     original_price_text = get_element_text(box, retailer_selectors["original_price"])
@@ -68,6 +72,12 @@ def extract_product_details(box, retailer_name, retailer_selectors, material):
     image_src = box.find(*retailer_selectors["image_src"])
     image_url = image_src.get("src") if image_src else None
     product_url = get_product_url(retailer_name, box, retailer_selectors)
+
+    base_url = base_urls.get(retailer_name, "")
+
+    if retailer_name not in image_url:
+        image_url = f"{base_url}{image_url}" if image_url else None
+    product_url = f"{base_url}{product_url}" if product_url else None
 
     return {
         "price": price,
@@ -100,9 +110,7 @@ def get_product_info(driver, product_info, retailer_items, results_per_page, mat
                 print(product_info[title])
                 continue
 
-            product_info[title] = extract_product_details(
-                box, retailer_items["name"], retailer_selectors, material
-            )
+            product_info[title] = extract_product_details(box, retailer_items, material)
             print(product_info[title])
 
         except Exception as error:
@@ -162,9 +170,9 @@ def static_retailer_earring_scraper(
         """
         page_number = starting_page
         while True:
-            time.sleep(2)
             url = construct_url(retailer_items, type_key, material, page_number)
             driver.get(url)
+            time.sleep(3)
 
             website_lazy_loading(driver)
 
