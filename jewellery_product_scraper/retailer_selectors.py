@@ -1,3 +1,14 @@
+base_urls = {
+    "zales": "https://www.zales.com",
+    "jared": "https://www.jared.com",
+    "kay": "https://www.kay.com",
+    "jomashop": "https://www.jomashop.com",
+    "ross_simons": "https://www.ross-simons.com",
+    "superjeweler": "https://www.superjeweler.com",
+    "reeds": "https://www.reeds.com",
+}
+
+
 def initialize_retailer_items(name, url, selectors, stone_types, metal_types):
     """
     Initializes and returns a dictionary containing the retailer's scraping configuration.
@@ -11,9 +22,9 @@ def initialize_retailer_items(name, url, selectors, stone_types, metal_types):
     }
 
 
-zales_kay_jared_stone_types = [
+zales_stone_types = [
     "Diamond",
-    "Lab+Created+Diamond",
+    "Lab-Created+Diamond",
     "No+Stone",
     "Morganite",
     "Sapphire",
@@ -29,28 +40,19 @@ zales_kay_jared_stone_types = [
     "Aquamarine",
     "Tanzanite",
     "Other",
-    "Quartz",
-    "Spinel",
     "Onyx",
+    "Spinel",
+    "Quartz",
     "Multi",
     "Alexandrite",
     "Cubic+Zirconia",
-    "Apatite",
-    "Crystal",
-    "Cultured+Pearl",
-    "Rhodolite",
-    "Aquaprase",
     "Birthstone",
-    "Chalcedony",
-    "Moonstone",
-    "Tourmaline",
-    "Turquoise",
-    "Zircon",
 ]
-zales_kay_jared_metal_types = [
+zales_metal_types = [
     "Gold",
     "Sterling+Silver",
     "Platinum",
+    "Other",
     "Stainless+Steel",
 ]
 
@@ -68,24 +70,96 @@ zales_items = initialize_retailer_items(
     "zales",
     "https://www.zales.com/earrings/c/0104000000?q=*%3A_relevance_Ascending%3Agender_string%3ALADIES%3A{type}Types_string_mv%3A{material}&loadMore={page_number}",
     zales_kay_jared_selectors,
-    zales_kay_jared_stone_types,
-    zales_kay_jared_metal_types,
+    zales_stone_types,
+    zales_metal_types,
 )
+
+kay_stone_types = [
+    "Alexandrite",
+    "Amethyst",
+    "Apatite",
+    "Aquamarine",
+    "Citrine",
+    "Crystal",
+    "Cubic+Zirconia",
+    "Cultured+Pearl",
+    "Diamond",
+    "Emerald",
+    "Garnet",
+    "Lab-Created+Diamond",
+    "Morganite",
+    "Mother+Of+Pearl",
+    "Multi",
+    "No+Stone",
+    "Onyx",
+    "Opal",
+    "Other",
+    "Peridot",
+    "Quartz",
+    "Rhodolite",
+    "Ruby",
+    "Sapphire",
+    "Tanzanite",
+    "Topaz",
+]
+kay_metal_types = [
+    "Gold",
+    "Sterling+Silver",
+    "Platinum",
+]
 
 kay_items = initialize_retailer_items(
     "kay",
     "https://www.kay.com/earrings/womens-earrings/c/9000000197?q=*%3A_relevance_Ascending%3Agender_string%3AWOMEN%3A{type}Types_string_mv%3A{material}&loadMore={page_number}",
     zales_kay_jared_selectors,
-    zales_kay_jared_stone_types,
-    zales_kay_jared_metal_types,
+    kay_stone_types,
+    kay_metal_types,
 )
+
+jared_stone_types = [
+    "Alexandrite",
+    "Amethyst",
+    "Aquamarine",
+    "Aquaprase",
+    "Birthstone",
+    "Chalcedony",
+    "Citrine",
+    "Diamond",
+    "Emerald",
+    "Garnet",
+    "Lab-Created+Diamond",
+    "Moonstone",
+    "Morganite",
+    "Mother+Of+Pearl",
+    "Multi",
+    "No+Stone",
+    "Onyx",
+    "Opal",
+    "Other",
+    "Pearl",
+    "Peridot",
+    "Quartz",
+    "Ruby",
+    "Sapphire",
+    "Tanzanite",
+    "Topaz",
+    "Tourmaline",
+    "Turquoise",
+    "Zircon",
+]
+jared_metal_types = [
+    "Gold",
+    "Platinum",
+    "Sterling+Silver",
+]
+
 
 jared_items = initialize_retailer_items(
     "jared",
     "https://www.jared.com/jewelry/earrings/c/7000000106?q=*%3A_relevance_Ascending%3Agender_string%3AWOMEN%3A{type}Types_string_mv%3A{material}&loadMore={page_number}",
     zales_kay_jared_selectors,
-    zales_kay_jared_stone_types,
-    zales_kay_jared_metal_types,
+    jared_stone_types,
+    jared_metal_types,
 )
 
 jomashop_stone_types = [
@@ -283,7 +357,7 @@ superjeweler_items_selectors = {
     "product_boxes": ["div", {"class": "sj-grid-element"}],
     "product_on_sale": ["p", {"class": "regular-price-value"}],
     "product_href": ["a", {"class": "short_desc_container"}],
-    "image_src": ["img", {"class": "star fadeIn"}],
+    "image_src": ["img", {"class": "star"}],
     "title": ["h6", {"class": "t-dgrey md-mb0 sm-mb0 xs-mb0"}],
     "price": ["p", {"class": "our-price-value"}],
     "original_price": ["p", {"class": "regular-price-value"}],
