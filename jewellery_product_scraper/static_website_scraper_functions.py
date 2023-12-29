@@ -29,20 +29,7 @@ def get_price(text):
     )
 
 
-def add_material_type(title, product_info, material):
-    """
-    Adds material type to the product information dictionary.
-    """
-    if title not in product_info:
-        return False
-
-    material_type, material_value = material
-    product_info[title].setdefault(material_type, []).append(material_value)
-    product_info[title][material_type] = list(set(product_info[title][material_type]))
-    return True
-
-
-def extract_product_details(box, retailer_items, material):
+def extract_product_details(box, retailer_items):
     """
     Extracts product details from a BeautifulSoup 'box' element.
     """
@@ -55,6 +42,9 @@ def extract_product_details(box, retailer_items, material):
         return element.text.strip() if element else None
 
     retailer_name = retailer_items["name"]
+    if retailer_name == "ross_simons":
+        retailer_name = "ross-simons"
+
     retailer_selectors = retailer_items["selectors"]
 
     price_text = get_element_text(box, retailer_selectors["price"])
@@ -85,11 +75,10 @@ def extract_product_details(box, retailer_items, material):
         "sale_discount": sale_discount,
         "image_url": image_url,
         "product_url": product_url,
-        material[0]: [material[1]],
     }
 
 
-def get_product_info(driver, product_info, retailer_items, results_per_page, material):
+def get_product_info(driver, product_info, retailer_items, results_per_page):
     """
     Scrapes product information from a web page.
     """
@@ -97,6 +86,7 @@ def get_product_info(driver, product_info, retailer_items, results_per_page, mat
     retailer_selectors = retailer_items["selectors"]
     product_boxes = soup.find_all(*retailer_selectors["product_boxes"])
 
+    on_sale_count = 0
     for box in product_boxes:
         try:
             on_sale = box.find(*retailer_selectors["product_on_sale"])
@@ -104,45 +94,16 @@ def get_product_info(driver, product_info, retailer_items, results_per_page, mat
                 continue
 
             title = box.find(*retailer_selectors["title"]).text.strip()
-            if title in product_info and add_material_type(
-                title, product_info, material
-            ):
-                print(product_info[title])
-                continue
-
-            product_info[title] = extract_product_details(box, retailer_items, material)
+            product_info[title] = extract_product_details(box, retailer_items)
             print(product_info[title])
+            on_sale_count += 1
 
         except Exception as error:
             print(f"Error processing box: {error}")
 
-    print(len(product_boxes))
+    print("Found product_boxes: ", len(product_boxes))
+    print("Number of products on sale: ", on_sale_count)
     return len(product_boxes) < results_per_page
-
-
-def construct_url(retailer_items, type_key, material, page_number):
-    """
-    Constructs the URL based on retailer name, material type, and page number.
-    """
-    base_url = retailer_items.get("url", "")
-    if retailer_items["name"] == "ross_simons":
-        if type_key == "stone" and material not in [
-            "Diamond",
-            "Pearls",
-            "Other+Stones",
-        ]:
-            return retailer_items["url_gemstone"].format(
-                material=material, page_number=page_number
-            )
-        elif type_key == "stone" and material == "Cubic+Zirconia":
-            return retailer_items["url_faux"].format(page_number=page_number)
-    elif retailer_items["name"] == "reeds":
-        if type_key == "stone":
-            return base_url.format(type="search_primary_stone_type", material=material)
-        else:
-            return base_url.format(type="primarymetal_metaltype", material=material)
-
-    return base_url.format(type=type_key, material=material, page_number=page_number)
 
 
 def website_lazy_loading(driver):
@@ -164,36 +125,27 @@ def static_retailer_earring_scraper(
     Scrapes earring product data from a retailer's website.
     """
 
-    def scrape_material(type_key, driver, product_info):
+    def scrape_material(driver, product_info):
         """
         Scrapes material data from the retailer's website.
         """
         page_number = starting_page
         while True:
-            url = construct_url(retailer_items, type_key, material, page_number)
+            url = retailer_items["url"].format(page_number=page_number)
             driver.get(url)
-            time.sleep(3)
 
             website_lazy_loading(driver)
-
             out_of_products = get_product_info(
                 driver,
                 product_info,
                 retailer_items,
                 results_per_page,
-                [type_key, material],
             )
 
             if out_of_products:
                 break
-
             page_number += page_increment
 
     product_info = {}
-    for material in retailer_items["stone_type"]:
-        scrape_material("stone", driver, product_info)
-
-    for material in retailer_items["metal_type"]:
-        scrape_material("metal", driver, product_info)
-
+    scrape_material(driver, product_info)
     return product_info

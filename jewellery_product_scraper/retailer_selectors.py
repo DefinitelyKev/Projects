@@ -68,7 +68,7 @@ zales_kay_jared_selectors = {
 
 zales_items = initialize_retailer_items(
     "zales",
-    "https://www.zales.com/earrings/c/0104000000?q=*%3A_relevance_Ascending%3Agender_string%3ALADIES%3A{type}Types_string_mv%3A{material}&loadMore={page_number}",
+    "https://www.zales.com/earrings/womens-earrings/c/0104020100?icid=MEGA:EARRING_GENDER:LADIES&loadMore={page_number}",
     zales_kay_jared_selectors,
     zales_stone_types,
     zales_metal_types,
@@ -110,7 +110,7 @@ kay_metal_types = [
 
 kay_items = initialize_retailer_items(
     "kay",
-    "https://www.kay.com/earrings/womens-earrings/c/9000000197?q=*%3A_relevance_Ascending%3Agender_string%3AWOMEN%3A{type}Types_string_mv%3A{material}&loadMore={page_number}",
+    "https://www.kay.com/earrings/womens-earrings/c/9000000197?icid=MM:EARRINGS:WOMENS&loadMore={page_number}",
     zales_kay_jared_selectors,
     kay_stone_types,
     kay_metal_types,
@@ -156,7 +156,7 @@ jared_metal_types = [
 
 jared_items = initialize_retailer_items(
     "jared",
-    "https://www.jared.com/jewelry/earrings/c/7000000106?q=*%3A_relevance_Ascending%3Agender_string%3AWOMEN%3A{type}Types_string_mv%3A{material}&loadMore={page_number}",
+    "https://www.jared.com/jewelry/earrings/c/7000000106?q=%3A_relevance_Ascending%3Agender_string%3AWOMEN&loadMore={page_number}",
     zales_kay_jared_selectors,
     jared_stone_types,
     jared_metal_types,
@@ -221,19 +221,13 @@ jomashop_items_selectors = {
 
 jomashop_items = initialize_retailer_items(
     "jomashop",
-    "https://www.jomashop.com/filters/jewelry?gender=Ladies&subtype=Earrings&{type}_type={material}&p={page_number}",
+    "https://www.jomashop.com/filters/jewelry?gender=Ladies&subtype=Earrings&p={page_number}",
     jomashop_items_selectors,
     jomashop_stone_types,
     jomashop_metal_types,
 )
 
-# ross_simons_stone_type_sub_class = [
-#     "gemstones",
-#     "diamond",
-#     "perals",
-#     "faux_stone",
-#     "other_stones",
-# ]
+
 ross_simons_stone_types = [
     "Agate",
     "Amber",
@@ -297,19 +291,10 @@ ross_simons_items_selectors = {
 
 ross_simons_items = initialize_retailer_items(
     "ross_simons",
-    "https://www.ross-simons.com/jewelry/earrings/?prefn1={type}1&prefv1={material}&srule=sales-rank&start={page_number}&sz=120",
+    "https://www.ross-simons.com/jewelry/earrings/?start={page_number}&sz=120",
     ross_simons_items_selectors,
     ross_simons_stone_types,
     ross_simons_metal_types,
-)
-
-ross_simons_items.setdefault(
-    "url_gemstone",
-    "https://www.ross-simons.com/jewelry/earrings/?prefn1=stone2&prefv1=Gemstones%3B{material}&srule=sales-rank&start={page_number}&sz=120",
-)
-ross_simons_items.setdefault(
-    "url_faux",
-    "https://www.ross-simons.com/jewelry/earrings/?prefn1=stone2&prefv1=Faux%20Stone%3BCubic+Zirconia&srule=sales-rank&start={page_number}&sz=120",
 )
 
 
@@ -440,7 +425,7 @@ reeds_items_selectors = {
 
 reeds_items = initialize_retailer_items(
     "reeds",
-    "https://www.reeds.com/jewelry/earrings/all-earrings.html?{type}={material}&genders=Ladies&rfk=1",
+    "https://www.reeds.com/jewelry/earrings/all-earrings.html?genders=Ladies&rfk=1",
     reeds_items_selectors,
     reeds_stone_types,
     reeds_metal_types,

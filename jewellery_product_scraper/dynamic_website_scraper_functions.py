@@ -11,7 +11,6 @@ from selenium.common.exceptions import (
 from static_website_scraper_functions import (
     website_lazy_loading,
     get_product_info,
-    construct_url,
 )
 
 
@@ -56,7 +55,6 @@ def get_reeds_close_pop_up(driver):
     """
     try:
         click_element(driver, (By.CLASS_NAME, "btn-cookie-accept"))
-
     except TimeoutException as e:
         print(f"Exception in closing pop-up: {e}")
 
@@ -103,52 +101,26 @@ def get_next_page(driver, retailer, page_number):
         return True
 
 
-# Material filter selection
-def click_material_filter(type_key, driver, material_id, retailer_name):
-    """
-    Selects a specific material filter on the retailer's website.
-    """
-    if retailer_name == "superjeweler":
-        time.sleep(2)
-        if type_key == "stone":
-            material_id = f"gemstone_{material_id}"
-        else:
-            material_id = f"metal_type_{material_id}"
-        click_element(driver, (By.ID, material_id))
-
-
 # Main dynamic scraping function
 def dynamic_retailer_earring_scrape(driver, retailer_items, results_per_page):
     """
     Scrapes earring product data dynamically from a retailer's website based on the specified material types.
     """
 
-    def scrape_dynamic_material(type_key, driver, product_info, material):
+    def scrape_dynamic_material(driver, product_info):
         """
         Helper function to scrape product data for a specific material type.
         """
         page_number = 1
-        is_initial_url = True
-        while True:
-            if retailer_name == "reeds" and is_initial_url:
-                url = construct_url(retailer_items, type_key, material, page_number)
-                driver.get(url)
-
+        while page_number < 4:
             time.sleep(2)
-            if retailer_name != "reeds":
-                website_lazy_loading(driver)
+            website_lazy_loading(driver)
 
             out_of_products = get_product_info(
-                driver,
-                product_info,
-                retailer_items,
-                results_per_page,
-                [type_key, material],
+                driver, product_info, retailer_items, results_per_page
             )
 
             page_number += 1
-            is_initial_url = False
-
             if out_of_products:
                 if retailer_name == "superjeweler":
                     get_next_page(driver, retailer_name, 1)
@@ -163,21 +135,10 @@ def dynamic_retailer_earring_scrape(driver, retailer_items, results_per_page):
 
     if retailer_name == "superjeweler":
         superjeweler_close_popup(driver)
-        change_items_per_page(driver, 240, "superjeweler")
+        change_items_per_page(driver, 240, retailer_name)
     elif retailer_name == "reeds":
         get_reeds_close_pop_up(driver)
+        change_items_per_page(driver, 96, retailer_name)
 
-    materials_list = [
-        ["stone", retailer_items["stone_type"]],
-        ["metal", retailer_items["metal_type"]],
-    ]
-
-    for type_key, materials in materials_list:
-        for type_counter, material in enumerate(materials):
-            if retailer_name == "superjeweler":
-                click_material_filter(type_key, driver, type_counter, retailer_name)
-            scrape_dynamic_material(type_key, driver, product_info, material)
-            if retailer_name == "superjeweler":
-                click_material_filter(type_key, driver, type_counter, retailer_name)
-
+    scrape_dynamic_material(driver, product_info)
     return product_info

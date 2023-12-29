@@ -4,6 +4,7 @@ import undetected_chromedriver as uc
 import time
 import csv
 import os
+import pandas as pd
 from static_website_scraper_functions import static_retailer_earring_scraper
 from dynamic_website_scraper_functions import dynamic_retailer_earring_scrape
 from retailer_selectors import (
@@ -16,16 +17,16 @@ from retailer_selectors import (
     jomashop_items,
 )
 
-product_info = {
-    "title": {
-        "price": [],
-        "sale_price": [],
-        "product_url": [],
-        "image_url": [],
-        "stone_type": [],
-        "metal_type": [],
-    }
-}
+# product_info = {
+#     "title": {
+#         "price": [],
+#         "sale_price": [],
+#         "product_url": [],
+#         "image_url": [],
+#         "stone_type": [],
+#         "metal_type": [],
+#     }
+# }
 
 # types = ["earrings"]
 
@@ -84,17 +85,17 @@ def scrape_retailer_data(driver):
         save_product_info_to_csv(product_info, filename)
 
     # Scraping data from dynamic retailers
-    # dynamic_retailers = [
-    #     (superjeweler_items, 235, "superjeweler_products.csv"),
-    #     (reeds_items, 24, "reeds_products.csv"),
-    # ]
-    # for retailer, results_per_page, filename in dynamic_retailers:
-    #     product_info = dynamic_retailer_earring_scrape(
-    #         driver, retailer, results_per_page
-    #     )
-    #     product_info = clean_product_titles(product_info)
-    #     product_info = sort_products_by_sale_discount(product_info)
-    #     save_product_info_to_csv(product_info, filename)
+    dynamic_retailers = [
+        (superjeweler_items, 235, "superjeweler_products.csv"),
+        (reeds_items, 24, "reeds_products.csv"),
+    ]
+    for retailer, results_per_page, filename in dynamic_retailers:
+        product_info = dynamic_retailer_earring_scrape(
+            driver, retailer, results_per_page
+        )
+        product_info = clean_product_titles(product_info)
+        product_info = sort_products_by_sale_discount(product_info)
+        save_product_info_to_csv(product_info, filename)
 
     # return product_info
 
@@ -164,6 +165,46 @@ def save_product_info_to_csv(product_info, filename):
             )
 
 
+def read_csv_limit_rows(filename, limit=100):
+    """
+    Reads a CSV file and returns the first 'limit' rows.
+    """
+    with open(filename, mode="r", encoding="utf-8") as file:
+        reader = csv.DictReader(file)
+        return [row for _, row in zip(range(limit), reader)]
+
+
+def combine_and_sort_csv_files(directory, output_filename, limit_per_file=100):
+    """
+    Combines multiple CSV files from a directory into a single file,
+    sorting by sale discount in descending order, with a limit of
+    'limit_per_file' entries per file.
+    """
+    combined_data = []
+    headers = None
+
+    # Iterate through each file in the directory
+    for filename in os.listdir(directory):
+        if filename.endswith(".csv"):
+            filepath = os.path.join(directory, filename)
+            file_data = read_csv_limit_rows(filepath, limit=limit_per_file)
+
+            # Capture headers from the first file
+            if headers is None:
+                headers = file_data[0].keys()
+
+            combined_data.extend(file_data)
+
+    # Sort the combined data by sale discount in descending order
+    combined_data.sort(key=lambda x: float(x["Sale Discount"]), reverse=True)
+
+    # Write the sorted data to a new CSV file
+    with open(output_filename, mode="w", newline="", encoding="utf-8") as file:
+        writer = csv.DictWriter(file, fieldnames=headers)
+        writer.writeheader()
+        writer.writerows(combined_data)
+
+
 def close_driver(driver):
     """
     Closes the Chrome driver and handles any exceptions during closure.
@@ -177,6 +218,6 @@ def close_driver(driver):
 
 if __name__ == "__main__":
     driver = initialize_driver()
-    product_info = scrape_retailer_data(driver)
-    save_product_info_to_csv(product_info, "products.csv")
+    # scrape_retailer_data(driver)
     close_driver(driver)
+    # combine_and_sort_csv_files("product_data", "combined_products_data.csv")

@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Pastel background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffe0f0; /* Pastel header */
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.featured, .products {
+    padding: 2em 10%;
+}
+
+.filters {
+    /* Styles for filter sidebar */
+}
+
+footer {
+    background-color: #ffe0f0; /* Pastel footer */
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Add more styles as needed */
