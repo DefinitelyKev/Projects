@@ -112,7 +112,7 @@ def dynamic_retailer_earring_scrape(driver, retailer_items, results_per_page):
         Helper function to scrape product data for a specific material type.
         """
         page_number = 1
-        while page_number < 4:
+        while True:
             time.sleep(2)
             website_lazy_loading(driver)
 

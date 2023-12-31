@@ -130,9 +130,10 @@ def static_retailer_earring_scraper(
         Scrapes material data from the retailer's website.
         """
         page_number = starting_page
-        while True:
+        while True :
             url = retailer_items["url"].format(page_number=page_number)
             driver.get(url)
+            time.sleep(2)
 
             website_lazy_loading(driver)
             out_of_products = get_product_info(
