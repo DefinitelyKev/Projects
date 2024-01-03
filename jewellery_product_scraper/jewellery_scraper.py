@@ -1,11 +1,8 @@
 from pathlib import Path
-from selenium import webdriver
-from bs4 import BeautifulSoup
 import undetected_chromedriver as uc
 import time
 import csv
 import os
-import pandas as pd
 from static_website_scraper_functions import static_retailer_earring_scraper
 from dynamic_website_scraper_functions import dynamic_retailer_earring_scrape
 from retailer_selectors import (
@@ -248,7 +245,7 @@ def main():
     scraper = EarringScraper()
     driver = scraper.initialize_driver()
     try:
-        # scraper.scrape_retailer_data(driver)
+        scraper.scrape_retailer_data(driver)
         scraper.get_finalized_product_data("finalized_product_info.csv")
 
     finally:

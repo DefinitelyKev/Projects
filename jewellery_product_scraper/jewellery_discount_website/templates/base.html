@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,7 +15,7 @@
 
     <script src="https://kit.fontawesome.com/5a138f7d39.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="static/css/style.css" />
 
     <!-- <link rel="icon" type="image/x-icon" href="imgs"> -->
   </head>
@@ -37,70 +38,7 @@
       </header>
     </div>
 
-    <!-- products -->
-
-    <div class="container">
-      <div class="row">
-        <h2>Featured Product</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-4 mb-3">
-          <div class="product-box">
-            <div class="product-inner-box position-relative">
-              <div class="icons position-absolute">
-                <a href="#" class="text-decoration-none text-dark"><i class="fa-solid fa-heart"></i></a>
-                <a href="#" class="text-decoration-none text-dark"><i class="fa-solid fa-eye"></i></a>
-              </div>
-              <div class="onsale">
-                <span class="badge rounded-0"><i class="fa-solid fa-arrow-down-long"></i> 100%</span>
-              </div>
-              <img src="images/11.PNG" alt="Picture 1" class="img-fluid" />
-
-              <div class="cart-btn">
-                <button class="btn shadow-sm rounded-pill bg-white">
-                  <i class="fa-solid fa-cart-shopping"></i> Add to Cart
-                </button>
-              </div>
-            </div>
-            <div class="product-info mt-3">
-              <div class="product-name">
-                <h3>
-                  Gems of Serenity Oval-Cut Pink & White Lab-Created Sapphire Earrings Sterling Silver & 10K Rose Gold
-                </h3>
-              </div>
-              <div class="product-price">$<span>179</span></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4 mb-3">
-          <div class="product-box">
-            <div class="product-inner-box position-relative">
-              <div class="icons position-absolute">
-                <a href="#" class="text-decoration-none text-dark"><i class="fa-solid fa-heart"></i></a>
-                <a href="#" class="text-decoration-none text-dark"><i class="fa-solid fa-eye"></i></a>
-              </div>
-              <div class="onsale">
-                <span class="badge rounded-0"><i class="fa-solid fa-arrow-down-long"></i> 29%</span>
-              </div>
-              <img src="images/11.PNG" alt="Picture 1" class="img-fluid" />
-
-              <div class="cart-btn">
-                <button class="btn shadow-sm rounded-pill bg-white">
-                  <i class="fa-solid fa-cart-shopping"></i> Add to Cart
-                </button>
-              </div>
-            </div>
-            <div class="product-info mt-3">
-              <div class="product-name">
-                <h3>Wodden Chair</h3>
-              </div>
-              <div class="product-price">$<span>179</span></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    {% block page_content %}{% endblock page_content %}
 
     <!-- footer -->
     <section>
@@ -131,6 +69,6 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <script src="js/script.js"></script>
+    <script src="static/js/script.js"></script>
   </body>
 </html>
