@@ -2,10 +2,9 @@
 
 body {
   font-family: 'Poppins', 'sans-serif';
-  display: flex;
   align-items: center;
   min-height: 100vh;
-  background-color: #fafffb;
+  background-color: #f8fff99c;
 }
 
 .product-inner-box .icons {
@@ -90,13 +89,11 @@ body {
 }
 
 .footer {
-  position: absolute;
   bottom: 0;
   left: 0;
   z-index: 10;
 }
 
 .header {
-  position: absolute;
   top: 0;
 }
