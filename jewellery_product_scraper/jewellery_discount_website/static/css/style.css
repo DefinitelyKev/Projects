@@ -97,3 +97,13 @@ body {
 .header {
   top: 0;
 }
+
+.hero-image {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://cdn.britannica.com/73/189273-131-DA3E2F9A/Denali-peak-center-Alaska-Range-North-America.jpg");
+
+  height: 50vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
