@@ -2,15 +2,14 @@ import numpy as np
 import pandas as pd
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder, LabelEncoder, StandardScaler
+from sklearn.metrics import confusion_matrix, accuracy_score
 from sklearn.model_selection import train_test_split
 import os
 
 os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
-os.environ["TF_CPP_MIN_LOG_LEVEL"] = "1"
+# os.environ["TF_CPP_MIN_LOG_LEVEL"] = "1"
 
-import tensorflow.python as tf
-from tensorflow.python.keras.models import Sequential
-from tensorflow.python.keras.layers import Dense
+import tensorflow as tf
 
 ### Part 1 - Data Preprocessing ###
 
@@ -40,21 +39,41 @@ X_test = sc.transform(X_test)
 ### Part 2 - Building the ANN ###
 
 # Initializing the ANN
-ann = Sequential()
+ann = tf.keras.models.Sequential()
 
 # Adding the input layer and the first hidden layer
-ann.add(Dense(units=6, activation="relu"))
+ann.add(tf.keras.layers.Dense(units=6, activation="relu"))
 
 # Adding the second hidden layer
-ann.add(Dense(units=6, activation="relu"))
+ann.add(tf.keras.layers.Dense(units=6, activation="relu"))
 
 # Adding the output layer
-ann.add(Dense(units=1, activation="sigmoid"))
+ann.add(tf.keras.layers.Dense(units=1, activation="sigmoid"))
 
 ### Part 3 - Training the ANN ###
 
 # Compiling the ANN
-ann.compile(optimzer="adam", loss="binary_crossentropy", metrics=["accuracy"])
+ann.compile(optimizer="adam", loss="binary_crossentropy", metrics=["accuracy"])
 
 # Training the ANN on the Training set
-ann.fit(X_train, y_train)
+ann.fit(X_train, y_train, batch_size=32, epochs=100)
+
+### Part 4 - Making the predictions and evaluating the model ###
+
+# print(
+#     ann.predict(sc.transform([[1, 0, 0, 600, 1, 40, 3, 60000, 2, 1, 1, 50000]])) > 0.5
+# )
+
+# Predicting the Test set results
+y_pred = ann.predict(X_test)
+y_pred = y_pred > 0.5
+
+y_pred_cols = y_pred.reshape(len(y_pred), 1)
+y_test_cols = y_test.reshape(len(y_test), 1)
+
+print(np.concatenate((y_pred_cols, y_test_cols), axis=1))
+
+# Making the Confusion Matrix
+cm = confusion_matrix(y_test, y_pred)
+print(cm)
+print(accuracy_score(y_test, y_pred))
